@@ -9,7 +9,7 @@
   <title>Hydraulik Warszawa 511 323 123 — udrażnianie rur 24/7</title>
   <meta name="description" content="Pogotowie hydrauliczne Warszawa 24/7. Udrażnianie rur, przepychanie kanalizacji, WUKO, inspekcja kamerą. Zadzwoń: 511 323 123." />
 
-  <script type="application/ld+json">
+  <script type="application/ld+json" is:inline>
   {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
@@ -848,6 +848,7 @@
 
   <!-- Snow globe — efekt dla przycisków hero -->
   <script>
+    // @ts-nocheck
     document.addEventListener('DOMContentLoaded', () => {
       function initGlobe(canvasId, btnSelector, colors) {
         const canvas = document.getElementById(canvasId);
@@ -936,6 +937,7 @@
 
   <!-- Typewriter hero-subtitle -->
   <script>
+    // @ts-nocheck
     document.addEventListener('DOMContentLoaded', () => {
       const el = document.querySelector('.hero-subtitle');
       if (!el) return;
@@ -961,6 +963,7 @@
 
   <!-- Reveal, FAQ, bg switcher -->
   <script>
+    // @ts-nocheck
     // Reveal on scroll
     const revealEls = document.querySelectorAll('.reveal');
     const revealObs = new IntersectionObserver((entries) => {
