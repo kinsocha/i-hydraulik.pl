@@ -1185,7 +1185,7 @@ body.menu-open {
     .btn-dark-cta, .btn-white-cta { width: 100%; max-width: 300px; }
 }
 
-/* --- HERO: fix nagłówka na mobile (zawijanie + mniejszy rozmiar) --- */
+/* --- HERO: fix nagłówka i przycisków na mobile --- */
 @media (max-width: 768px) {
     .hero { padding: calc(var(--nav-height) + 2rem) 1.25rem 3rem; }
     .hero h1 { font-size: 2.3rem; }
@@ -1194,6 +1194,17 @@ body.menu-open {
     .h1-sub { font-size: 1.2rem; line-height: 1.35; }
     .hero-stats { gap: 1.5rem; }
     .stat-number { font-size: 2rem; }
+    .hero-buttons { flex-wrap: wrap; gap: 0.75rem; }
+    .hero-buttons .btn-primary,
+    .hero-buttons .btn-secondary { min-width: 0; flex: 1 1 160px; }
+}
+@media (max-width: 480px) {
+    .hero-buttons { flex-direction: column; align-items: stretch; }
+    .hero-buttons .btn-primary,
+    .hero-buttons .btn-secondary { width: 100%; flex: 0 0 auto; }
+    .hero-stats { gap: 1rem; }
+    .stat-number { font-size: 1.75rem; }
+    .stat-label { font-size: 0.82rem; }
 }
 @media (max-width: 380px) {
     .h1-label { font-size: 1.75rem; }
