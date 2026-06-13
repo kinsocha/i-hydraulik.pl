@@ -68,7 +68,7 @@ jobs:
           server: ${{ secrets.REMOTE_HOST }}
           username: ${{ secrets.REMOTE_USER }}
           password: ${{ secrets.REMOTE_PASSWORD }}
-          server-dir: public_html/
+          server-dir: ./
           local-dir: ${{ env.BUILD_PATH }}/dist/
           exclude: |
             **/.git*
