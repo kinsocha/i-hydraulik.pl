@@ -1,0 +1,15 @@
+# Czyste adresy bez kreski na końcu (i-hydraulik.pl)
+# Astro buduje strony jako /sciezka/index.html. Domyślnie Apache dokleja
+# kreskę (/sciezka -> /sciezka/). Poniższe reguły wymuszają wersję BEZ kreski.
+
+Options -MultiViews -Indexes
+DirectorySlash Off
+RewriteEngine On
+
+# 1) Przekieruj adres z kreską na końcu na wersję bez kreski (poza rootem)
+RewriteRule ^(.+)/$ /$1 [R=301,L]
+
+# 2) Serwuj /sciezka/index.html dla adresu /sciezka (bez przekierowania)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{DOCUMENT_ROOT}/$1/index.html -f
+RewriteRule ^(.*?)/?$ $1/index.html [L]
