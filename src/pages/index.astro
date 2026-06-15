@@ -2,7 +2,6 @@
 import { getCollection } from "astro:content";
 
 const latestPosts = (await getCollection("poradnik"))
-  .filter(({ data }) => data.pubDate.valueOf() <= Date.now())
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
   .slice(0, 3);
 

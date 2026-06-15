@@ -3,7 +3,6 @@ import { getCollection } from "astro:content";
 import PoradnikLayout from "../../layouts/PoradnikLayout.astro";
 
 const articles = (await getCollection("poradnik"))
-  .filter(({ data }) => data.pubDate.valueOf() <= Date.now())
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 
 const formatter = new Intl.DateTimeFormat("pl-PL", {

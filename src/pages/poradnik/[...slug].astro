@@ -4,7 +4,6 @@ import PoradnikLayout from "../../layouts/PoradnikLayout.astro";
 
 export async function getStaticPaths() {
   return (await getCollection("poradnik"))
-    .filter(({ data }) => data.pubDate.valueOf() <= Date.now())
     .map((post) => ({ params: { slug: post.slug }, props: post }));
 }
 
