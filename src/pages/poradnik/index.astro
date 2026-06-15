@@ -1,0 +1,60 @@
+---
+import { getCollection } from "astro:content";
+import PoradnikLayout from "../../layouts/PoradnikLayout.astro";
+
+const articles = (await getCollection("poradnik"))
+  .filter(({ data }) => data.pubDate.valueOf() <= Date.now())
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+const formatter = new Intl.DateTimeFormat("pl-PL", {
+  day: "2-digit",
+  month: "long",
+  year: "numeric",
+});
+---
+
+<PoradnikLayout
+  title="Poradnik hydrauliczny — i Hydraulik Warszawa"
+  description="Praktyczne porady o przeciekach, awariach i udrażnianiu rur. Realne przypadki z naszych interwencji w Warszawie i okolicach."
+>
+  <section class="poradnik-archive">
+    <div class="container">
+      <div class="poradnik-archive__head">
+        <p class="section-kicker">Poradnik</p>
+        <h1>Porady i realne przypadki z naszych interwencji</h1>
+      </div>
+
+      <div class="blog-grid">
+        {
+          articles.map((article) => (
+            <article class="blog-card">
+              <a class="blog-card__media" href={`/poradnik/${article.slug}`}>
+                <img
+                  src={article.data.hero}
+                  alt={article.data.heroAlt}
+                  width="400"
+                  height="225"
+                  loading="lazy"
+                />
+              </a>
+              <div class="blog-card__body">
+                <span class="blog-tag">{article.data.category}</span>
+                <h3>
+                  <a href={`/poradnik/${article.slug}`}>{article.data.title}</a>
+                </h3>
+                <p class="blog-card__excerpt">{article.data.description}</p>
+                <div class="blog-meta">
+                  <span>📅 {formatter.format(article.data.pubDate)}</span>
+                  <span>⏱ {article.data.readingTime} min</span>
+                </div>
+                <a class="blog-card__more" href={`/poradnik/${article.slug}`}>
+                  Czytaj więcej →
+                </a>
+              </div>
+            </article>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+</PoradnikLayout>

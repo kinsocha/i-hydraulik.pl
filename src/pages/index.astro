@@ -1,3 +1,18 @@
+---
+import { getCollection } from "astro:content";
+
+const latestPosts = (await getCollection("poradnik"))
+  .filter(({ data }) => data.pubDate.valueOf() <= Date.now())
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .slice(0, 3);
+
+const dateFmt = new Intl.DateTimeFormat("pl-PL", {
+  day: "2-digit",
+  month: "long",
+  year: "numeric",
+});
+---
+
 <!DOCTYPE html>
 <html lang="pl">
 <head>
@@ -498,6 +513,8 @@
 
   <!-- Hero / phone mockup styles -->
   <link rel="stylesheet" href="/index-style.css">
+  <!-- Poradnik (zajawka) -->
+  <link rel="stylesheet" href="/poradnik.css">
 </head>
 
 <body data-bg="premium">
@@ -514,6 +531,7 @@
           <a href="#uslugi">Usługi</a>
           <a href="#proces">Jak działamy</a>
           <a href="#cennik">Cennik</a>
+          <a href="/poradnik">Poradnik</a>
           <a href="#faq">FAQ</a>
           <a href="#kontakt">Kontakt</a>
         </nav>
@@ -844,6 +862,47 @@
           </div>
         </div>
       </section>
+
+      <!-- ═══════════════════════════════════════════════════
+           PORADNIK — zajawka najnowszych artykułów
+      ════════════════════════════════════════════════════ -->
+      {latestPosts.length > 0 && (
+        <section id="poradnik" class="new-section">
+          <div class="container">
+            <div class="section-head reveal">
+              <div>
+                <p class="section-kicker">Poradnik</p>
+                <h2 class="section-title">Porady i realne przypadki z naszych interwencji</h2>
+              </div>
+              <p class="section-desc">Krótkie, konkretne artykuły o przeciekach, awariach i udrażnianiu rur. Bez teorii — to, co naprawdę spotykamy u klientów.</p>
+            </div>
+
+            <div class="blog-grid reveal">
+              {latestPosts.map((post) => (
+                <article class="blog-card">
+                  <a class="blog-card__media" href={`/poradnik/${post.slug}`}>
+                    <img src={post.data.hero} alt={post.data.heroAlt} width="400" height="225" loading="lazy" />
+                  </a>
+                  <div class="blog-card__body">
+                    <span class="blog-tag">{post.data.category}</span>
+                    <h3><a href={`/poradnik/${post.slug}`}>{post.data.title}</a></h3>
+                    <p class="blog-card__excerpt">{post.data.description}</p>
+                    <div class="blog-meta">
+                      <span>📅 {dateFmt.format(post.data.pubDate)}</span>
+                      <span>⏱ {post.data.readingTime} min</span>
+                    </div>
+                    <a class="blog-card__more" href={`/poradnik/${post.slug}`}>Czytaj więcej →</a>
+                  </div>
+                </article>
+              ))}
+            </div>
+
+            <div class="poradnik-foot reveal">
+              <a class="btn-new btn-new--ghost" href="/poradnik">Zobacz wszystkie porady →</a>
+            </div>
+          </div>
+        </section>
+      )}
 
       <!-- ═══════════════════════════════════════════════════
            CTA

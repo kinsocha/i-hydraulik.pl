@@ -1,0 +1,80 @@
+---
+import { getCollection, type CollectionEntry } from "astro:content";
+import PoradnikLayout from "../../layouts/PoradnikLayout.astro";
+
+export async function getStaticPaths() {
+  return (await getCollection("poradnik"))
+    .filter(({ data }) => data.pubDate.valueOf() <= Date.now())
+    .map((post) => ({ params: { slug: post.slug }, props: post }));
+}
+
+type Props = CollectionEntry<"poradnik">;
+const post = Astro.props;
+const { Content } = await post.render();
+
+const formatter = new Intl.DateTimeFormat("pl-PL", {
+  day: "2-digit",
+  month: "long",
+  year: "numeric",
+});
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: post.data.heroTitle,
+  description: post.data.description,
+  image: `https://i-hydraulik.pl${post.data.hero}`,
+  author: { "@type": "Organization", name: post.data.author },
+  publisher: {
+    "@type": "Organization",
+    name: "i Hydraulik",
+    logo: {
+      "@type": "ImageObject",
+      url: "https://i-hydraulik.pl/favicon.svg",
+    },
+  },
+  datePublished: post.data.pubDate.toISOString(),
+  dateModified: (post.data.updatedDate ?? post.data.pubDate).toISOString(),
+};
+---
+
+<PoradnikLayout title={post.data.title} description={post.data.description}>
+  <script type="application/ld+json" is:inline set:html={JSON.stringify(jsonLd)} />
+
+  <div class="article-wrap">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Ścieżka">
+        <a href="/">Start</a> <span>/</span>
+        <a href="/poradnik">Poradnik</a> <span>/</span>
+        <span>{post.data.title}</span>
+      </nav>
+
+      <article class="article">
+        <span class="article__tag">{post.data.category}</span>
+        <h1>{post.data.heroTitle}</h1>
+        <p class="article__lead">{post.data.heroLead}</p>
+        <div class="article__meta">
+          <span>Autor: {post.data.author}</span>
+          <span>📅 {formatter.format(post.data.pubDate)}</span>
+          <span>⏱ {post.data.readingTime} min czytania</span>
+        </div>
+
+        <figure class="article__hero">
+          <img src={post.data.hero} alt={post.data.heroAlt} width="1200" height="675" />
+        </figure>
+
+        <div class="article__content">
+          <Content />
+        </div>
+
+        <div class="article__cta">
+          <div>
+            <strong>Masz podobny problem? Zadzwoń: 511 323 123</strong>
+            <span>Hydraulik Warszawa i okolice — diagnoza i naprawa bez zbędnego kucia.</span>
+          </div>
+          <a class="btn-new btn-new--primary" href="tel:+48511323123">📞 Zadzwoń teraz</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</PoradnikLayout>
