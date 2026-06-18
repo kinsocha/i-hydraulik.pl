@@ -27,35 +27,57 @@ const dateFmt = new Intl.DateTimeFormat("pl-PL", {
   <script type="application/ld+json" is:inline>
   {
     "@context": "https://schema.org",
-    "@type": "LocalBusiness",
+    "@type": "CreativeWorkSeries",
     "name": "i Hydraulik - Hydraulik Warszawa",
-    "image": "https://hydrofix.pl/logo.png",
-    "@id": "",
-    "url": "https://hydrofix.pl",
+    "@id": "https://i-hydraulik.pl/",
+    "url": "https://i-hydraulik.pl/",
     "telephone": "+48511323123",
     "aggregateRating": {
       "@type": "AggregateRating",
       "ratingValue": "5.0",
       "reviewCount": "558"
-    },
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "Warszawa i okolice",
-      "addressLocality": "Warszawa",
-      "postalCode": "00-001",
-      "addressCountry": "PL"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 52.2297,
-      "longitude": 21.0122
-    },
-    "openingHoursSpecification": {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
-      "opens": "00:00",
-      "closes": "23:59"
     }
+  }
+  </script>
+
+  <script type="application/ld+json" is:inline>
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Dlaczego rura zatyka się ponownie?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Najczęściej przez tłuszcz, osad, zbyt mały spadek, źle wykonane podejście albo zator znajdujący się głębiej niż sam syfon."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Czy chemia do rur wystarczy?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Przy lekkim osadzie czasem pomaga, ale przy twardym zatorze może pogorszyć sytuację i utrudnić późniejszą pracę mechaniczną."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Kiedy potrzebna jest kamera inspekcyjna?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Gdy problem wraca, woda cofa się mimo udrażniania albo podejrzewamy uszkodzenie, przeciwspadek lub zalegający osad w rurze."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Czy da się podać cenę przez telefon?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Da się podać widełki, ale dokładna cena zależy od rodzaju awarii, dostępu do instalacji i metody potrzebnej do usunięcia zatoru."
+        }
+      }
+    ]
   }
   </script>
 
