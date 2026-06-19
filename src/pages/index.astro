@@ -469,9 +469,9 @@ const dateFmt = new Intl.DateTimeFormat("pl-PL", {
     /* MOBILE CTA */
     .mobile-cta {
       display: none; position: fixed; left: 16px; right: 16px; bottom: 16px;
-      z-index: 70; min-height: 58px; border-radius: 999px; color: #fff;
-      background: linear-gradient(135deg, #ff8a1f, #ff5f00);
-      box-shadow: 0 18px 44px rgba(255,116,15,0.30);
+      z-index: 70; min-height: 58px; border-radius: 999px; color: #1A1A2E;
+      background: linear-gradient(165deg, #FFA030 0%, #FF6B00 52%, #EE5200 100%);
+      box-shadow: 0 4px 20px rgba(255,111,0,0.38);
       align-items: center; justify-content: center; font-weight: 950;
     }
 
@@ -528,8 +528,20 @@ const dateFmt = new Intl.DateTimeFormat("pl-PL", {
       .logo { font-size: 22px; }
       .new-section { padding: 48px 0; }
       .diagnostic, .process-panel, .final-cta { padding: 24px; border-radius: 28px; }
-      .mobile-cta { display: flex; }
+      .mobile-cta.is-visible { display: flex; }
       .new-footer { padding-bottom: 92px; }
+    }
+
+    @media (max-width: 400px) {
+      :global(.phone-mockup__screen .step) { display: none; }
+    }
+
+    @media (max-width: 368px) {
+      :global(.app-alert span) { display: none; }
+    }
+
+    @media (max-width: 340px) {
+      :global(.hero-visual) { display: none; }
     }
   </style>
 
@@ -1103,6 +1115,20 @@ const dateFmt = new Intl.DateTimeFormat("pl-PL", {
         document.querySelectorAll('[data-bg-choice]').forEach(b => b.classList.toggle('is-active', b === btn));
       });
     });
+  </script>
+
+  <!-- Sticky mobile CTA — pojawia się gdy hero button wychodzi z widoku -->
+  <script>
+    // @ts-nocheck
+    (function () {
+      const heroCta = document.querySelector('.hero-buttons .btn-primary');
+      const mobileCta = document.querySelector('.mobile-cta');
+      if (!heroCta || !mobileCta) return;
+      const obs = new IntersectionObserver((entries) => {
+        mobileCta.classList.toggle('is-visible', !entries[0].isIntersecting);
+      }, { threshold: 0 });
+      obs.observe(heroCta);
+    })();
   </script>
 
   <!-- Hamburger — menu mobilne -->
