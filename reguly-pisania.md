@@ -1,0 +1,1 @@
+C:/Users/lenovo/Documents/Claude/Projects/globalne-reguly-pisania-tekstow.md

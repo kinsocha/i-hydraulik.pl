@@ -1,0 +1,1081 @@
+---
+const title = "Udrażnianie rur Warszawa | Szybka pomoc przy zatkanej kanalizacji";
+const description = "Udrażnianie rur i kanalizacji w Warszawie. Przepychanie zlewów, odpływów, pionów i kanalizacji z użyciem sprężyny elektrycznej oraz WUKO. Zadzwoń: 510 733 300.";
+const canonical = "https://udraznianiekanalizacji.eu/udraznianie-rur-warszawa";
+
+const phoneDisplay = "510 733 300";
+const phoneHref = "tel:+48510733300";
+
+const services = [
+  {
+    title: "Udrażnianie zlewu",
+    text: "Pomoc przy cofającej wodzie, bulgotaniu w odpływie i zatkanym syfonie lub podejściu kanalizacyjnym.",
+    icon: "sink",
+  },
+  {
+    title: "Udrażnianie rur",
+    text: "Praca sprężyną elektryczną przy zatorach w kuchni, łazience, odpływie pralki, wannie lub brodziku.",
+    icon: "pipe",
+  },
+  {
+    title: "Czyszczenie pionów",
+    text: "Usuwanie trudniejszych zatorów w instalacji wspólnej, pionach i odcinkach, które obsługują kilka lokali.",
+    icon: "tower",
+  },
+  {
+    title: "WUKO Warszawa",
+    text: "Ciśnieniowe czyszczenie kanalizacji zewnętrznej, odpływów do szamba, studzienek i dłuższych odcinków rur.",
+    icon: "water",
+  },
+];
+
+const steps = [
+  "Krótko opisujesz objawy: gdzie stoi woda, czy cofa z odpływu i od kiedy jest problem.",
+  "Dobieramy metodę do rodzaju instalacji: sprężyna elektryczna, WUKO albo kontrola problematycznego odcinka.",
+  "Usuwamy zator i sprawdzamy, czy woda schodzi prawidłowo po zakończeniu pracy.",
+  "Na koniec dostajesz prostą informację, co mogło spowodować problem i jak ograniczyć ryzyko powtórki.",
+];
+
+const districts = [
+  "Śródmieście",
+  "Mokotów",
+  "Wola",
+  "Praga-Południe",
+  "Praga-Północ",
+  "Targówek",
+  "Białołęka",
+  "Bielany",
+  "Żoliborz",
+  "Ursynów",
+  "Wawer",
+  "Rembertów",
+  "Bemowo",
+  "Włochy",
+  "Ochota",
+  "Wilanów",
+];
+
+const reviews = [
+  {
+    name: "Marek, ul. Żelazna",
+    text: "Zator w kuchni był mocny, ale odpływ udało się odblokować bez rozkuwania. Konkretna rozmowa i sprawne działanie.",
+  },
+  {
+    name: "Anna, okolice Sadyby",
+    text: "Woda cofała się w łazience. Po czyszczeniu odpływ zaczął działać normalnie, a przyczyna została jasno wyjaśniona.",
+  },
+  {
+    name: "Tomasz, Bródno",
+    text: "Dobra komunikacja, bez obiecywania cudów przez telefon. Najpierw diagnoza, potem robota i sprawdzenie przepływu.",
+  },
+];
+
+const faq = [
+  {
+    question: "Czy od razu wiadomo, gdzie jest zator?",
+    answer: "Nie zawsze. Czasem objawy wskazują na syfon lub krótki odpływ, a czasem problem leży dalej – w podejściu, pionie albo kanalizacji zewnętrznej.",
+  },
+  {
+    question: "Czy sprężyna elektryczna wystarczy do każdego zatoru?",
+    answer: "Nie do każdego. Przy dłuższych odcinkach, studzienkach lub kanalizacji zewnętrznej lepsze może być czyszczenie ciśnieniowe WUKO.",
+  },
+  {
+    question: "Czy obsługujecie wspólnoty i administracje?",
+    answer: "Tak. Możliwa jest pomoc przy pionach kanalizacyjnych, odpływach w częściach wspólnych i awariach zgłaszanych przez administrację budynku.",
+  },
+  {
+    question: "Czy strona powinna mieć osobne podstrony dla dzielnic?",
+    answer: "Tak, ale każda podstrona powinna mieć unikalną treść, realny opis obszaru i nie powielać bezmyślnie tekstu ze strony głównej.",
+  },
+];
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Plumber",
+  "name": "Udrażnianie Kanalizacji Warszawa",
+  "url": "https://udraznianiekanalizacji.eu/",
+  "telephone": "+48510733300",
+  "areaServed": {
+    "@type": "City",
+    "name": "Warszawa"
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Warszawa",
+    "addressCountry": "PL"
+  },
+  "priceRange": "PLN",
+  "description": description,
+  "serviceType": [
+    "Udrażnianie rur",
+    "Udrażnianie kanalizacji",
+    "Przepychanie zlewu",
+    "Czyszczenie pionów kanalizacyjnych",
+    "WUKO Warszawa"
+  ]
+};
+---
+
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta name="theme-color" content="#0b1720" />
+    <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  </head>
+
+  <body>
+    <header class="site-header" aria-label="Główna nawigacja">
+      <a class="brand" href="/" aria-label="Strona główna">
+        <span class="brand-mark" aria-hidden="true">⯈</span>
+        <span>
+          <strong>Udrażnianie Kanalizacji</strong>
+          <small>Warszawa i okolice</small>
+        </span>
+      </a>
+
+      <nav class="nav" aria-label="Menu">
+        <a href="#uslugi">Usługi</a>
+        <a href="#jak-dzialamy">Jak działamy</a>
+        <a href="#obszar">Obszar</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+
+      <a class="header-call" href={phoneHref}>Zadzwoń {phoneDisplay}</a>
+    </header>
+
+    <main>
+      <section class="hero section-dark">
+        <div class="hero-bg" aria-hidden="true"></div>
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Udrażnianie rur · kanalizacja · WUKO</p>
+            <h1>Nowoczesne udrażnianie rur w Warszawie bez zbędnego rozkuwania</h1>
+            <p class="lead">
+              Pomoc przy zatkanym zlewie, cofającej wodzie, niedrożnym odpływie, pionie kanalizacyjnym albo dłuższym odcinku instalacji. Pracujemy sprężyną elektryczną i metodą WUKO, dobierając sposób do objawów oraz rodzaju rur.
+            </p>
+
+            <div class="hero-actions" aria-label="Kontakt">
+              <a class="btn btn-primary" href={phoneHref}>Zadzwoń: {phoneDisplay}</a>
+              <a class="btn btn-ghost" href="#uslugi">Zobacz zakres usług</a>
+            </div>
+
+            <ul class="trust-list" aria-label="Najważniejsze informacje">
+              <li>Warszawa i okoliczne miejscowości</li>
+              <li>Sprężyna elektryczna i WUKO</li>
+              <li>Obsługa mieszkań, domów, lokali i administracji</li>
+            </ul>
+          </div>
+
+          <div class="hero-panel" aria-label="Skrót oferty">
+            <div class="flow-card">
+              <div class="flow-top">
+                <span class="status-dot"></span>
+                <span>Diagnoza odpływu</span>
+              </div>
+              <div class="pipe-visual" aria-hidden="true">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <h2>Gdy woda stoi, cofa lub schodzi bardzo wolno</h2>
+              <p>
+                Najpierw liczą się objawy: miejsce zatoru, długość podejścia, rodzaj odpływu i to, czy problem dotyczy jednego lokalu, czy instalacji wspólnej.
+              </p>
+            </div>
+
+            <div class="mini-stats" aria-label="Atuty usługi">
+              <div>
+                <strong>1</strong>
+                <span>konkretny problem</span>
+              </div>
+              <div>
+                <strong>0</strong>
+                <span>ciężkich sliderów na stronie</span>
+              </div>
+              <div>
+                <strong>CSS</strong>
+                <span>lekki efekt wizualny</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="uslugi">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Zakres prac</p>
+            <h2>Usługi hydrauliczne skupione na drożności kanalizacji</h2>
+            <p>
+              Strona jest przygotowana pod użytkownika, który ma konkretny problem: woda nie schodzi, odpływ bulgocze, wybija z kratki albo zator wraca po krótkim czasie.
+            </p>
+          </div>
+
+          <div class="service-grid">
+            {services.map((service) => (
+              <article class="service-card">
+                <div class={`service-icon service-icon-${service.icon}`} aria-hidden="true">
+                  <svg viewBox="0 0 48 48" role="img">
+                    <path d="M10 30h20a8 8 0 0 0 8-8v-7" />
+                    <path d="M14 18h14" />
+                    <path d="M18 10h6" />
+                    <path d="M8 34h32" />
+                  </svg>
+                </div>
+                <h3>{service.title}</h3>
+                <p>{service.text}</p>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-soft" id="jak-dzialamy">
+        <div class="container split">
+          <div class="section-heading align-left">
+            <p class="eyebrow">Proces</p>
+            <h2>Najpierw objawy, potem metoda – bez przypadkowego działania</h2>
+            <p>
+              Zator w zlewie, wannie, pionie i kanalizacji zewnętrznej może wyglądać podobnie, ale wymaga innego podejścia. Dlatego strona prowadzi klienta prostym językiem od objawu do telefonu.
+            </p>
+            <a class="text-link" href={phoneHref}>Skonsultuj problem telefonicznie →</a>
+          </div>
+
+          <ol class="steps">
+            {steps.map((step, index) => (
+              <li>
+                <span>{String(index + 1).padStart(2, "0")}</span>
+                <p>{step}</p>
+              </li>
+            ))}
+          </ol>
+        </div>
+      </section>
+
+      <section class="section section-dark compact-cta">
+        <div class="container cta-band">
+          <div>
+            <p class="eyebrow">Szybki kontakt</p>
+            <h2>Masz zatkany odpływ albo cofającą kanalizację?</h2>
+            <p>Opisz krótko objawy i miejsce zatoru. To pozwala szybciej dobrać właściwe narzędzie.</p>
+          </div>
+          <a class="btn btn-primary" href={phoneHref}>Zadzwoń {phoneDisplay}</a>
+        </div>
+      </section>
+
+      <section class="section" id="obszar">
+        <div class="container split reverse">
+          <div class="map-card" aria-label="Obszar działania">
+            <div class="map-grid" aria-hidden="true">
+              {districts.slice(0, 12).map((district) => <span>{district}</span>)}
+            </div>
+          </div>
+
+          <div class="section-heading align-left">
+            <p class="eyebrow">Lokalne SEO</p>
+            <h2>Udrażnianie rur na terenie Warszawy</h2>
+            <p>
+              Strona może być stroną główną usługi albo wzorem dla lokalnych podstron dzielnicowych. Każda dzielnica powinna mieć własny opis problemów, układ komunikacyjny, typ zabudowy i naturalne frazy lokalne.
+            </p>
+            <div class="district-tags" aria-label="Dzielnice Warszawy">
+              {districts.map((district) => <span>{district}</span>)}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-soft">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Zaufanie</p>
+            <h2>Prosto, konkretnie i bez przesadnego obiecywania</h2>
+            <p>
+              Dobra strona hydrauliczna nie musi krzyczeć. Ma szybko pokazać, że firma rozumie problem, obsługuje właściwy teren i potrafi dobrać metodę do instalacji.
+            </p>
+          </div>
+
+          <div class="review-grid">
+            {reviews.map((review) => (
+              <article class="review-card">
+                <div class="stars" aria-label="Ocena 5 na 5">★★★★★</div>
+                <p>„{review.text}"</p>
+                <strong>{review.name}</strong>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="faq">
+        <div class="container faq-wrap">
+          <div class="section-heading align-left">
+            <p class="eyebrow">FAQ</p>
+            <h2>Pytania, które pomagają szybciej podjąć decyzję</h2>
+            <p>
+              FAQ wzmacnia SEO, ale przede wszystkim odpowiada na realne wątpliwości osoby, która ma awarię albo wracający problem z odpływem.
+            </p>
+          </div>
+
+          <div class="faq-list">
+            {faq.map((item) => (
+              <details>
+                <summary>{item.question}</summary>
+                <p>{item.answer}</p>
+              </details>
+            ))}
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div>
+          <strong>Udrażnianie Kanalizacji Warszawa</strong>
+          <p>Udrażnianie rur, zlewów, odpływów, pionów i kanalizacji zewnętrznej.</p>
+        </div>
+        <a class="footer-call" href={phoneHref}>Zadzwoń: {phoneDisplay}</a>
+      </div>
+    </footer>
+  </body>
+</html>
+
+<style>
+  :root {
+    --bg: #f7f4ef;
+    --bg-soft: #eee8df;
+    --ink: #10202b;
+    --muted: #60707c;
+    --dark: #0b1720;
+    --dark-2: #112534;
+    --line: rgba(16, 32, 43, 0.12);
+    --white: #ffffff;
+    --accent: #f28a2e;
+    --accent-2: #00a89d;
+    --radius-lg: 28px;
+    --radius-md: 18px;
+    --shadow: 0 24px 70px rgba(11, 23, 32, 0.14);
+    --container: 1160px;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    margin: 0;
+    font-family:
+      Inter,
+      ui-sans-serif,
+      system-ui,
+      -apple-system,
+      BlinkMacSystemFont,
+      "Segoe UI",
+      sans-serif;
+    color: var(--ink);
+    background: var(--bg);
+    text-rendering: optimizeLegibility;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .container {
+    width: min(var(--container), calc(100% - 32px));
+    margin-inline: auto;
+  }
+
+  .site-header {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    gap: 24px;
+    align-items: center;
+    padding: 14px max(16px, calc((100vw - var(--container)) / 2));
+    background: rgba(247, 244, 239, 0.86);
+    border-bottom: 1px solid var(--line);
+    backdrop-filter: blur(16px);
+  }
+
+  .brand {
+    display: inline-flex;
+    gap: 12px;
+    align-items: center;
+    min-width: max-content;
+  }
+
+  .brand-mark {
+    display: grid;
+    width: 42px;
+    height: 42px;
+    place-items: center;
+    color: var(--dark);
+    background: linear-gradient(135deg, var(--accent), #ffd19f);
+    border-radius: 14px;
+    font-weight: 900;
+  }
+
+  .brand strong,
+  .brand small {
+    display: block;
+    line-height: 1.1;
+  }
+
+  .brand small {
+    margin-top: 4px;
+    color: var(--muted);
+    font-size: 0.78rem;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: center;
+    gap: clamp(14px, 3vw, 34px);
+    color: rgba(16, 32, 43, 0.74);
+    font-size: 0.95rem;
+  }
+
+  .nav a,
+  .text-link {
+    transition:
+      color 160ms ease,
+      transform 160ms ease;
+  }
+
+  .nav a:hover,
+  .text-link:hover {
+    color: var(--ink);
+  }
+
+  .header-call,
+  .footer-call {
+    display: inline-flex;
+    justify-content: center;
+    padding: 12px 18px;
+    color: var(--dark);
+    background: var(--accent);
+    border-radius: 999px;
+    font-weight: 800;
+    box-shadow: 0 12px 28px rgba(242, 138, 46, 0.25);
+  }
+
+  .section {
+    padding: clamp(72px, 8vw, 118px) 0;
+  }
+
+  .section-dark {
+    color: var(--white);
+    background:
+      radial-gradient(circle at 80% 18%, rgba(0, 168, 157, 0.22), transparent 30%),
+      linear-gradient(145deg, var(--dark), var(--dark-2));
+  }
+
+  .section-soft {
+    background: var(--bg-soft);
+  }
+
+  .hero {
+    position: relative;
+    overflow: hidden;
+    padding: clamp(76px, 9vw, 132px) 0 clamp(70px, 8vw, 110px);
+  }
+
+  .hero-bg {
+    position: absolute;
+    inset: 0;
+    opacity: 0.22;
+    background-image:
+      linear-gradient(rgba(255, 255, 255, 0.09) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255, 255, 255, 0.09) 1px, transparent 1px);
+    background-size: 42px 42px;
+    mask-image: linear-gradient(to bottom, #000, transparent 82%);
+  }
+
+  .hero-grid,
+  .split,
+  .faq-wrap,
+  .footer-grid {
+    position: relative;
+    display: grid;
+    grid-template-columns: minmax(0, 1.08fr) minmax(320px, 0.92fr);
+    gap: clamp(34px, 6vw, 76px);
+    align-items: center;
+  }
+
+  .reverse {
+    grid-template-columns: minmax(320px, 0.92fr) minmax(0, 1.08fr);
+  }
+
+  .eyebrow {
+    margin: 0 0 14px;
+    color: var(--accent);
+    font-size: 0.78rem;
+    font-weight: 900;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+  }
+
+  h1,
+  h2,
+  h3,
+  p {
+    margin-top: 0;
+  }
+
+  h1,
+  h2,
+  h3 {
+    letter-spacing: -0.045em;
+  }
+
+  h1 {
+    max-width: 780px;
+    margin-bottom: 22px;
+    font-size: clamp(2.7rem, 7vw, 6.4rem);
+    line-height: 0.92;
+  }
+
+  h2 {
+    margin-bottom: 18px;
+    font-size: clamp(2rem, 4vw, 3.5rem);
+    line-height: 1;
+  }
+
+  h3 {
+    margin-bottom: 10px;
+    font-size: 1.28rem;
+  }
+
+  .lead,
+  .section-heading p,
+  .flow-card p,
+  .service-card p,
+  .review-card p,
+  details p,
+  .footer p {
+    color: var(--muted);
+    line-height: 1.75;
+  }
+
+  .section-dark .lead,
+  .section-dark .flow-card p,
+  .section-dark .cta-band p {
+    color: rgba(255, 255, 255, 0.72);
+  }
+
+  .lead {
+    max-width: 680px;
+    margin-bottom: 32px;
+    font-size: clamp(1.05rem, 1.4vw, 1.22rem);
+  }
+
+  .hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin-bottom: 28px;
+  }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 52px;
+    padding: 14px 22px;
+    border: 1px solid transparent;
+    border-radius: 999px;
+    font-weight: 900;
+    transition:
+      transform 180ms ease,
+      box-shadow 180ms ease,
+      background 180ms ease;
+  }
+
+  .btn:hover {
+    transform: translateY(-2px);
+  }
+
+  .btn-primary {
+    color: var(--dark);
+    background: linear-gradient(135deg, var(--accent), #ffd19f);
+    box-shadow: 0 18px 38px rgba(242, 138, 46, 0.28);
+  }
+
+  .btn-ghost {
+    color: var(--white);
+    border-color: rgba(255, 255, 255, 0.22);
+    background: rgba(255, 255, 255, 0.08);
+  }
+
+  .trust-list {
+    display: grid;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+    color: rgba(255, 255, 255, 0.78);
+    list-style: none;
+  }
+
+  .trust-list li {
+    position: relative;
+    padding-left: 24px;
+  }
+
+  .trust-list li::before {
+    position: absolute;
+    left: 0;
+    color: var(--accent-2);
+    content: "✓";
+    font-weight: 900;
+  }
+
+  .hero-panel {
+    display: grid;
+    gap: 16px;
+  }
+
+  .flow-card,
+  .service-card,
+  .review-card,
+  details,
+  .map-card {
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: var(--radius-lg);
+    background: rgba(255, 255, 255, 0.08);
+    box-shadow: var(--shadow);
+  }
+
+  .flow-card {
+    position: relative;
+    overflow: hidden;
+    padding: clamp(22px, 4vw, 34px);
+  }
+
+  .flow-card::before {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, rgba(255,255,255,0.12), transparent 42%);
+    content: "";
+    pointer-events: none;
+  }
+
+  .flow-top {
+    position: relative;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 28px;
+    color: rgba(255, 255, 255, 0.82);
+    font-weight: 800;
+  }
+
+  .status-dot {
+    width: 10px;
+    height: 10px;
+    background: var(--accent-2);
+    border-radius: 999px;
+    box-shadow: 0 0 0 8px rgba(0, 168, 157, 0.12);
+  }
+
+  .pipe-visual {
+    position: relative;
+    height: 170px;
+    margin-bottom: 26px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 24px;
+    background:
+      linear-gradient(90deg, transparent 0 42%, rgba(255,255,255,0.09) 42% 58%, transparent 58%),
+      linear-gradient(180deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.02));
+  }
+
+  .pipe-visual span {
+    position: absolute;
+    display: block;
+    border-radius: 999px;
+    background: linear-gradient(90deg, rgba(242, 138, 46, 0.86), rgba(0, 168, 157, 0.86));
+  }
+
+  .pipe-visual span:nth-child(1) {
+    top: 46px;
+    left: 28px;
+    width: 58%;
+    height: 18px;
+  }
+
+  .pipe-visual span:nth-child(2) {
+    top: 46px;
+    right: 34px;
+    width: 18px;
+    height: 78px;
+  }
+
+  .pipe-visual span:nth-child(3) {
+    right: 34px;
+    bottom: 46px;
+    width: 44%;
+    height: 18px;
+  }
+
+  .mini-stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+  }
+
+  .mini-stats div {
+    padding: 18px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 22px;
+    background: rgba(255, 255, 255, 0.07);
+  }
+
+  .mini-stats strong,
+  .mini-stats span {
+    display: block;
+  }
+
+  .mini-stats strong {
+    font-size: 1.4rem;
+  }
+
+  .mini-stats span {
+    margin-top: 6px;
+    color: rgba(255, 255, 255, 0.64);
+    font-size: 0.86rem;
+    line-height: 1.35;
+  }
+
+  .section-heading {
+    max-width: 760px;
+    margin: 0 auto 44px;
+    text-align: center;
+  }
+
+  .section-heading.align-left {
+    margin: 0;
+    text-align: left;
+  }
+
+  .service-grid,
+  .review-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 18px;
+  }
+
+  .service-card,
+  .review-card,
+  details {
+    background: rgba(255, 255, 255, 0.64);
+    border-color: var(--line);
+    box-shadow: 0 18px 52px rgba(16, 32, 43, 0.08);
+  }
+
+  .service-card {
+    padding: 24px;
+    transition:
+      transform 180ms ease,
+      border-color 180ms ease,
+      box-shadow 180ms ease;
+  }
+
+  .service-card:hover {
+    transform: translateY(-4px);
+    border-color: rgba(242, 138, 46, 0.42);
+    box-shadow: 0 22px 58px rgba(16, 32, 43, 0.12);
+  }
+
+  .service-icon {
+    display: grid;
+    width: 52px;
+    height: 52px;
+    place-items: center;
+    margin-bottom: 22px;
+    color: var(--dark);
+    background: linear-gradient(135deg, rgba(242, 138, 46, 0.22), rgba(0, 168, 157, 0.16));
+    border-radius: 18px;
+  }
+
+  .service-icon svg {
+    width: 30px;
+    height: 30px;
+    fill: none;
+    stroke: currentColor;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 3;
+  }
+
+  .steps {
+    display: grid;
+    gap: 14px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  .steps li {
+    display: grid;
+    grid-template-columns: 62px 1fr;
+    gap: 18px;
+    align-items: start;
+    padding: 22px;
+    border: 1px solid var(--line);
+    border-radius: 24px;
+    background: rgba(255, 255, 255, 0.52);
+  }
+
+  .steps span {
+    color: var(--accent);
+    font-weight: 950;
+    letter-spacing: -0.06em;
+    font-size: 1.7rem;
+  }
+
+  .steps p {
+    margin: 0;
+    color: var(--ink);
+    line-height: 1.65;
+  }
+
+  .text-link {
+    display: inline-flex;
+    margin-top: 12px;
+    color: var(--ink);
+    font-weight: 900;
+  }
+
+  .compact-cta {
+    padding: 42px 0;
+  }
+
+  .cta-band {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: space-between;
+    padding: clamp(24px, 4vw, 38px);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: var(--radius-lg);
+    background: rgba(255, 255, 255, 0.06);
+  }
+
+  .cta-band h2 {
+    margin-bottom: 8px;
+    font-size: clamp(1.7rem, 3vw, 2.8rem);
+  }
+
+  .cta-band p {
+    margin-bottom: 0;
+  }
+
+  .map-card {
+    min-height: 430px;
+    padding: 22px;
+    background:
+      radial-gradient(circle at 20% 20%, rgba(242, 138, 46, 0.18), transparent 32%),
+      radial-gradient(circle at 78% 76%, rgba(0, 168, 157, 0.16), transparent 32%),
+      rgba(255, 255, 255, 0.54);
+  }
+
+  .map-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    height: 100%;
+  }
+
+  .map-grid span {
+    display: grid;
+    min-height: 74px;
+    place-items: center;
+    padding: 12px;
+    color: rgba(16, 32, 43, 0.74);
+    border: 1px solid var(--line);
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.48);
+    font-size: 0.88rem;
+    font-weight: 800;
+    text-align: center;
+  }
+
+  .district-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 24px;
+  }
+
+  .district-tags span {
+    padding: 9px 12px;
+    color: rgba(16, 32, 43, 0.74);
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.62);
+    font-size: 0.9rem;
+    font-weight: 800;
+  }
+
+  .review-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .review-card {
+    padding: 26px;
+  }
+
+  .stars {
+    margin-bottom: 18px;
+    color: var(--accent);
+    letter-spacing: 0.06em;
+  }
+
+  .review-card strong {
+    display: block;
+    margin-top: 18px;
+  }
+
+  .faq-wrap {
+    align-items: start;
+  }
+
+  .faq-list {
+    display: grid;
+    gap: 12px;
+  }
+
+  details {
+    padding: 20px 22px;
+  }
+
+  summary {
+    cursor: pointer;
+    font-weight: 900;
+  }
+
+  details p {
+    margin: 14px 0 0;
+  }
+
+  .footer {
+    padding: 34px 0;
+    color: rgba(255, 255, 255, 0.72);
+    background: var(--dark);
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr auto;
+  }
+
+  .footer strong {
+    display: block;
+    margin-bottom: 8px;
+    color: var(--white);
+  }
+
+  .footer p {
+    margin-bottom: 0;
+  }
+
+  @media (max-width: 980px) {
+    .site-header {
+      grid-template-columns: 1fr auto;
+    }
+
+    .nav {
+      display: none;
+    }
+
+    .hero-grid,
+    .split,
+    .reverse,
+    .faq-wrap,
+    .footer-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .service-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media (max-width: 680px) {
+    .site-header {
+      position: static;
+      gap: 12px;
+      padding: 12px 16px;
+    }
+
+    .brand small {
+      display: none;
+    }
+
+    .header-call {
+      padding: 10px 12px;
+      font-size: 0.88rem;
+    }
+
+    .hero {
+      padding-top: 58px;
+    }
+
+    h1 {
+      font-size: clamp(2.35rem, 16vw, 3.6rem);
+    }
+
+    .hero-actions,
+    .cta-band {
+      align-items: stretch;
+      flex-direction: column;
+    }
+
+    .btn,
+    .header-call,
+    .footer-call {
+      width: 100%;
+    }
+
+    .mini-stats,
+    .service-grid,
+    .review-grid,
+    .map-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .map-card {
+      min-height: auto;
+    }
+
+    .steps li {
+      grid-template-columns: 1fr;
+      gap: 8px;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      scroll-behavior: auto !important;
+      transition: none !important;
+    }
+  }
+</style>

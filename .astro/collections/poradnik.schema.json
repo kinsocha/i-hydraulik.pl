@@ -1,0 +1,92 @@
+{
+  "$ref": "#/definitions/poradnik",
+  "definitions": {
+    "poradnik": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string",
+          "maxLength": 220
+        },
+        "pubDate": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "date-time"
+            },
+            {
+              "type": "string",
+              "format": "date"
+            },
+            {
+              "type": "integer",
+              "format": "unix-time"
+            }
+          ]
+        },
+        "updatedDate": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "date-time"
+            },
+            {
+              "type": "string",
+              "format": "date"
+            },
+            {
+              "type": "integer",
+              "format": "unix-time"
+            }
+          ]
+        },
+        "author": {
+          "type": "string",
+          "default": "i Hydraulik"
+        },
+        "category": {
+          "type": "string"
+        },
+        "readingTime": {
+          "type": "number",
+          "minimum": 1
+        },
+        "hero": {
+          "type": "string"
+        },
+        "heroAlt": {
+          "type": "string"
+        },
+        "heroTitle": {
+          "type": "string"
+        },
+        "heroLead": {
+          "type": "string"
+        },
+        "keywords": {
+          "type": "string",
+          "maxLength": 200
+        },
+        "$schema": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "title",
+        "description",
+        "pubDate",
+        "category",
+        "readingTime",
+        "hero",
+        "heroAlt",
+        "heroTitle",
+        "heroLead"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}
