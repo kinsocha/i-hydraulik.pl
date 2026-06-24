@@ -35,10 +35,24 @@ const jsonLd = {
   datePublished: post.data.pubDate.toISOString(),
   dateModified: (post.data.updatedDate ?? post.data.pubDate).toISOString(),
 };
+
+const faq = post.data.faq ?? [];
+const faqLd = faq.length
+  ? {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      mainEntity: faq.map((item) => ({
+        "@type": "Question",
+        name: item.q,
+        acceptedAnswer: { "@type": "Answer", text: item.a },
+      })),
+    }
+  : null;
 ---
 
 <PoradnikLayout title={post.data.title} description={post.data.description}>
   <script type="application/ld+json" is:inline set:html={JSON.stringify(jsonLd)} />
+  {faqLd && <script type="application/ld+json" is:inline set:html={JSON.stringify(faqLd)} />}
 
   <div class="article-wrap">
     <div class="container">
@@ -65,6 +79,18 @@ const jsonLd = {
         <div class="article__content">
           <Content />
         </div>
+
+        {faq.length > 0 && (
+          <section class="article__faq" aria-label="Najczęstsze pytania">
+            <h2>Najczęściej zadawane pytania</h2>
+            {faq.map((item) => (
+              <details class="faq-item">
+                <summary>{item.q}</summary>
+                <div class="faq-item__a"><p>{item.a}</p></div>
+              </details>
+            ))}
+          </section>
+        )}
 
         <div class="article__cta">
           <div>

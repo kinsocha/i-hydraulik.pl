@@ -70,6 +70,25 @@
           "type": "string",
           "maxLength": 200
         },
+        "faq": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "q": {
+                "type": "string"
+              },
+              "a": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "q",
+              "a"
+            ],
+            "additionalProperties": false
+          }
+        },
         "$schema": {
           "type": "string"
         }

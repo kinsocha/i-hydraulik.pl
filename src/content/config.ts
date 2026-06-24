@@ -15,6 +15,14 @@ const poradnik = defineCollection({
     heroTitle: z.string(),
     heroLead: z.string(),
     keywords: z.string().max(200).optional(),
+    faq: z
+      .array(
+        z.object({
+          q: z.string(),
+          a: z.string(),
+        })
+      )
+      .optional(),
   }),
 });
 
