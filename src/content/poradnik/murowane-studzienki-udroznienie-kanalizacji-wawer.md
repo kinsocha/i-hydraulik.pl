@@ -39,6 +39,20 @@ Instalacja to zlepek dwóch epok. Bliżej domu zostały jeszcze stare rury żeli
 
 Zdjęliśmy płytę z drugiej studni i stamtąd wprowadziliśmy sprężynę elektryczną w rurę idącą w stronę ulicy. Na zdjęciach widać ją w pracy — spirala schodzi w głąb i rozbija narosty na ściankach. Prowadziliśmy ją tam i z powrotem, żeby zebrać osad z całego przekroju, a nie tylko przebić w nim wąski kanał. Przy takim przebiegu to najskuteczniejsze narzędzie. Po około godzinie odcinek był przelotowy. Sprawdziliśmy odpływ: woda schodzi od razu, bez cofania, a cały układ znów pracuje tak, jak powinien. Na koniec zajrzeliśmy jeszcze do pierwszej studzienki, bliżej domu, żeby mieć pewność, że nic się nie cofa.
 
+## Zdjęcia z realizacji
+
+<div class="article-gallery">
+  <a class="article-gallery__item" href="/img/poradnik/studzienka-wawer-galeria-1.webp" target="_blank" rel="noopener">
+    <img src="/img/poradnik/studzienka-wawer-galeria-1.webp" alt="Otwarta murowana studzienka kanalizacyjna z cegły przykryta płytą chodnikową, obok worek po ziemi" loading="lazy" decoding="async" width="1000" height="750" />
+  </a>
+  <a class="article-gallery__item" href="/img/poradnik/studzienka-wawer-galeria-2.webp" target="_blank" rel="noopener">
+    <img src="/img/poradnik/studzienka-wawer-galeria-2.webp" alt="Sprężyna elektryczna schodząca w rurę pod płytą studzienki podczas udrożnienia" loading="lazy" decoding="async" width="1000" height="750" />
+  </a>
+  <a class="article-gallery__item" href="/img/poradnik/studzienka-wawer-galeria-3.webp" target="_blank" rel="noopener">
+    <img src="/img/poradnik/studzienka-wawer-galeria-3.webp" alt="Spirala sprężyny wprowadzona w żeliwną rurę kanalizacyjną wewnątrz murowanej studzienki" loading="lazy" decoding="async" width="1000" height="750" />
+  </a>
+</div>
+
 ## Masz podobny problem z przyłączem?
 
 Udrażniamy kanalizację, czyścimy studzienki i przywracamy przepływ na terenie całej Warszawy, a także w Wołominie, Kobyłce i Zielonce. Działamy jako pogotowie hydrauliczne całą dobę — mamy sprzęt na różne średnice i różne przebiegi rur.
