@@ -16,7 +16,7 @@ faq:
   - q: "Dlaczego stare rury żeliwne częściej się zatykają?"
     a: "Żeliwo z biegiem lat zarasta od środka. Osad, rdza i tłuszcz odkładają się warstwami i potrafią zwęzić światło rury nawet o połowę. Woda przeciska się przez coraz mniejszy przekrój, aż w końcu jedna większa porcja ścieków blokuje wszystko. Na styku żeliwa z nowszym plastikiem zator rośnie najszybciej."
   - q: "Czym udrażnia się długi, zewnętrzny odcinek kanalizacji?"
-    a: "Przy takich średnicach i dość prostym przebiegu rury najskuteczniejsza jest sprężyna elektryczna. Spirala schodzi w głąb i mechanicznie rozbija narosty na ściankach, a nie tylko przebija w nich otwór. Ciśnieniowe płukanie wuko sprawdza się, gdy na trasie nie ma ostrych łuków — tu spirala poradziła sobie w około godzinę."
+    a: "Przy takich średnicach i dość prostym przebiegu rury najskuteczniejsza jest sprężyna elektryczna. Spirala schodzi w głąb i mechanicznie rozbija narosty na ściankach, a nie tylko przebija w nich otwór. Można tu sięgnąć również po wuko, czyli płukanie ciśnieniowe, ale przy tak słabo wykonanych, murowanych studzienkach strumień wody mógłby napchać piachu do kanalizacji — dlatego postawiliśmy na sprężynę."
   - q: "Jak często sprawdzać studzienki kanalizacyjne na działce?"
     a: "Przy typowej instalacji domowej wystarczy zaglądać do nich raz, dwa razy w roku i po każdym większym spiętrzeniu. Jeśli przyłącze jest murowane albo częściowo żeliwne, warto robić to częściej — łatwiej wtedy wyłapać narastający osad, zanim zamieni się w twardy zator."
   - q: "Po przełączeniu ze szamba na sieć miejską ścieki schodzą wolno — z czego to wynika?"
