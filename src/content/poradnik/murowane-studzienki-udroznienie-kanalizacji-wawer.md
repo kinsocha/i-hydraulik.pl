@@ -35,6 +35,8 @@ Instalacja to zlepek dwóch epok. Bliżej domu zostały jeszcze stare rury żeli
 
 ## Sprężyna przez drugą studzienkę
 
+![Sprężyna elektryczna wprowadzona w rurę kanalizacyjną w murowanej studzience — udrożnienie odcinka w stronę ulicy](/img/poradnik/sprezyna-elektryczna-przepychanie-rury.webp)
+
 Zdjęliśmy płytę z drugiej studni i stamtąd wprowadziliśmy sprężynę elektryczną w rurę idącą w stronę ulicy. Na zdjęciach widać ją w pracy — spirala schodzi w głąb i rozbija narosty na ściankach. Prowadziliśmy ją tam i z powrotem, żeby zebrać osad z całego przekroju, a nie tylko przebić w nim wąski kanał. Przy takim przebiegu to najskuteczniejsze narzędzie. Po około godzinie odcinek był przelotowy. Sprawdziliśmy odpływ: woda schodzi od razu, bez cofania, a cały układ znów pracuje tak, jak powinien. Na koniec zajrzeliśmy jeszcze do pierwszej studzienki, bliżej domu, żeby mieć pewność, że nic się nie cofa.
 
 ## Masz podobny problem z przyłączem?
