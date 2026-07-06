@@ -1,4 +1,4 @@
----
+i---
 title: "Murowane studzienki z cegły — udrożnienie przyłącza po dawnym szambie"
 description: "Ścieki przestały odpływać z domu do sieci miejskiej. Przyłącze wykonano oszczędnie: dwie studzienki wymurowane z cegły, mix żeliwa i plastiku, 40 metrów do kolektora. Opisuję, jak wyglądało udrożnienie sprężyną."
 pubDate: 2026-07-05T13:52:41
