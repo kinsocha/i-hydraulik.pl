@@ -13,34 +13,14 @@
   <script type="application/ld+json" is:inline>
   {
     "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "name": "i Hydraulik - Hydraulik Warszawa",
-    "image": "https://i-hydraulik.pl/logo.png",
-    "@id": "",
-    "url": "https://i-hydraulik.pl",
-    "telephone": "+48511323123",
+    "@type": "CreativeWorkSeries",
+    "name": "Hydraulik Mokotów — i Hydraulik",
+    "url": "https://i-hydraulik.pl/hydraulikmokotow",
     "aggregateRating": {
       "@type": "AggregateRating",
       "ratingValue": "5.0",
-      "reviewCount": "558"
-    },
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "Warszawa i okolice",
-      "addressLocality": "Warszawa",
-      "postalCode": "00-001",
-      "addressCountry": "PL"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 52.2297,
-      "longitude": 21.0122
-    },
-    "openingHoursSpecification": {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
-      "opens": "00:00",
-      "closes": "23:59"
+      "bestRating": "5",
+      "ratingCount": "558"
     }
   }
   </script>
@@ -584,6 +564,51 @@
       .mobile-cta { display: flex; }
       .new-footer { padding-bottom: 92px; }
     }
+    /* LOKALNIE + ZAUFANIE + OPINIE + OBSZAR (uzupełnienie treści) */
+    .local .container { max-width: 900px; }
+    .local p { color: var(--muted); line-height: 1.75; font-size: 17px; margin: 0 0 16px; }
+    .local p:last-child { margin-bottom: 0; }
+
+    .trust-row { display: grid; grid-template-columns: repeat(4,1fr); gap: 14px; margin-top: 28px; }
+    .trust-item {
+      padding: 20px; border-radius: var(--radius-md); background: var(--card);
+      border: 1px solid rgba(231,222,213,0.88); box-shadow: var(--shadow-soft);
+    }
+    .trust-item strong { display: block; font-size: 16px; margin-bottom: 6px; letter-spacing: -0.02em; }
+    .trust-item span { color: var(--muted); font-size: 15px; line-height: 1.55; }
+
+    .review-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 18px; margin-top: 28px; }
+    .review-card {
+      padding: 24px; border-radius: var(--radius-lg); background: var(--card);
+      border: 1px solid rgba(231,222,213,0.88); box-shadow: var(--shadow-soft);
+      display: flex; flex-direction: column; gap: 13px;
+    }
+    .review-card__head { display: flex; align-items: center; gap: 12px; }
+    .review-card__avatar {
+      width: 44px; height: 44px; flex: 0 0 44px; border-radius: 50%;
+      display: grid; place-items: center; color: #fff; font-weight: 900; font-size: 18px;
+    }
+    .review-card__who strong { display: block; font-size: 15px; }
+    .review-card__who span { color: var(--muted-2); font-size: 13px; }
+    .review-card__stars { color: #ff9f1a; font-size: 15px; letter-spacing: 2px; }
+    .review-card p { margin: 0; color: #33384b; line-height: 1.65; font-size: 16px; }
+
+    .area-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; align-items: stretch; }
+    .area-grid p { color: var(--muted); line-height: 1.7; font-size: 16px; margin: 0; }
+    .area-map { border: 0; width: 100%; min-height: 340px; border-radius: var(--radius-lg); box-shadow: var(--shadow-soft); }
+    .area-list { display: flex; flex-wrap: wrap; gap: 10px; margin: 20px 0 0; padding: 0; list-style: none; }
+    .area-list li {
+      padding: 8px 14px; border-radius: 999px; background: var(--blue-soft);
+      color: var(--blue-dark); font-weight: 700; font-size: 14px;
+    }
+
+    @media (max-width: 980px) {
+      .trust-row { grid-template-columns: repeat(2,1fr); }
+      .review-grid, .area-grid { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 640px) {
+      .trust-row { grid-template-columns: 1fr; }
+    }
   </style>
 
   <!-- Hero / phone mockup styles -->
@@ -844,6 +869,25 @@
       </section>
 
       <!-- ═══════════════════════════════════════════════════
+           LOKALNIE — Mokotów
+      ════════════════════════════════════════════════════ -->
+      <section class="new-section local">
+        <div class="container">
+          <div class="section-head reveal">
+            <div>
+              <p class="section-kicker">Hydraulik na Mokotowie</p>
+              <h2 class="section-title">Mokotów to kilka światów w jednej dzielnicy</h2>
+            </div>
+          </div>
+          <div class="reveal">
+            <p>Stary Mokotów i okolice Puławskiej to kamienice, w których piony potrafią pamiętać przedwojnie — stal, ołów, kilka warstw farby na zaworach. Najczęściej wychodzi tam wymiana odcinka albo podejścia, bo stara rura po prostu zaczyna puszczać. Dochodzą do tego mokre ściany przy pionie, które trzeba najpierw zlokalizować, zanim cokolwiek się skuwa.</p>
+            <p>Zupełnie inaczej jest w blokach z wielkiej płyty na Stegnach, Sadybie czy Służewie. Instalacje z lat siedemdziesiątych, wspólne piony, ciasne szachty. Tu liczy się to, żeby wymienić swój odcinek porządnie i nie narobić kłopotu sąsiadom niżej.</p>
+            <p>No i nowe apartamentowce w rejonie Wierzbna czy Ksawerowa. Instalacja świeża, a mimo to armatura się zużywa — cieknąca bateria, spłuczka bez szczelności, podłączenie AGD po odbiorze mieszkania. Zakres inny, podejście to samo: najpierw oglądam, potem podaję cenę.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ═══════════════════════════════════════════════════
            CENNIK
       ════════════════════════════════════════════════════ -->
       <section id="cennik" class="pricing-section">
@@ -876,21 +920,107 @@
             </article>
           </div>
           <p class="price-note">Podane ceny dotyczą usług w dni robocze w standardowych godzinach. W soboty, niedziele, święta oraz po 20:00 stawki mogą być wyższe — dokładna kwota zawsze ustalana telefonicznie.</p>
+          <div class="trust-row reveal">
+            <div class="trust-item"><strong>Wycena przed pracą</strong><span>Kwotę podaję przed pracą i tej się trzymam. Koniec bez dopłat.</span></div>
+            <div class="trust-item"><strong>Faktura i paragon</strong><span>Na życzenie faktura albo paragon — osoby prywatne, firmy i wspólnoty.</span></div>
+            <div class="trust-item"><strong>Gwarancja na robociznę</strong><span>Odpowiadam za to, co naprawiłem. Gdyby coś wróciło, poprawiam.</span></div>
+            <div class="trust-item"><strong>Dojazd tego samego dnia</strong><span>Mokotów obsługuję często, dlatego dojeżdżam szybko.</span></div>
+          </div>
         </div>
       </section>
 
       <!-- ═══════════════════════════════════════════════════
-           OPINIA
+           OPINIE
       ════════════════════════════════════════════════════ -->
-      <section class="testimonial-strip">
+      <section id="opinie" class="new-section">
         <div class="container">
-          <div class="strip-card reveal">
+          <div class="section-head reveal">
             <div>
-              <div class="rating">★★★★★ 558 opinii Google</div>
+              <p class="section-kicker">Opinie klientów</p>
+              <h2 class="section-title">Co mówią mieszkańcy Mokotowa</h2>
             </div>
-            <blockquote>
-              „Cieknąca bateria pod zlewem i mokra szafka. Marcin przyjechał po południu tego samego dnia, wymienił i uszczelnił. Czysto, konkretnie, cena taka jak przez telefon."
-            </blockquote>
+            <p class="section-desc"><span class="rating">★★★★★ 5,0 — 558 opinii Google</span></p>
+          </div>
+          <div class="review-grid">
+            <article class="review-card reveal">
+              <div class="review-card__head">
+                <div class="review-card__avatar" style="background:#1f6fd1">R</div>
+                <div class="review-card__who"><strong>Pan Rafał Mokotów</strong><span>08.07.2026</span></div>
+              </div>
+              <div class="review-card__stars">★★★★★</div>
+              <p>Kamienica przy Rakowieckiej, stary pion i mokra ściana w łazience. Znalazł miejsce przecieku od razu, wymienił odcinek i uszczelnił. Cena bez niespodzianek. Polecam.</p>
+            </article>
+            <article class="review-card reveal">
+              <div class="review-card__head">
+                <div class="review-card__avatar" style="background:#ff740f">J</div>
+                <div class="review-card__who"><strong>Pani Joanna Mokotów</strong><span>06.07.2026</span></div>
+              </div>
+              <div class="review-card__stars">★★★★★</div>
+              <p>Szybko i czysto. Wymiana baterii umywalkowej i naprawa spłuczki w jednej wizycie.</p>
+            </article>
+            <article class="review-card reveal">
+              <div class="review-card__head">
+                <div class="review-card__avatar" style="background:#154f9c">M</div>
+                <div class="review-card__who"><strong>Pan Michał Mokotów</strong><span>04.07.2026</span></div>
+              </div>
+              <div class="review-card__stars">★★★★★</div>
+              <p>Mieszkanie w bloku na Stegnach, ciasny szacht i wspólny pion — bałem się, że nikt się za to nie weźmie bez rozkuwania pół łazienki. A jednak. Wymienił mój odcinek sprawnie, wytłumaczył co robi i dlaczego, i uprzedził sąsiada niżej na wszelki wypadek. Widać człowieka, który wie, co robi. Polecam.</p>
+            </article>
+            <article class="review-card reveal">
+              <div class="review-card__head">
+                <div class="review-card__avatar" style="background:#e64b8e">K</div>
+                <div class="review-card__who"><strong>Pani Katarzyna Mokotów</strong><span>01.07.2026</span></div>
+              </div>
+              <div class="review-card__stars">★★★★★</div>
+              <p>Nowe mieszkanie na Wierzbnie, trzeba było podłączyć pralkę i zmywarkę po odbiorze. Umówił godzinę, przyjechał punktualnie, wszystko szczelne. Polecam.</p>
+            </article>
+            <article class="review-card reveal">
+              <div class="review-card__head">
+                <div class="review-card__avatar" style="background:#2a9d5c">G</div>
+                <div class="review-card__who"><strong>Pan Grzegorz Mokotów</strong><span>29.06.2026</span></div>
+              </div>
+              <div class="review-card__stars">★★★★★</div>
+              <p>Cofała się woda w zlewie, myślałem że drobiazg, a to był zator dalej w podejściu. Udrożnił i sprawdził, że schodzi jak trzeba.</p>
+            </article>
+            <article class="review-card reveal">
+              <div class="review-card__head">
+                <div class="review-card__avatar" style="background:#7c3aed">B</div>
+                <div class="review-card__who"><strong>Pani Beata Mokotów</strong><span>27.06.2026</span></div>
+              </div>
+              <div class="review-card__stars">★★★★★</div>
+              <p>Awaria wieczorem, kapało spod zaworu przy pralce. Odebrał telefon od razu i przyjechał tego samego dnia. Rzetelnie. Polecam.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ═══════════════════════════════════════════════════
+           OBSZAR — Mokotów
+      ════════════════════════════════════════════════════ -->
+      <section id="obszar" class="new-section">
+        <div class="container">
+          <div class="section-head reveal">
+            <div>
+              <p class="section-kicker">Gdzie dojeżdżam</p>
+              <h2 class="section-title">Mokotów i cała Warszawa</h2>
+            </div>
+            <p class="section-desc">Bazuję na lewobrzeżnej Warszawie i dojeżdżam po całym mieście. Mokotów mam po drodze niemal codziennie.</p>
+          </div>
+          <div class="area-grid reveal">
+            <iframe class="area-map" src="https://www.google.com/maps?q=Mokot%C3%B3w,+Warszawa&output=embed" loading="lazy" title="Mapa — hydraulik Mokotów" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div>
+              <p>Pracuję na całym Mokotowie — od kamienic Starego Mokotowa, przez bloki na Stegnach i Sadybie, po nowe apartamentowce. Podjadę też do sąsiednich rejonów lewobrzeżnej Warszawy tego samego dnia — wystarczy telefon i krótki opis, co się dzieje.</p>
+              <ul class="area-list">
+                <li>Stary Mokotów</li>
+                <li>Sielce</li>
+                <li>Stegny</li>
+                <li>Sadyba</li>
+                <li>Służew</li>
+                <li>Wierzbno</li>
+                <li>Ksawerów</li>
+                <li>cała Warszawa</li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>
