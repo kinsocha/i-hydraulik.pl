@@ -69,6 +69,22 @@
           "@type": "Answer",
           "text": "Działam w Aninie i w całej Warszawie z okolicami. W Aninie bywam regularnie, więc dojazd jest szybki. Zadzwoń: 511 323 123."
         }
+      },
+      {
+        "@type": "Question",
+        "name": "Naprawiacie starą instalację stalową, czy od razu trzeba wymieniać?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Zależy od stanu rury. Jeśli stal jest tylko miejscowo zarośnięta, często wystarczy wymienić krótki odcinek i przywrócić przepływ. Gdy instalacja jest zużyta na całej długości, mówię o tym wprost i proponuję wymianę — ale nie na siłę."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Podłączycie pralkę i zmywarkę po remoncie?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Tak, to jedno z częstszych zleceń. Podłączam sprzęt do wody i odpływu, sprawdzam szczelność każdego złącza i puszczam wodę, zanim wyjdę. Jeśli brakuje zaworu albo trzeba przełożyć podejście, robię to przy tej samej wizycie."
+        }
       }
     ]
   }
@@ -602,9 +618,25 @@
       color: var(--blue-dark); font-weight: 700; font-size: 14px;
     }
 
+    .cases { display: grid; gap: 20px; margin-top: 26px; }
+    .case {
+      padding: 24px 26px; border-radius: var(--radius-md); background: var(--card);
+      border: 1px solid rgba(231,222,213,0.88); box-shadow: var(--shadow-soft);
+    }
+    .case h3 { margin: 0 0 8px; font-size: 19px; letter-spacing: -0.02em; }
+    .case p { margin: 0; color: var(--muted); line-height: 1.7; font-size: 16px; }
+
+    .help-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 18px; margin-top: 28px; }
+    .help-card {
+      padding: 26px; border-radius: var(--radius-lg); background: var(--card);
+      border: 1px solid rgba(231,222,213,0.88); box-shadow: var(--shadow-soft);
+    }
+    .help-card h3 { margin: 0 0 10px; font-size: 20px; letter-spacing: -0.03em; }
+    .help-card p { margin: 0; color: var(--muted); line-height: 1.65; font-size: 16px; }
+
     @media (max-width: 980px) {
       .trust-row { grid-template-columns: repeat(2,1fr); }
-      .review-grid, .area-grid { grid-template-columns: 1fr; }
+      .review-grid, .area-grid, .help-grid { grid-template-columns: 1fr; }
     }
     @media (max-width: 640px) {
       .trust-row { grid-template-columns: 1fr; }
@@ -831,6 +863,25 @@
       </section>
 
       <!-- ═══════════════════════════════════════════════════
+           ZAKRES USŁUG — Anin
+      ════════════════════════════════════════════════════ -->
+      <section class="new-section local">
+        <div class="container">
+          <div class="section-head reveal">
+            <div>
+              <p class="section-kicker">Co robię</p>
+              <h2 class="section-title">Pełny zakres napraw hydraulicznych</h2>
+            </div>
+          </div>
+          <div class="reveal">
+            <p>Na co dzień naprawiam to, co w domu psuje się najczęściej. Cieknące baterie kuchenne i łazienkowe, spłuczki, które nie trzymają wody, przecieki pod zlewem, podłączenia pralki i zmywarki po remoncie. Wymieniam zawory odcinające, wężyki przyłączeniowe, syfony i odpływy — drobiazgi, które potrafią zalać szafkę albo sąsiada, jeśli się je zignoruje.</p>
+            <p>Robię też prace większe. Wymianę odcinka instalacji wodnej w starym domu, przełożenie podejścia, montaż i serwis bojlera, wymianę grzejnika czy zaworu termostatycznego. W domach na własnym ujęciu naprawiam i wymieniam osprzęt zestawu hydroforowego. Jeśli trzeba, sprawdzam całą instalację i mówię, co warto wymienić teraz, a co spokojnie posłuży jeszcze kilka lat.</p>
+            <p>Zdarza się i tak, że woda wolno schodzi w zlewie albo umywalce. Zanim sięgnę po cokolwiek, odkręcam syfon — to standard przy takiej robocie, nie dodatkowa usługa. Często sam osad i włosy w syfonie są całą przyczyną. Bywa, że problem siedzi dalej w podejściu i wtedy trzeba go usunąć od środka.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ═══════════════════════════════════════════════════
            PROCES
       ════════════════════════════════════════════════════ -->
       <section id="proces" class="new-section">
@@ -888,6 +939,34 @@
       </section>
 
       <!-- ═══════════════════════════════════════════════════
+           NAJCZĘSTSZE SYTUACJE — Anin
+      ════════════════════════════════════════════════════ -->
+      <section class="new-section">
+        <div class="container">
+          <div class="section-head reveal">
+            <div>
+              <p class="section-kicker">Z czym dzwonią najczęściej</p>
+              <h2 class="section-title">Trzy sytuacje, które w Aninie wracają najczęściej</h2>
+            </div>
+          </div>
+          <div class="cases reveal">
+            <div class="case">
+              <h3>Słabe ciśnienie na piętrze</h3>
+              <p>W starszych domach to klasyk. Stalowa rura zarasta od środka latami, przekrój się zwęża i na górę dochodzi już tylko strużka. Sprawdzam, gdzie ciśnienie spada, i zwykle wymieniam zarośnięty odcinek. Czasem winny jest tylko zestaw hydroforowy i wystarczy naprawa osprzętu.</p>
+            </div>
+            <div class="case">
+              <h3>Cieknąca bateria albo spłuczka</h3>
+              <p>Kapiący kran potrafi kapać miesiącami, aż uszczelka puści na dobre. Spłuczka, która nie trzyma, po cichu podnosi rachunek za wodę. Jedno i drugie to zwykle wymiana zużytej części na miejscu — krótka wizyta i po sprawie.</p>
+            </div>
+            <div class="case">
+              <h3>Podłączenie AGD po remoncie</h3>
+              <p>Pralka, zmywarka, nowa bateria z wyciąganą wylewką. Po odświeżeniu kuchni albo łazienki trzeba to spiąć z instalacją tak, żeby było szczelnie i bezpiecznie. Podłączam, sprawdzam każde złącze i puszczam wodę, zanim wyjdę.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ═══════════════════════════════════════════════════
            CENNIK
       ════════════════════════════════════════════════════ -->
       <section id="cennik" class="pricing-section">
@@ -925,6 +1004,34 @@
             <div class="trust-item"><strong>Faktura i paragon</strong><span>Wystawiam dokument za każdą usługę — także dla firm i wspólnot.</span></div>
             <div class="trust-item"><strong>Gwarancja na robociznę</strong><span>Za wykonaną naprawę odpowiadam. Jak coś wróci, wracam i ja.</span></div>
             <div class="trust-item"><strong>Dojazd tego samego dnia</strong><span>W Aninie bywam regularnie, więc zwykle jestem szybko.</span></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ═══════════════════════════════════════════════════
+           KOMU POMAGAM — Anin
+      ════════════════════════════════════════════════════ -->
+      <section class="new-section">
+        <div class="container">
+          <div class="section-head reveal">
+            <div>
+              <p class="section-kicker">Komu pomagam</p>
+              <h2 class="section-title">Do kogo najczęściej jeżdżę w Aninie</h2>
+            </div>
+          </div>
+          <div class="help-grid reveal">
+            <div class="help-card">
+              <h3>Starsze domy jednorodzinne</h3>
+              <p>Wymiana skorodowanych zaworów i wężyków, naprawa zarośniętych odcinków, modernizacja starej instalacji w kuchni i łazience. Pracuję z dbałością o resztę układu, żeby nie narobić kolejnej awarii obok.</p>
+            </div>
+            <div class="help-card">
+              <h3>Domy po remoncie</h3>
+              <p>Podłączenia pralki, zmywarki i lodówki z kostkarką, montaż baterii, wymiana spłuczki. Wszystko spięte z instalacją szczelnie i sprawdzone przy mnie.</p>
+            </div>
+            <div class="help-card">
+              <h3>Domy na własnym ujęciu</h3>
+              <p>Naprawa i wymiana osprzętu zestawu hydroforowego, wymiana filtrów, przywrócenie właściwego ciśnienia. Sprawdzam całość, nie tylko jeden element.</p>
+            </div>
           </div>
         </div>
       </section>
@@ -1071,6 +1178,22 @@
               </button>
               <div class="faq-answer">
                 <p>Działam w Aninie i w całej Warszawie z okolicami. W Aninie bywam regularnie, więc dojazd jest szybki. Zadzwoń: 511 323 123.</p>
+              </div>
+            </article>
+            <article class="faq-item">
+              <button class="faq-question" type="button">
+                <span>Naprawiacie starą instalację stalową, czy od razu trzeba wymieniać?</span><span>+</span>
+              </button>
+              <div class="faq-answer">
+                <p>Zależy od stanu rury. Jeśli stal jest tylko miejscowo zarośnięta, często wystarczy wymienić krótki odcinek i przywrócić przepływ. Gdy instalacja jest zużyta na całej długości, mówię o tym wprost i proponuję wymianę — ale nie na siłę.</p>
+              </div>
+            </article>
+            <article class="faq-item">
+              <button class="faq-question" type="button">
+                <span>Podłączycie pralkę i zmywarkę po remoncie?</span><span>+</span>
+              </button>
+              <div class="faq-answer">
+                <p>Tak, to jedno z częstszych zleceń. Podłączam sprzęt do wody i odpływu, sprawdzam szczelność każdego złącza i puszczam wodę, zanim wyjdę. Jeśli brakuje zaworu albo trzeba przełożyć podejście, robię to przy tej samej wizycie.</p>
               </div>
             </article>
           </div>

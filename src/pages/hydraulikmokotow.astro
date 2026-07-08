@@ -69,6 +69,22 @@
           "@type": "Answer",
           "text": "Działam na Mokotowie i w całej Warszawie z okolicami. Mokotów obsługuję regularnie, dlatego dojeżdżam szybko. Zadzwoń: 511 323 123."
         }
+      },
+      {
+        "@type": "Question",
+        "name": "Wymienicie odcinek starego pionu w kamienicy?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Tak. W kamienicach to częsta robota — stary pion puszcza na złączu albo na skorodowanym kawałku. Wymieniam uszkodzony odcinek i uszczelniam połączenia. Jeśli trzeba odciąć wodę na pionie, wcześniej ustalam to z sąsiadami."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Czy naprawa w bloku będzie uciążliwa dla sąsiadów?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Staram się, żeby nie. Przy wspólnym pionie pracuję spokojnie i w razie potrzeby uprzedzam lokatora poniżej, zanim odetnę wodę. Większość napraw kończę w jednej wizycie, bez rozkuwania połowy łazienki."
+        }
       }
     ]
   }
@@ -602,9 +618,25 @@
       color: var(--blue-dark); font-weight: 700; font-size: 14px;
     }
 
+    .cases { display: grid; gap: 20px; margin-top: 26px; }
+    .case {
+      padding: 24px 26px; border-radius: var(--radius-md); background: var(--card);
+      border: 1px solid rgba(231,222,213,0.88); box-shadow: var(--shadow-soft);
+    }
+    .case h3 { margin: 0 0 8px; font-size: 19px; letter-spacing: -0.02em; }
+    .case p { margin: 0; color: var(--muted); line-height: 1.7; font-size: 16px; }
+
+    .help-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 18px; margin-top: 28px; }
+    .help-card {
+      padding: 26px; border-radius: var(--radius-lg); background: var(--card);
+      border: 1px solid rgba(231,222,213,0.88); box-shadow: var(--shadow-soft);
+    }
+    .help-card h3 { margin: 0 0 10px; font-size: 20px; letter-spacing: -0.03em; }
+    .help-card p { margin: 0; color: var(--muted); line-height: 1.65; font-size: 16px; }
+
     @media (max-width: 980px) {
       .trust-row { grid-template-columns: repeat(2,1fr); }
-      .review-grid, .area-grid { grid-template-columns: 1fr; }
+      .review-grid, .area-grid, .help-grid { grid-template-columns: 1fr; }
     }
     @media (max-width: 640px) {
       .trust-row { grid-template-columns: 1fr; }
@@ -831,6 +863,25 @@
       </section>
 
       <!-- ═══════════════════════════════════════════════════
+           ZAKRES USŁUG — Mokotów
+      ════════════════════════════════════════════════════ -->
+      <section class="new-section local">
+        <div class="container">
+          <div class="section-head reveal">
+            <div>
+              <p class="section-kicker">Co robię</p>
+              <h2 class="section-title">Naprawy, wymiany i montaż — pełny zakres</h2>
+            </div>
+          </div>
+          <div class="reveal">
+            <p>Codziennie naprawiam to, co w mieszkaniu psuje się najczęściej. Cieknące baterie, spłuczki bez szczelności, przecieki pod zlewem i przy pralce, podłączenia AGD po odbiorze lokalu. Wymieniam zawory odcinające, wężyki, syfony i odpływy — rzeczy drobne, które w bloku potrafią zalać sąsiada piętro niżej, jeśli się je odkłada.</p>
+            <p>Biorę też prace poważniejsze. Wymianę odcinka pionu albo podejścia w kamienicy, przełożenie instalacji przy remoncie łazienki, montaż i serwis bojlera, wymianę grzejnika lub zaworu termostatycznego. Gdy usterka dotyczy wspólnego pionu, wymieniam swój fragment porządnie i tak, żeby nie narobić kłopotu lokatorom poniżej.</p>
+            <p>Czasem woda po prostu wolno schodzi w zlewie czy umywalce. Zanim cokolwiek zrobię, odkręcam syfon — to zwykły krok przy takiej robocie, nie osobna pozycja na rachunku. Bywa, że wystarczy wyczyścić syfon, a bywa, że przyczyna jest dalej w podejściu i trzeba ją usunąć od środka.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ═══════════════════════════════════════════════════
            PROCES
       ════════════════════════════════════════════════════ -->
       <section id="proces" class="new-section">
@@ -888,6 +939,34 @@
       </section>
 
       <!-- ═══════════════════════════════════════════════════
+           NAJCZĘSTSZE SYTUACJE — Mokotów
+      ════════════════════════════════════════════════════ -->
+      <section class="new-section">
+        <div class="container">
+          <div class="section-head reveal">
+            <div>
+              <p class="section-kicker">Z czym dzwonią najczęściej</p>
+              <h2 class="section-title">Trzy sytuacje, które na Mokotowie wracają najczęściej</h2>
+            </div>
+          </div>
+          <div class="cases reveal">
+            <div class="case">
+              <h3>Mokra ściana przy pionie w kamienicy</h3>
+              <p>W Starym Mokotowie to częsty temat. Stary pion zaczyna puszczać na złączu albo na skorodowanym odcinku i wilgoć wychodzi na ścianę. Najpierw ustalam, skąd naprawdę leci, dopiero potem wymieniam fragment i uszczelniam — bez kucia na oślep.</p>
+            </div>
+            <div class="case">
+              <h3>Wymiana odcinka w bloku</h3>
+              <p>Wielka płyta, ciasny szacht, wspólny pion. Wymiana swojego kawałka wymaga tu spokojnej ręki, żeby nie ruszyć sąsiadów. Robię to sprawnie i w razie potrzeby uprzedzam lokatora niżej, zanim odetnę wodę.</p>
+            </div>
+            <div class="case">
+              <h3>Armatura w nowym mieszkaniu</h3>
+              <p>Świeży apartament po odbiorze, a i tak trzeba podłączyć pralkę, zmywarkę i baterię albo poprawić to, co zostało po ekipie deweloperskiej. Spinam wszystko z instalacją szczelnie i sprawdzam każde złącze pod ciśnieniem.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ═══════════════════════════════════════════════════
            CENNIK
       ════════════════════════════════════════════════════ -->
       <section id="cennik" class="pricing-section">
@@ -925,6 +1004,34 @@
             <div class="trust-item"><strong>Faktura i paragon</strong><span>Na życzenie faktura albo paragon — osoby prywatne, firmy i wspólnoty.</span></div>
             <div class="trust-item"><strong>Gwarancja na robociznę</strong><span>Odpowiadam za to, co naprawiłem. Gdyby coś wróciło, poprawiam.</span></div>
             <div class="trust-item"><strong>Dojazd tego samego dnia</strong><span>Mokotów obsługuję często, dlatego dojeżdżam szybko.</span></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ═══════════════════════════════════════════════════
+           KOMU POMAGAM — Mokotów
+      ════════════════════════════════════════════════════ -->
+      <section class="new-section">
+        <div class="container">
+          <div class="section-head reveal">
+            <div>
+              <p class="section-kicker">Komu pomagam</p>
+              <h2 class="section-title">Do kogo najczęściej jeżdżę na Mokotowie</h2>
+            </div>
+          </div>
+          <div class="help-grid reveal">
+            <div class="help-card">
+              <h3>Kamienice Starego Mokotowa</h3>
+              <p>Wymiana starych zaworów i odcinków pionów, naprawa przecieków, uszczelnienia. Pracuję z wyczuciem dla wiekowej instalacji, żeby jedna naprawa nie pociągnęła kolejnej.</p>
+            </div>
+            <div class="help-card">
+              <h3>Mieszkania w blokach</h3>
+              <p>Wymiana podejść i wężyków, naprawa spłuczek, podłączenia AGD. Znam specyfikę wspólnych pionów i ciasnych szachtów, więc robota idzie bez niepotrzebnego bałaganu.</p>
+            </div>
+            <div class="help-card">
+              <h3>Nowe apartamentowce</h3>
+              <p>Podłączenia sprzętu po odbiorze, montaż baterii, poprawki po deweloperze. Instalacja jest świeża, ale i tak warto sprawdzić szczelność, zanim wprowadzi się meble.</p>
+            </div>
           </div>
         </div>
       </section>
@@ -1074,6 +1181,22 @@
               </button>
               <div class="faq-answer">
                 <p>Działam na Mokotowie i w całej Warszawie z okolicami. Mokotów obsługuję regularnie, dlatego dojeżdżam szybko. Zadzwoń: 511 323 123.</p>
+              </div>
+            </article>
+            <article class="faq-item">
+              <button class="faq-question" type="button">
+                <span>Wymienicie odcinek starego pionu w kamienicy?</span><span>+</span>
+              </button>
+              <div class="faq-answer">
+                <p>Tak. W kamienicach to częsta robota — stary pion puszcza na złączu albo na skorodowanym kawałku. Wymieniam uszkodzony odcinek i uszczelniam połączenia. Jeśli trzeba odciąć wodę na pionie, wcześniej ustalam to z sąsiadami.</p>
+              </div>
+            </article>
+            <article class="faq-item">
+              <button class="faq-question" type="button">
+                <span>Czy naprawa w bloku będzie uciążliwa dla sąsiadów?</span><span>+</span>
+              </button>
+              <div class="faq-answer">
+                <p>Staram się, żeby nie. Przy wspólnym pionie pracuję spokojnie i w razie potrzeby uprzedzam lokatora poniżej, zanim odetnę wodę. Większość napraw kończę w jednej wizycie, bez rozkuwania połowy łazienki.</p>
               </div>
             </article>
           </div>
