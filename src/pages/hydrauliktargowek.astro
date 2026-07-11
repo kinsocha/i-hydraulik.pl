@@ -1,17 +1,3 @@
----
-import { getCollection } from "astro:content";
-
-const latestPosts = (await getCollection("poradnik"))
-  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
-  .slice(0, 3);
-
-const dateFmt = new Intl.DateTimeFormat("pl-PL", {
-  day: "2-digit",
-  month: "long",
-  year: "numeric",
-});
----
-
 <!DOCTYPE html>
 <html lang="pl">
 <head>
@@ -20,22 +6,21 @@ const dateFmt = new Intl.DateTimeFormat("pl-PL", {
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300;1,400&display=swap" rel="stylesheet" />
-  <title>Hydraulik Warszawa – Naprawy Instalacji i Pogotowie Hydrauliczne</title>
-  <meta name="description" content="Pogotowie hydrauliczne Warszawa 24/7. Udrażnianie rur, przepychanie kanalizacji, WUKO, inspekcja kamerą. Zadzwoń: 511 323 123." />
-  <link rel="canonical" href="https://i-hydraulik.pl/" />
+  <title>Hydraulik Targówek — naprawy i pogotowie 24/7 | 511 323 123</title>
+  <meta name="description" content="Hydraulik Targówek — naprawy instalacji wodno-kanalizacyjnych, udrażnianie, awarie 24/7. Bloki z wielkiej płyty i nowe osiedla. Dojazd tego samego dnia, wycena przed pracą. Zadzwoń: 511 323 123." />
+  <link rel="canonical" href="https://i-hydraulik.pl/hydrauliktargowek" />
 
   <script type="application/ld+json" is:inline>
   {
     "@context": "https://schema.org",
     "@type": "CreativeWorkSeries",
-    "name": "i Hydraulik - Hydraulik Warszawa",
-    "@id": "https://i-hydraulik.pl/",
-    "url": "https://i-hydraulik.pl/",
-    "telephone": "+48511323123",
+    "name": "Hydraulik Targówek — i Hydraulik",
+    "url": "https://i-hydraulik.pl/hydrauliktargowek",
     "aggregateRating": {
       "@type": "AggregateRating",
       "ratingValue": "5.0",
-      "reviewCount": "558"
+      "bestRating": "5",
+      "ratingCount": "558"
     }
   }
   </script>
@@ -47,34 +32,58 @@ const dateFmt = new Intl.DateTimeFormat("pl-PL", {
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Dlaczego rura zatyka się ponownie?",
+        "name": "Jak szybko hydraulik dojedzie na Targówek?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Najczęściej przez tłuszcz, osad, zbyt mały spadek, źle wykonane podejście albo zator znajdujący się głębiej niż sam syfon."
+          "text": "Najczęściej tego samego dnia, zwykle w ciągu 1–2 godzin od zgłoszenia. Targówek obsługuję często, więc na osiedla przy metrze podjeżdżam szybko. Przy pilnej awarii staram się być jeszcze prędzej. Zadzwoń: 511 323 123, ustalimy konkretną godzinę."
         }
       },
       {
         "@type": "Question",
-        "name": "Czy chemia do rur wystarczy?",
+        "name": "Czym zajmuje się hydraulik na Targówku?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Przy lekkim osadzie czasem pomaga, ale przy twardym zatorze może pogorszyć sytuację i utrudnić późniejszą pracę mechaniczną."
+          "text": "Naprawami instalacji wodno-kanalizacyjnych, udrażnianiem rur i odpływów, wymianą baterii i armatury, podłączeniami AGD oraz drobną hydrauliką. Na Targówku dużo pracy jest w blokach z wielkiej płyty — stare piony, zawory i podejścia w łazience. Obsługuję nagłe awarie i planowe naprawy."
         }
       },
       {
         "@type": "Question",
-        "name": "Kiedy potrzebna jest kamera inspekcyjna?",
+        "name": "Czy pracujecie w weekendy i w nocy?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Gdy problem wraca, woda cofa się mimo udrażniania albo podejrzewamy uszkodzenie, przeciwspadek lub zalegający osad w rurze."
+          "text": "Tak. Telefon odbieram 7 dni w tygodniu, całą dobę – także wieczorem i w święta. Awaria wody nie czeka do poniedziałku."
         }
       },
       {
         "@type": "Question",
-        "name": "Czy da się podać cenę przez telefon?",
+        "name": "Czy podacie cenę przez telefon?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Da się podać widełki, ale dokładna cena zależy od rodzaju awarii, dostępu do instalacji i metody potrzebnej do usunięcia zatoru."
+          "text": "Widełki podaję już podczas rozmowy, po krótkim opisie problemu. Dokładną kwotę ustalam na miejscu, zanim zacznę pracę – bez ukrytych dopłat."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Obsługujecie tylko Targówek?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Działam na Targówku i w całej Warszawie z okolicami. Na Targówku bywam regularnie — od osiedli mieszkaniowych po Zacisze i Utratę — więc dojazd jest szybki. Zadzwoń: 511 323 123."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Wymienicie żeliwny pion w bloku z wielkiej płyty?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Tak. W blokach na Targówku to częsta robota — żeliwo z latami zarasta od środka i puszcza na złączach. Wymieniam uszkodzony odcinek i uszczelniam połączenia. Przy pracy na wspólnym pionie ustalam wcześniej dostęp z sąsiadem lub administracją, żeby zrobić to raz a porządnie."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Robicie naprawy w mieszkaniach spółdzielczych i we wspólnotach?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Tak, na Targówku to codzienność. Wymiana zaworów i podejść, naprawa przecieków, drobne interwencje u lokatorów, poprawki po remoncie łazienki. Na życzenie wystawiam fakturę dla spółdzielni, wspólnoty lub administracji."
         }
       }
     ]
@@ -461,55 +470,6 @@ const dateFmt = new Intl.DateTimeFormat("pl-PL", {
       transform: rotate(45deg); color: var(--orange); background: var(--orange-soft);
     }
 
-    /* READ ARTICLE (realizacja do czytania na index) */
-    .read-article {
-      padding: clamp(26px, 4vw, 48px);
-      border-radius: var(--radius-xl);
-      background: var(--card);
-      border: 1px solid rgba(231,222,213,0.9);
-      box-shadow: var(--shadow-soft);
-    }
-    .read-article__tags { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 26px; }
-    .read-tag {
-      display: inline-flex; padding: 8px 14px; border-radius: 999px;
-      font-size: 13px; font-weight: 800; color: var(--blue); background: var(--blue-soft);
-    }
-    .read-tag--primary {
-      color: #fff;
-      background: linear-gradient(135deg, var(--blue), var(--blue-dark));
-    }
-    .read-article h3 {
-      margin: 36px 0 12px; font-size: clamp(21px, 2.3vw, 27px); letter-spacing: -0.02em;
-    }
-    .read-article > p { margin: 0 0 18px; color: #3b4152; line-height: 1.8; font-size: 17px; }
-    .read-article strong { color: var(--ink); }
-    .read-article__img {
-      display: block; width: 100%; max-width: 780px; height: auto;
-      margin: 22px auto; border-radius: var(--radius-md); box-shadow: var(--shadow-soft);
-    }
-    .read-article__phone { color: var(--blue); font-weight: 850; white-space: nowrap; }
-    .read-faq { margin-top: 6px; display: grid; gap: 12px; }
-    .read-faq details {
-      border-radius: 18px; background: rgba(255,255,255,0.72);
-      border: 1px solid rgba(231,222,213,0.86); padding: 2px 20px;
-    }
-    .read-faq summary {
-      cursor: pointer; list-style: none; padding: 17px 0;
-      font-weight: 800; font-size: 16px; color: var(--ink);
-      display: flex; justify-content: space-between; align-items: center; gap: 16px;
-    }
-    .read-faq summary::-webkit-details-marker { display: none; }
-    .read-faq summary::after {
-      content: "+"; flex: 0 0 30px; width: 30px; height: 30px;
-      display: grid; place-items: center; border-radius: 50%;
-      color: var(--blue); background: var(--blue-soft); font-weight: 900; transition: transform 0.25s;
-    }
-    .read-faq details[open] summary { color: var(--blue); }
-    .read-faq details[open] summary::after {
-      transform: rotate(45deg); color: var(--orange); background: var(--orange-soft);
-    }
-    .read-faq details p { margin: 0 0 17px; color: var(--muted); line-height: 1.75; }
-
     /* CTA SECTION */
     .cta-section { padding: 84px 0 96px; }
     .final-cta {
@@ -549,9 +509,9 @@ const dateFmt = new Intl.DateTimeFormat("pl-PL", {
     /* MOBILE CTA */
     .mobile-cta {
       display: none; position: fixed; left: 16px; right: 16px; bottom: 16px;
-      z-index: 70; min-height: 58px; border-radius: 999px; color: #1A1A2E;
-      background: linear-gradient(165deg, #FFA030 0%, #FF6B00 52%, #EE5200 100%);
-      box-shadow: 0 4px 20px rgba(255,111,0,0.38);
+      z-index: 70; min-height: 58px; border-radius: 999px; color: #fff;
+      background: linear-gradient(135deg, #ff8a1f, #ff5f00);
+      box-shadow: 0 18px 44px rgba(255,116,15,0.30);
       align-items: center; justify-content: center; font-weight: 950;
     }
 
@@ -617,27 +577,74 @@ const dateFmt = new Intl.DateTimeFormat("pl-PL", {
       .logo { font-size: 22px; }
       .new-section { padding: 48px 0; }
       .diagnostic, .process-panel, .final-cta { padding: 24px; border-radius: 28px; }
-      .mobile-cta.is-visible { display: flex; }
+      .mobile-cta { display: flex; }
       .new-footer { padding-bottom: 92px; }
     }
+    /* LOKALNIE + ZAUFANIE + OPINIE + OBSZAR (uzupełnienie treści) */
+    .local .container { max-width: 900px; }
+    .local p { color: var(--muted); line-height: 1.75; font-size: 17px; margin: 0 0 16px; }
+    .local p:last-child { margin-bottom: 0; }
 
-    @media (max-width: 400px) {
-      :global(.phone-mockup__screen .step) { display: none; }
+    .trust-row { display: grid; grid-template-columns: repeat(4,1fr); gap: 14px; margin-top: 28px; }
+    .trust-item {
+      padding: 20px; border-radius: var(--radius-md); background: var(--card);
+      border: 1px solid rgba(231,222,213,0.88); box-shadow: var(--shadow-soft);
+    }
+    .trust-item strong { display: block; font-size: 16px; margin-bottom: 6px; letter-spacing: -0.02em; }
+    .trust-item span { color: var(--muted); font-size: 15px; line-height: 1.55; }
+
+    .review-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 18px; margin-top: 28px; }
+    .review-card {
+      padding: 24px; border-radius: var(--radius-lg); background: var(--card);
+      border: 1px solid rgba(231,222,213,0.88); box-shadow: var(--shadow-soft);
+      display: flex; flex-direction: column; gap: 13px;
+    }
+    .review-card__head { display: flex; align-items: center; gap: 12px; }
+    .review-card__avatar {
+      width: 44px; height: 44px; flex: 0 0 44px; border-radius: 50%;
+      display: grid; place-items: center; color: #fff; font-weight: 900; font-size: 18px;
+    }
+    .review-card__who strong { display: block; font-size: 15px; }
+    .review-card__who span { color: var(--muted-2); font-size: 13px; }
+    .review-card__stars { color: #ff9f1a; font-size: 15px; letter-spacing: 2px; }
+    .review-card p { margin: 0; color: #33384b; line-height: 1.65; font-size: 16px; }
+
+    .area-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; align-items: stretch; }
+    .area-grid p { color: var(--muted); line-height: 1.7; font-size: 16px; margin: 0; }
+    .area-map { border: 0; width: 100%; min-height: 340px; border-radius: var(--radius-lg); box-shadow: var(--shadow-soft); }
+    .area-list { display: flex; flex-wrap: wrap; gap: 10px; margin: 20px 0 0; padding: 0; list-style: none; }
+    .area-list li {
+      padding: 8px 14px; border-radius: 999px; background: var(--blue-soft);
+      color: var(--blue-dark); font-weight: 700; font-size: 14px;
     }
 
-    @media (max-width: 368px) {
-      :global(.app-alert span) { display: none; }
+    .cases { display: grid; gap: 20px; margin-top: 26px; }
+    .case {
+      padding: 24px 26px; border-radius: var(--radius-md); background: var(--card);
+      border: 1px solid rgba(231,222,213,0.88); box-shadow: var(--shadow-soft);
     }
+    .case h3 { margin: 0 0 8px; font-size: 19px; letter-spacing: -0.02em; }
+    .case p { margin: 0; color: var(--muted); line-height: 1.7; font-size: 16px; }
 
-    @media (max-width: 340px) {
-      :global(.hero-visual) { display: none; }
+    .help-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 18px; margin-top: 28px; }
+    .help-card {
+      padding: 26px; border-radius: var(--radius-lg); background: var(--card);
+      border: 1px solid rgba(231,222,213,0.88); box-shadow: var(--shadow-soft);
+    }
+    .help-card h3 { margin: 0 0 10px; font-size: 20px; letter-spacing: -0.03em; }
+    .help-card p { margin: 0; color: var(--muted); line-height: 1.65; font-size: 16px; }
+
+    @media (max-width: 980px) {
+      .trust-row { grid-template-columns: repeat(2,1fr); }
+      .review-grid, .area-grid, .help-grid { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 640px) {
+      .trust-row { grid-template-columns: 1fr; }
     }
   </style>
 
   <!-- Hero / phone mockup styles -->
   <link rel="stylesheet" href="/index-style.css">
-  <!-- Poradnik (zajawka) -->
-  <link rel="stylesheet" href="/poradnik.css">
 </head>
 
 <body data-bg="premium">
@@ -663,7 +670,6 @@ const dateFmt = new Intl.DateTimeFormat("pl-PL", {
               <a href="/hydrauliktargowek" role="menuitem">Hydraulik Targówek</a>
             </div>
           </div>
-          <a href="/poradnik">Poradnik</a>
           <a href="#faq">FAQ</a>
           <a href="#kontakt">Kontakt</a>
         </nav>
@@ -688,11 +694,11 @@ const dateFmt = new Intl.DateTimeFormat("pl-PL", {
       <section class="hero">
         <div class="hero-content">
           <h1>
-            <span class="h1-label">Hydraulik <span class="h1-accent">Warszawa</span></span>
-            <span class="h1-main"><span class="h1-dark">Pogotowie hydrauliczne</span> 24/7</span>
-            <span class="h1-sub">Udrażnianie rur, zlewów i kanalizacji</span>
+            <span class="h1-label">Hydraulik <span class="h1-accent">Targówek</span></span>
+            <span class="h1-main"><span class="h1-dark">Naprawy i awarie</span> 24/7</span>
+            <span class="h1-sub">Instalacje wodno-kanalizacyjne, udrażnianie, drobna hydraulika</span>
           </h1>
-          <p class="hero-subtitle">Nazywam się Marcin, od 20 lat jestem hydraulikiem. Chętnie pomogę Ci rzetelną usługą hydrauliczną.</p>
+          <p class="hero-subtitle">Nazywam się Marcin, od 20 lat naprawiam instalacje na Targówku i w całej Warszawie. Znam tutejsze bloki i stare piony. Dojeżdżam tego samego dnia, koszt podaję przed pracą.</p>
           <div class="hero-buttons">
             <a href="tel:511323123" class="btn-primary">
               <span class="btn-label">📞 Zadzwoń teraz</span>
@@ -736,9 +742,9 @@ const dateFmt = new Intl.DateTimeFormat("pl-PL", {
             <div class="phone-mockup__screen">
               <div class="app-top">
                 <div>
-                  <strong>Hydraulik na telefon</strong>
+                  <strong>Hydraulik Targówek</strong>
                 </div>
-                <div class="avatar">HF</div>
+                <div class="avatar">HT</div>
               </div>
 
               <div class="trust-badge" style="margin-top: 8px;">
@@ -795,9 +801,9 @@ const dateFmt = new Intl.DateTimeFormat("pl-PL", {
           <div class="section-head reveal">
             <div>
               <p class="section-kicker">Zakres usług</p>
-              <h2 class="section-title">Najczęstsze awarie, które usuwamy</h2>
+              <h2 class="section-title">Najczęstsze zlecenia na Targówku</h2>
             </div>
-            <p class="section-desc">Szybka diagnoza, dobór metody i usunięcie zatoru — mechanicznie lub ciśnieniowo. Działamy w całej Warszawie.</p>
+            <p class="section-desc">Naprawy, udrażnianie i drobna hydraulika w blokach i domach na Targówku. Szybka diagnoza, dobór metody i jasna wycena przed pracą.</p>
           </div>
 
           <div class="service-grid">
@@ -859,6 +865,25 @@ const dateFmt = new Intl.DateTimeFormat("pl-PL", {
       </section>
 
       <!-- ═══════════════════════════════════════════════════
+           ZAKRES USŁUG — Targówek
+      ════════════════════════════════════════════════════ -->
+      <section class="new-section local">
+        <div class="container">
+          <div class="section-head reveal">
+            <div>
+              <p class="section-kicker">Co robię</p>
+              <h2 class="section-title">Naprawy, wymiany i podłączenia — pełny zakres</h2>
+            </div>
+          </div>
+          <div class="reveal">
+            <p>Robię wszystko, co w mieszkaniu i domu dotyczy wody. Wymianę i naprawę baterii, spłuczek, zaworów i wężyków, usuwanie przecieków pod zlewem i przy pralce, podłączenia pralki, zmywarki i lodówki z kostkarką. To codzienne zlecenia, które zwykle zamykam w jednej wizycie.</p>
+            <p>Do tego prace cięższe. Wymiana odcinka żeliwnego pionu, przełożenie podejścia przy remoncie łazienki w bloku, montaż i serwis bojlera, wymiana grzejnika i zaworu termostatycznego. W wielkiej płycie instalacje mają swoje lata, więc sporo tu wymiany zużytych zaworów i skorodowanych odcinków.</p>
+            <p>Gdy woda wolno schodzi w zlewie czy umywalce, zaczynam od odkręcenia syfonu — to zwykły krok, nie osobna pozycja na rachunku. Czasem cała przyczyna to osad i włosy w syfonie. Czasem siedzi dalej, w podejściu, i trzeba ją usunąć od środka.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ═══════════════════════════════════════════════════
            PROCES
       ════════════════════════════════════════════════════ -->
       <section id="proces" class="new-section">
@@ -897,6 +922,53 @@ const dateFmt = new Intl.DateTimeFormat("pl-PL", {
       </section>
 
       <!-- ═══════════════════════════════════════════════════
+           LOKALNIE — Targówek
+      ════════════════════════════════════════════════════ -->
+      <section class="new-section local">
+        <div class="container">
+          <div class="section-head reveal">
+            <div>
+              <p class="section-kicker">Hydraulik na Targówku</p>
+              <h2 class="section-title">Targówek to głównie bloki — a bloki mają swoje instalacje</h2>
+            </div>
+          </div>
+          <div class="reveal">
+            <p>Targówek to w dużej mierze osiedla z wielkiej płyty z lat 70. i 80. Do tego starsza zabudowa i domy jednorodzinne w Zaciszu czy na Utracie, a przy nowych stacjach metra wyrosły całkiem świeże osiedla. Każda z tych zabudów przynosi inne usterki. W płycie królują żeliwne piony, które po dekadach zarastają od środka i puszczają na złączach.</p>
+            <p>W blokach spółdzielczych i wspólnotowych sporo pracy jest przy wspólnych pionach i podejściach. Kiedy trzeba wejść w pion, ustalam wcześniej dostęp z sąsiadem albo administracją — robotę na wspólnej rurze lepiej zrobić raz i porządnie. Wymieniam odcinek, uszczelniam połączenia, a jak przy okazji remontu łazienki wypada przełożyć podejście, robię i to.</p>
+            <p>Bywa też zwyczajnie. Kapiąca bateria. Spłuczka bez szczelności. Zapowietrzony grzejnik przed sezonem. Przyjeżdżam, oglądam i mówię wprost, co wymienić, a co jeszcze posłuży — bez naganiania na prace, których nie potrzebujesz.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ═══════════════════════════════════════════════════
+           NAJCZĘSTSZE SYTUACJE — Targówek
+      ════════════════════════════════════════════════════ -->
+      <section class="new-section">
+        <div class="container">
+          <div class="section-head reveal">
+            <div>
+              <p class="section-kicker">Z czym dzwonią najczęściej</p>
+              <h2 class="section-title">Trzy sprawy, z którymi na Targówku dzwonią najczęściej</h2>
+            </div>
+          </div>
+          <div class="cases reveal">
+            <div class="case">
+              <h3>Przeciek na wspólnym pionie</h3>
+              <p>W blokach z wielkiej płyty żeliwny pion po latach zaczyna puszczać na złączu albo na skorodowanym odcinku. Pierwszy sygnał to mokra plama na ścianie w łazience — czasem zgłasza ją sąsiad z dołu. Ustalam, skąd naprawdę leci, wymieniam fragment i uszczelniam połączenia, bez rozkuwania na oślep.</p>
+            </div>
+            <div class="case">
+              <h3>Wolny odpływ w żeliwie</h3>
+              <p>Stare żeliwne rury zarastają od środka. Rdza, osad i tłuszcz odkładają się warstwami, przekrój się zwęża i woda schodzi coraz wolniej. Odkręcam syfon i usuwam przyczynę od środka, a przy mocno zarośniętym odcinku mówię wprost, czy warto go wymienić.</p>
+            </div>
+            <div class="case">
+              <h3>Remont łazienki w bloku</h3>
+              <p>Przy odświeżaniu łazienki w mieszkaniu na Targówku często trzeba przełożyć podejścia, wymienić zawory i podłączyć nową armaturę. Podłączam pralkę i zmywarkę, montuję baterie, spinam wszystko szczelnie i sprawdzam pod ciśnieniem, zanim wyjdę.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ═══════════════════════════════════════════════════
            CENNIK
       ════════════════════════════════════════════════════ -->
       <section id="cennik" class="pricing-section">
@@ -929,21 +1001,134 @@ const dateFmt = new Intl.DateTimeFormat("pl-PL", {
             </article>
           </div>
           <p class="price-note">Podane ceny dotyczą usług w dni robocze w standardowych godzinach. W soboty, niedziele, święta oraz po 20:00 stawki mogą być wyższe — dokładna kwota zawsze ustalana telefonicznie.</p>
+          <div class="trust-row reveal">
+            <div class="trust-item"><strong>Wycena przed pracą</strong><span>Cenę ustalam na miejscu, zanim zacznę. Bez niespodzianek na koniec.</span></div>
+            <div class="trust-item"><strong>Faktura i paragon</strong><span>Wystawiam dokument za każdą usługę — także dla firm i wspólnot.</span></div>
+            <div class="trust-item"><strong>Gwarancja na robociznę</strong><span>Za wykonaną naprawę odpowiadam. Jak coś wróci, wracam i ja.</span></div>
+            <div class="trust-item"><strong>Dojazd tego samego dnia</strong><span>Na Targówku bywam regularnie, więc zwykle jestem szybko.</span></div>
+          </div>
         </div>
       </section>
 
       <!-- ═══════════════════════════════════════════════════
-           OPINIA
+           KOMU POMAGAM — Targówek
       ════════════════════════════════════════════════════ -->
-      <section class="testimonial-strip">
+      <section class="new-section">
         <div class="container">
-          <div class="strip-card reveal">
+          <div class="section-head reveal">
             <div>
-              <div class="rating">★★★★★ 558 opinii Google</div>
+              <p class="section-kicker">Komu pomagam</p>
+              <h2 class="section-title">Do kogo najczęściej jeżdżę na Targówku</h2>
             </div>
-            <blockquote>
-              „Szybka pomoc przy pękniętej rurze w nocy. Fachowiec był pod blokiem w 20 minut. Wszystko sprawnie naprawione, czysto i profesjonalnie."
-            </blockquote>
+          </div>
+          <div class="help-grid reveal">
+            <div class="help-card">
+              <h3>Bloki z wielkiej płyty</h3>
+              <p>Mieszkania w osiedlowej zabudowie z lat 70. i 80. Wymiana skorodowanych zaworów i żeliwnych odcinków, naprawa przecieków na pionach, modernizacja instalacji w kuchni i łazience.</p>
+            </div>
+            <div class="help-card">
+              <h3>Domy i nowe osiedla</h3>
+              <p>Domy jednorodzinne w Zaciszu i na Utracie oraz nowe mieszkania przy metrze. Podłączenia AGD po odbiorze, montaż baterii, poprawki po ekipie — szczelnie i sprawdzone przy mnie.</p>
+            </div>
+            <div class="help-card">
+              <h3>Spółdzielnie i wspólnoty</h3>
+              <p>Naprawy w częściach wspólnych, wymiana zaworów na klatkach, drobne interwencje u lokatorów. Na życzenie wystawiam fakturę dla spółdzielni lub administracji.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ═══════════════════════════════════════════════════
+           OPINIE
+      ════════════════════════════════════════════════════ -->
+      <section id="opinie" class="new-section">
+        <div class="container">
+          <div class="section-head reveal">
+            <div>
+              <p class="section-kicker">Opinie klientów</p>
+              <h2 class="section-title">Co mówią mieszkańcy Targówka</h2>
+            </div>
+            <p class="section-desc"><span class="rating">★★★★★ 5,0 — 558 opinii Google</span></p>
+          </div>
+          <div class="review-grid">
+            <article class="review-card reveal">
+              <div class="review-card__head">
+                <div class="review-card__avatar" style="background:#1f6fd1">K</div>
+                <div class="review-card__who"><strong>Pani Katarzyna Targówek</strong><span>09.07.2026</span></div>
+              </div>
+              <div class="review-card__stars">★★★★★</div>
+              <p>Sąsiad z dołu zapukał, że kapie mu przez sufit. Okazało się, że nasz żeliwny pion puścił na złączu. Znalazł miejsce od razu, wymienił odcinek i uszczelnił, bez kucia pół łazienki. Dogadał się z administracją co do dostępu. Polecam.</p>
+            </article>
+            <article class="review-card reveal">
+              <div class="review-card__head">
+                <div class="review-card__avatar" style="background:#ff740f">M</div>
+                <div class="review-card__who"><strong>Pan Marek Targówek</strong><span>07.07.2026</span></div>
+              </div>
+              <div class="review-card__stars">★★★★★</div>
+              <p>Wymiana zaworów pod zlewem w bloku. Szybko, czysto, cena jak ustalona przez telefon.</p>
+            </article>
+            <article class="review-card reveal">
+              <div class="review-card__head">
+                <div class="review-card__avatar" style="background:#154f9c">G</div>
+                <div class="review-card__who"><strong>Pani Grażyna Targówek</strong><span>05.07.2026</span></div>
+              </div>
+              <div class="review-card__stars">★★★★★</div>
+              <p>Mieszkanie z wielkiej płyty, woda w kuchni schodziła coraz wolniej. Bałam się, że trzeba rozkuwać. Odkręcił syfon, usunął przyczynę od środka i spokojnie wytłumaczył, który odcinek warto z czasem wymienić, a który jeszcze posłuży. Żadnego straszenia na siłę. Solidnie. Polecam.</p>
+            </article>
+            <article class="review-card reveal">
+              <div class="review-card__head">
+                <div class="review-card__avatar" style="background:#e64b8e">A</div>
+                <div class="review-card__who"><strong>Pani Anna Targówek</strong><span>02.07.2026</span></div>
+              </div>
+              <div class="review-card__stars">★★★★★</div>
+              <p>Remont łazienki, trzeba było przełożyć podejścia i podłączyć nową baterię oraz pralkę. Zrobił szczelnie, sprawdził pod ciśnieniem i pokazał, na co uważać. Punktualnie. Polecam.</p>
+            </article>
+            <article class="review-card reveal">
+              <div class="review-card__head">
+                <div class="review-card__avatar" style="background:#2a9d5c">T</div>
+                <div class="review-card__who"><strong>Pan Tomasz Targówek</strong><span>30.06.2026</span></div>
+              </div>
+              <div class="review-card__stars">★★★★★</div>
+              <p>Awaria w sobotę, kapało spod zaworu przy pralce. Odebrał telefon i przyjechał tego samego dnia. Sprawnie.</p>
+            </article>
+            <article class="review-card reveal">
+              <div class="review-card__head">
+                <div class="review-card__avatar" style="background:#7c3aed">E</div>
+                <div class="review-card__who"><strong>Pani Ewa Targówek</strong><span>28.06.2026</span></div>
+              </div>
+              <div class="review-card__stars">★★★★★</div>
+              <p>Zapowietrzone kaloryfery przed sezonem i cieknąca bateria w kuchni. Umówił konkretną godzinę i jej dotrzymał. Miło, że ktoś jeszcze tak pracuje. Polecam.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ═══════════════════════════════════════════════════
+           OBSZAR — Targówek
+      ════════════════════════════════════════════════════ -->
+      <section id="obszar" class="new-section">
+        <div class="container">
+          <div class="section-head reveal">
+            <div>
+              <p class="section-kicker">Gdzie dojeżdżam</p>
+              <h2 class="section-title">Targówek i cała Warszawa</h2>
+            </div>
+            <p class="section-desc">Bazuję na prawobrzeżnej Warszawie i dojeżdżam po całym mieście. Targówek obsługuję często — od osiedli mieszkaniowych po Zacisze i Utratę.</p>
+          </div>
+          <div class="area-grid reveal">
+            <iframe class="area-map" src="https://www.google.com/maps?q=Targ%C3%B3wek,+Warszawa&output=embed" loading="lazy" title="Mapa — hydraulik Targówek" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div>
+              <p>Pracuję na całym Targówku — w blokach z wielkiej płyty, w starszej zabudowie i w domach, przy stacjach metra i w głębi osiedli. Podjadę też do sąsiednich rejonów prawobrzeżnej Warszawy tego samego dnia, wystarczy telefon i krótki opis, co się dzieje.</p>
+              <ul class="area-list">
+                <li>Targówek Mieszkaniowy</li>
+                <li>Targówek Fabryczny</li>
+                <li>Zacisze</li>
+                <li>Utrata</li>
+                <li>Elsnerów</li>
+                <li>okolice metra Trocka i Targówek</li>
+                <li>cała Warszawa</li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>
@@ -961,167 +1146,63 @@ const dateFmt = new Intl.DateTimeFormat("pl-PL", {
           <div class="faq-list reveal">
             <article class="faq-item is-open">
               <button class="faq-question" type="button">
-                <span>Dlaczego rura zatyka się ponownie?</span><span>+</span>
+                <span>Jak szybko hydraulik dojedzie na Targówek?</span><span>+</span>
               </button>
               <div class="faq-answer">
-                <p>Najczęściej przez tłuszcz, osad, zbyt mały spadek, źle wykonane podejście albo zator znajdujący się głębiej niż sam syfon.</p>
+                <p>Najczęściej tego samego dnia, zwykle w ciągu 1–2 godzin od zgłoszenia. Targówek obsługuję często, więc na osiedla przy metrze podjeżdżam szybko. Przy pilnej awarii staram się być jeszcze prędzej. Zadzwoń: 511 323 123, ustalimy konkretną godzinę.</p>
               </div>
             </article>
             <article class="faq-item">
               <button class="faq-question" type="button">
-                <span>Czy chemia do rur wystarczy?</span><span>+</span>
+                <span>Czym zajmuje się hydraulik na Targówku?</span><span>+</span>
               </button>
               <div class="faq-answer">
-                <p>Przy lekkim osadzie czasem pomaga, ale przy twardym zatorze może pogorszyć sytuację i utrudnić późniejszą pracę mechaniczną.</p>
+                <p>Naprawami instalacji wodno-kanalizacyjnych, udrażnianiem rur i odpływów, wymianą baterii i armatury, podłączeniami AGD oraz drobną hydrauliką. Na Targówku dużo pracy jest w blokach z wielkiej płyty — stare piony, zawory i podejścia w łazience. Obsługuję nagłe awarie i planowe naprawy.</p>
               </div>
             </article>
             <article class="faq-item">
               <button class="faq-question" type="button">
-                <span>Kiedy potrzebna jest kamera?</span><span>+</span>
+                <span>Czy pracujecie w weekendy i w nocy?</span><span>+</span>
               </button>
               <div class="faq-answer">
-                <p>Gdy problem wraca, woda cofa się mimo udrażniania albo podejrzewamy uszkodzenie, przeciwspadek lub zalegający osad w rurze.</p>
+                <p>Tak. Telefon odbieram 7 dni w tygodniu, całą dobę – także wieczorem i w święta. Awaria wody nie czeka do poniedziałku.</p>
               </div>
             </article>
             <article class="faq-item">
               <button class="faq-question" type="button">
-                <span>Czy da się podać cenę przez telefon?</span><span>+</span>
+                <span>Czy podacie cenę przez telefon?</span><span>+</span>
               </button>
               <div class="faq-answer">
-                <p>Da się podać widełki, ale dokładna cena zależy od rodzaju awarii, dostępu do instalacji i metody potrzebnej do usunięcia zatoru.</p>
+                <p>Widełki podaję już podczas rozmowy, po krótkim opisie problemu. Dokładną kwotę ustalam na miejscu, zanim zacznę pracę – bez ukrytych dopłat.</p>
+              </div>
+            </article>
+            <article class="faq-item">
+              <button class="faq-question" type="button">
+                <span>Obsługujecie tylko Targówek?</span><span>+</span>
+              </button>
+              <div class="faq-answer">
+                <p>Działam na Targówku i w całej Warszawie z okolicami. Na Targówku bywam regularnie — od osiedli mieszkaniowych po Zacisze i Utratę — więc dojazd jest szybki. Zadzwoń: 511 323 123.</p>
+              </div>
+            </article>
+            <article class="faq-item">
+              <button class="faq-question" type="button">
+                <span>Wymienicie żeliwny pion w bloku z wielkiej płyty?</span><span>+</span>
+              </button>
+              <div class="faq-answer">
+                <p>Tak. W blokach na Targówku to częsta robota — żeliwo z latami zarasta od środka i puszcza na złączach. Wymieniam uszkodzony odcinek i uszczelniam połączenia. Przy pracy na wspólnym pionie ustalam wcześniej dostęp z sąsiadem lub administracją, żeby zrobić to raz a porządnie.</p>
+              </div>
+            </article>
+            <article class="faq-item">
+              <button class="faq-question" type="button">
+                <span>Robicie naprawy w mieszkaniach spółdzielczych i we wspólnotach?</span><span>+</span>
+              </button>
+              <div class="faq-answer">
+                <p>Tak, na Targówku to codzienność. Wymiana zaworów i podejść, naprawa przecieków, drobne interwencje u lokatorów, poprawki po remoncie łazienki. Na życzenie wystawiam fakturę dla spółdzielni, wspólnoty lub administracji.</p>
               </div>
             </article>
           </div>
         </div>
       </section>
-
-      <!-- ═══════════════════════════════════════════════════
-           PORADNIK — zajawka najnowszych artykułów
-      ════════════════════════════════════════════════════ -->
-      {latestPosts.length > 0 && (
-        <section id="poradnik" class="new-section">
-          <div class="container">
-            <div class="section-head reveal">
-              <div>
-                <p class="section-kicker">Poradnik</p>
-                <h2 class="section-title">Porady i realne przypadki z naszych interwencji</h2>
-              </div>
-              <p class="section-desc">Krótkie, konkretne artykuły o przeciekach, awariach i udrażnianiu rur. Bez teorii — to, co naprawdę spotykamy u klientów.</p>
-            </div>
-
-            <div class="blog-grid reveal">
-              {latestPosts.map((post) => (
-                <article class="blog-card">
-                  <a class="blog-card__media" href={`/poradnik/${post.slug}`}>
-                    <img src={post.data.hero} alt={post.data.heroAlt} width="400" height="225" loading="lazy" />
-                  </a>
-                  <div class="blog-card__body">
-                    <span class="blog-tag">{post.data.category}</span>
-                    <h3><a href={`/poradnik/${post.slug}`}>{post.data.title}</a></h3>
-                    <p class="blog-card__excerpt">{post.data.description}</p>
-                    <div class="blog-meta">
-                      <span>📅 {dateFmt.format(post.data.pubDate)}</span>
-                      <span>⏱ {post.data.readingTime} min</span>
-                    </div>
-                    <a class="blog-card__more" href={`/poradnik/${post.slug}`}>Czytaj więcej →</a>
-                  </div>
-                </article>
-              ))}
-            </div>
-
-            <div class="poradnik-foot reveal">
-              <a class="btn-new btn-new--ghost" href="/poradnik">Zobacz wszystkie porady →</a>
-            </div>
-          </div>
-        </section>
-      )}
-
-      <!-- ═══════════════════════════════════════════════════
-           REALIZACJA — artykuł do czytania (naprawa spłuczki)
-      ════════════════════════════════════════════════════ -->
-      <section id="realizacja-spluczka" class="new-section">
-        <div class="container">
-          <div class="section-head reveal">
-            <div>
-              <p class="section-kicker">Realizacja</p>
-              <h2 class="section-title">Naprawa spłuczki WC na Białołęce — wymiana zaworu pływakowego</h2>
-            </div>
-            <p class="section-desc">Spłuczka przestała odcinać wodę i wolno się napełniała. Winowajcą okazał się zawór pływakowy — wymiana zajęła kilka minut.</p>
-          </div>
-
-          <article class="read-article reveal">
-            <div class="read-article__tags">
-              <span class="read-tag read-tag--primary">Naprawa WC</span>
-              <span class="read-tag">Wymiana armatury</span>
-              <span class="read-tag">Kompakt WC</span>
-            </div>
-
-            <p>Kompakt WC to jedna z najpopularniejszych toalet w polskich mieszkaniach — zestaw, w którym ceramiczna spłuczka osadzona jest bezpośrednio na misce ustępowej. Rozwiązanie proste i wygodne, ale jak każdy element instalacji sanitarnej po latach potrafi zawieść. Ostatnio pojechałem do klienta na Białołęce, gdzie spłuczka źle się napełniała, a woda nie odcinała się jak należy po spłukaniu.</p>
-
-            <img
-              class="read-article__img"
-              src="/img/poradnik/naprawa-spluczki-wc-bialoleka.webp"
-              alt="Otwarta spłuczka kompaktu WC z widocznym zaworem pływakowym i spustowym — realizacja na Białołęce"
-              width="1200" height="675" loading="lazy" decoding="async"
-            />
-
-            <h3>Kiedy winny jest zawór pływakowy?</h3>
-            <p>W spłuczce kompaktu najczęściej psują się dwa elementy: <strong>zawór pływakowy</strong>, czyli napełniający wodę, albo <strong>zawór spustowy</strong>, który wypuszcza wodę do muszli. Objawy bywają podobne, dlatego przed wymianą trzeba ustalić, który element zawodzi.</p>
-            <p>Jeżeli zbiornik napełnia się bardzo wolno, wcale się nie napełnia albo po napełnieniu woda dalej przelewa się do miski, zwykle chodzi o zawór pływakowy — nie zamyka dopływu we właściwym momencie. Nadmiar wody ucieka wtedy przez przelew, a domownik słyszy tylko delikatne szumienie albo widzi cienki strumień w toalecie. Awaria wygląda niepozornie, ale powoduje stałe zużycie wody, więc naprawy nie warto odkładać.</p>
-
-            <h3>Wymiana zaworu pływakowego 3/8 cala</h3>
-            <p>Tutaj uszkodzony był <strong>zawór pływakowy 3/8 cala</strong>, montowany z boku zbiornika. W kompaktach spotyka się różne wersje zaworów napełniających — boczne i dolne, w rozmiarze <strong>3/8</strong> oraz <strong>1/2 cala</strong>. Dlatego przed zakupem nowej części trzeba sprawdzić, jaki zawór siedzi w konkretnej spłuczce.</p>
-
-            <img
-              class="read-article__img"
-              src="/img/poradnik/zawor-plywakowy-boczny-3-8-cala.webp"
-              alt="Wymontowany zawór pływakowy ze spłuczki kompaktu WC podczas naprawy na Białołęce"
-              width="1200" height="675" loading="lazy" decoding="async"
-            />
-
-            <p>Po zakręceniu zaworu odcinającego, spuszczeniu wody i demontażu starego elementu zamontowałem nowy zawór. Spłuczka od razu wróciła do normy: zbiornik napełnia się do właściwego poziomu, po czym dopływ samoczynnie się odcina. Żadnego przelewania, szumienia ani marnowania wody. Cała naprawa zajęła około pięciu minut — przy typowej awarii wymiana zaworu pływakowego to jedna z szybszych usług hydraulicznych.</p>
-
-            <h3>Czy zawór pływakowy można wymienić samodzielnie?</h3>
-            <p>W wielu przypadkach tak: zakręcasz zawór odcinający, opróżniasz zbiornik, odkręcasz stary zawór i wkładasz nowy o odpowiednim rozmiarze. Schody zaczynają się, gdy przyłącze jest zapieczone, cieknie u nasady albo nie wiadomo, co dokładnie zawiodło — zawór pływakowy, spustowy, uszczelka czy cały mechanizm. Jeśli chcesz mieć pewność, że kompakt będzie działał szczelnie, zadzwoń: <a class="read-article__phone" href="tel:+48511323123">511&nbsp;323&nbsp;123</a>. Naprawiam spłuczki, wymieniam kompakty WC, montuję baterie i usuwam drobne awarie w Warszawie i okolicach.</p>
-
-            <h3>Najczęstsze pytania — naprawa spłuczki WC</h3>
-            <div class="read-faq">
-              <details>
-                <summary>Po czym poznać, że winny jest zawór pływakowy, a nie spustowy?</summary>
-                <p>Zawór pływakowy odpowiada za napełnianie zbiornika. Jeśli po napełnieniu woda wciąż sączy się do miski przez rurkę przelewową, a wodomierz kręci się bez końca, prawie zawsze chodzi o niego. Zawór spustowy zdradza się inaczej: woda ucieka do muszli od dołu, tuż po spłukaniu, mimo że zbiornik jest już pełny.</p>
-              </details>
-              <details>
-                <summary>Czy cieknąca spłuczka mocno podnosi rachunki za wodę?</summary>
-                <p>Tak, i to bardziej, niż się wydaje. Cienki, cichy strumień potrafi lecieć całą dobę. W skali miesiąca to nawet kilkaset litrów zmarnowanej wody, za którą płacisz. Dlatego takiej usterki nie odkłada się na później — im dłużej cieknie, tym więcej ucieka.</p>
-              </details>
-              <details>
-                <summary>Jaki zawór pływakowy kupić — 3/8 czy 1/2 cala?</summary>
-                <p>Najpierw sprawdź, co masz zamontowane. Zawory różnią się rozmiarem przyłącza (3/8 albo 1/2 cala) oraz sposobem zasilania — bocznym lub dolnym. Najprościej zakręcić wodę, wymontować stary element i kupić dokładnie taki sam. Pomyłka w rozmiarze oznacza kolejną wizytę w sklepie.</p>
-              </details>
-              <details>
-                <summary>Czy zawór pływakowy da się wymienić samodzielnie?</summary>
-                <p>Przy typowej spłuczce tak: zakręcasz zawór odcinający, spuszczasz wodę, odkręcasz starą część i wkładasz nową. Trudniej, gdy przyłącze jest zapieczone, cieknie u nasady albo nie wiadomo, czy problem to na pewno zawór pływakowy, a nie uszczelka czy zawór spustowy. Jeśli wolisz mieć pewność, że spłuczka będzie szczelna, zadzwoń: 511 323 123.</p>
-              </details>
-              <details>
-                <summary>Ile trwa taka naprawa?</summary>
-                <p>Sama wymiana to zwykle kilka minut. U klienta na Białołęce zajęła około pięciu. Czas zależy od dostępu do zaworu i stanu starej części — przy zapieczonym, starym przyłączu bywa dłużej, ale i tak jest to jedna z szybszych napraw hydraulicznych.</p>
-              </details>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <script type="application/ld+json" is:inline set:html={JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-          { "@type": "Question", "name": "Po czym poznać, że winny jest zawór pływakowy, a nie spustowy?", "acceptedAnswer": { "@type": "Answer", "text": "Zawór pływakowy odpowiada za napełnianie zbiornika. Jeśli po napełnieniu woda wciąż sączy się do miski przez rurkę przelewową, a wodomierz kręci się bez końca, prawie zawsze chodzi o niego. Zawór spustowy zdradza się inaczej: woda ucieka do muszli od dołu, tuż po spłukaniu, mimo że zbiornik jest już pełny." } },
-          { "@type": "Question", "name": "Czy cieknąca spłuczka mocno podnosi rachunki za wodę?", "acceptedAnswer": { "@type": "Answer", "text": "Tak, i to bardziej, niż się wydaje. Cienki, cichy strumień potrafi lecieć całą dobę. W skali miesiąca to nawet kilkaset litrów zmarnowanej wody, za którą płacisz. Dlatego takiej usterki nie odkłada się na później — im dłużej cieknie, tym więcej ucieka." } },
-          { "@type": "Question", "name": "Jaki zawór pływakowy kupić — 3/8 czy 1/2 cala?", "acceptedAnswer": { "@type": "Answer", "text": "Najpierw sprawdź, co masz zamontowane. Zawory różnią się rozmiarem przyłącza (3/8 albo 1/2 cala) oraz sposobem zasilania — bocznym lub dolnym. Najprościej zakręcić wodę, wymontować stary element i kupić dokładnie taki sam. Pomyłka w rozmiarze oznacza kolejną wizytę w sklepie." } },
-          { "@type": "Question", "name": "Czy zawór pływakowy da się wymienić samodzielnie?", "acceptedAnswer": { "@type": "Answer", "text": "Przy typowej spłuczce tak: zakręcasz zawór odcinający, spuszczasz wodę, odkręcasz starą część i wkładasz nową. Trudniej, gdy przyłącze jest zapieczone, cieknie u nasady albo nie wiadomo, czy problem to na pewno zawór pływakowy, a nie uszczelka czy zawór spustowy. Jeśli wolisz mieć pewność, że spłuczka będzie szczelna, zadzwoń: 511 323 123." } },
-          { "@type": "Question", "name": "Ile trwa taka naprawa?", "acceptedAnswer": { "@type": "Answer", "text": "Sama wymiana to zwykle kilka minut. U klienta na Białołęce zajęła około pięciu. Czas zależy od dostępu do zaworu i stanu starej części — przy zapieczonym, starym przyłączu bywa dłużej, ale i tak jest to jedna z szybszych napraw hydraulicznych." } }
-        ]
-      })} />
 
       <!-- ═══════════════════════════════════════════════════
            CTA
@@ -1131,12 +1212,12 @@ const dateFmt = new Intl.DateTimeFormat("pl-PL", {
           <div class="final-cta reveal">
             <div class="final-cta__content">
               <div>
-                <h2>Masz zatkany odpływ? Zadzwoń i opisz objaw.</h2>
-                <p>Powiedz, gdzie stoi woda, czy problem wraca i czego już próbowano. Po krótkiej rozmowie łatwiej dobrać właściwą metodę udrażniania.</p>
+                <h2>Masz awarię na Targówku? Zadzwoń i opisz objaw.</h2>
+                <p>Powiedz, co się dzieje i od kiedy. Po krótkiej rozmowie umówimy termin, a ja przyjadę z częściami i narzędziem dobranym do problemu.</p>
               </div>
               <div class="final-cta__box">
                 <strong>511 323 123</strong>
-                <span>Pogotowie hydrauliczne — Warszawa i okolice, 24/7</span>
+                <span>Hydraulik — Targówek i cała Warszawa, 24/7</span>
                 <div style="height: 18px"></div>
                 <a class="btn-new btn-new--primary" href="tel:+48511323123">📞 Zadzwoń teraz</a>
               </div>
@@ -1149,8 +1230,8 @@ const dateFmt = new Intl.DateTimeFormat("pl-PL", {
 
     <footer class="new-footer">
       <div class="container footer-grid">
-        <div>2006 i Hydraulik — Hydraulik Warszawa</div>
-        <div>Udrażnianie rur • WUKO • Kamera • Piony kanalizacyjne</div>
+        <div>2006 i Hydraulik — Hydraulik Targówek i Warszawa</div>
+        <div>Naprawy • Udrażnianie • Baterie • Podłączenia AGD • Awarie 24/7</div>
       </div>
     </footer>
 
@@ -1300,20 +1381,6 @@ const dateFmt = new Intl.DateTimeFormat("pl-PL", {
         document.querySelectorAll('[data-bg-choice]').forEach(b => b.classList.toggle('is-active', b === btn));
       });
     });
-  </script>
-
-  <!-- Sticky mobile CTA — pojawia się gdy hero button wychodzi z widoku -->
-  <script>
-    // @ts-nocheck
-    (function () {
-      const heroCta = document.querySelector('.hero-buttons .btn-primary');
-      const mobileCta = document.querySelector('.mobile-cta');
-      if (!heroCta || !mobileCta) return;
-      const obs = new IntersectionObserver((entries) => {
-        mobileCta.classList.toggle('is-visible', !entries[0].isIntersecting);
-      }, { threshold: 0 });
-      obs.observe(heroCta);
-    })();
   </script>
 
   <!-- Hamburger — menu mobilne -->
