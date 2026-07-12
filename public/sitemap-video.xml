@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  <url>
+    <loc>https://i-hydraulik.pl/</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i-hydraulik.pl/img/udraznianie-brodzika-sprezyna-elektryczna-poster.webp</video:thumbnail_loc>
+      <video:title>Udrażnianie brodzika elektryczną sprężyną — realizacja</video:title>
+      <video:description>Nagranie z realnego zlecenia: udrożnienie odpływu brodzika zapchanego włosami i osadem przy użyciu elektrycznej sprężyny. Wyjęcie zasyfonowania, wprowadzenie spirali przez odpływ, rozbicie zatoru i sprawdzenie odpływu.</video:description>
+      <video:content_loc>https://i-hydraulik.pl/video/udraznianie-brodzika-sprezyna-elektryczna.mp4</video:content_loc>
+      <video:duration>26</video:duration>
+      <video:publication_date>2026-07-12T09:00:00+02:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+  </url>
+</urlset>

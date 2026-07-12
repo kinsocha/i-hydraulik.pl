@@ -635,6 +635,20 @@ const dateFmt = new Intl.DateTimeFormat("pl-PL", {
     @media (max-width: 340px) {
       :global(.hero-visual) { display: none; }
     }
+
+    /* REALIZACJA WIDEO — nagranie z roboty */
+    .video-realizacja { display: grid; grid-template-columns: minmax(0, 340px) 1fr; gap: 34px; align-items: start; }
+    .video-realizacja__player {
+      width: 100%; max-width: 340px; aspect-ratio: 9 / 16; height: auto; display: block;
+      border-radius: var(--radius-lg); background: #000; box-shadow: var(--shadow);
+    }
+    .video-realizacja__desc p { color: var(--muted); line-height: 1.75; font-size: 17px; margin: 0 0 16px; }
+    .video-realizacja__desc p:last-child { margin-bottom: 0; }
+    .video-realizacja__phone { color: var(--blue); font-weight: 800; white-space: nowrap; }
+    @media (max-width: 860px) {
+      .video-realizacja { grid-template-columns: 1fr; gap: 24px; }
+      .video-realizacja__player { max-width: 320px; margin: 0 auto; }
+    }
   </style>
 
   <!-- Hero / phone mockup styles -->
@@ -1124,6 +1138,47 @@ const dateFmt = new Intl.DateTimeFormat("pl-PL", {
           { "@type": "Question", "name": "Czy zawór pływakowy da się wymienić samodzielnie?", "acceptedAnswer": { "@type": "Answer", "text": "Przy typowej spłuczce tak: zakręcasz zawór odcinający, spuszczasz wodę, odkręcasz starą część i wkładasz nową. Trudniej, gdy przyłącze jest zapieczone, cieknie u nasady albo nie wiadomo, czy problem to na pewno zawór pływakowy, a nie uszczelka czy zawór spustowy. Jeśli wolisz mieć pewność, że spłuczka będzie szczelna, zadzwoń: 511 323 123." } },
           { "@type": "Question", "name": "Ile trwa taka naprawa?", "acceptedAnswer": { "@type": "Answer", "text": "Sama wymiana to zwykle kilka minut. U klienta na Białołęce zajęła około pięciu. Czas zależy od dostępu do zaworu i stanu starej części — przy zapieczonym, starym przyłączu bywa dłużej, ale i tak jest to jedna z szybszych napraw hydraulicznych." } }
         ]
+      })} />
+
+      <!-- ═══════════════════════════════════════════════════
+           REALIZACJA WIDEO — udrażnianie brodzika
+      ════════════════════════════════════════════════════ -->
+      <section id="realizacja-brodzik" class="new-section">
+        <div class="container">
+          <div class="section-head reveal">
+            <div>
+              <p class="section-kicker">Zobacz, jak pracuję</p>
+              <h2 class="section-title">Udrażnianie brodzika elektryczną sprężyną — nagranie z roboty</h2>
+            </div>
+            <p class="section-desc">Krótkie nagranie z prawdziwego zlecenia. Włosy i osad w odpływie brodzika to najczęstszy powód, dla którego woda przestaje schodzić.</p>
+          </div>
+
+          <div class="video-realizacja reveal">
+            <video class="video-realizacja__player" controls preload="none" playsinline
+                   poster="/img/udraznianie-brodzika-sprezyna-elektryczna-poster.webp"
+                   width="720" height="1280">
+              <source src="/video/udraznianie-brodzika-sprezyna-elektryczna.mp4" type="video/mp4" />
+              Twoja przeglądarka nie odtwarza wideo. <a href="/video/udraznianie-brodzika-sprezyna-elektryczna.mp4">Pobierz nagranie</a>.
+            </video>
+
+            <div class="video-realizacja__desc">
+              <p>Brodzik zaczyna zbierać wodę i schodzi coraz wolniej — klasyka. Winowajcą prawie zawsze są włosy, które razem z mydłem i osadem tworzą w odpływie i syfonie gęstą plątaninę. Na tym nagraniu woda w kabinie stała już po kostki.</p>
+              <p>W brodziku syfonu często nie da się po prostu odkręcić — dostanie się do niego oznaczałoby demontaż brodzika i całej kabiny. Dlatego radzę sobie inaczej: wyjmuję zasyfonowanie i wprowadzam elektryczną sprężynę przez odpływ. Obrotami w prawo prowadzę spiralę w głąb rury, aż dojdzie do zatoru i rozbije zbite włosy z osadem; obrotami w lewo wycofuję ją po udrożnieniu. Bez chemii, bez rozkręcania pół łazienki. Cała robota to przeważnie kilka, najwyżej kilkanaście minut.</p>
+              <p>Po udrożnieniu sprawdzam, czy woda schodzi swobodnie — i brodzik znów jest drożny. Domowe mikstury przy zbitych włosach dają zwykle tylko chwilową poprawę, po której problem wraca. Lepiej rozwiązać to raz. Masz podobnie? Zadzwoń: <a class="video-realizacja__phone" href="tel:+48511323123">511&nbsp;323&nbsp;123</a> — przyjadę z odpowiednim sprzętem.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <script type="application/ld+json" is:inline set:html={JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "VideoObject",
+        "name": "Udrażnianie brodzika elektryczną sprężyną — realizacja",
+        "description": "Nagranie z realnego zlecenia: udrożnienie odpływu brodzika zapchanego włosami i osadem przy użyciu elektrycznej sprężyny. Wyjęcie zasyfonowania, wprowadzenie spirali przez odpływ, rozbicie zatoru i sprawdzenie odpływu.",
+        "thumbnailUrl": "https://i-hydraulik.pl/img/udraznianie-brodzika-sprezyna-elektryczna-poster.webp",
+        "uploadDate": "2026-07-12",
+        "duration": "PT26S",
+        "contentUrl": "https://i-hydraulik.pl/video/udraznianie-brodzika-sprezyna-elektryczna.mp4"
       })} />
 
       <!-- ═══════════════════════════════════════════════════

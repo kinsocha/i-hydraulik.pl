@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://i-hydraulik.pl/sitemap-index.xml
+Sitemap: https://i-hydraulik.pl/sitemap-video.xml
