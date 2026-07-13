@@ -34,6 +34,4 @@ Hydraulik to nie tylko udrażnianie kanalizacji czy wymiana baterii. Sporo czasu
 **Jak to naprawiłem.** Prosto: równomiernie dokręciłem wszystkie śruby. Ważne jest wyczucie — za mocno dokręcona śruba może połamać mocowanie, za słabo i problem wróci za kilka tygodni. Sprawdziłem każdy punkt mocowania, upewniłem się, że wszystko jest równo zaciśnięte, i gotowe. Deska siedzi stabilnie, bez ruchu i hałasu.
 
 **Dlaczego takie naprawy mają znaczenie.** Wykonuję drobne usługi hydrauliczne: naprawę deski sedesowej, wymianę syfonu pod umywalką, dokręcenie rozluźnionej armatury, wymianę baterii. Masz podobny problem? Zadzwoń: **511 323 123** — zajmę się tym.
-
-*FAQ:* Jak poznać, że deska sedesowa jest luźna? • Czy mogę sam dokręcić śruby? • Co, jeśli deska dalej się rusza po dokręceniu? • Ile to kosztuje u hydraulika?
 ---
