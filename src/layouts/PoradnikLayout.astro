@@ -94,6 +94,39 @@ const canonical = `https://i-hydraulik.pl${cleanPath}`;
     .nav__links a:hover {
       background: rgba(31,111,209,0.08); color: var(--blue); transform: translateY(-1px);
     }
+
+    /* DROPDOWN — Dzielnice */
+    .nav__drop { position: relative; display: inline-flex; }
+    .nav__drop-btn {
+      display: inline-flex; align-items: center; gap: 6px;
+      padding: 12px 14px; border: 0; border-radius: 999px; background: transparent;
+      color: #22243c; font: inherit; font-size: 15px; font-weight: 650; cursor: pointer;
+      transition: background 0.25s, color 0.25s, transform 0.25s;
+    }
+    .nav__drop-btn:hover { background: rgba(31,111,209,0.08); color: var(--blue); transform: translateY(-1px); }
+    .nav__drop-caret { font-size: 11px; transition: transform 0.25s; }
+    .nav__drop:hover .nav__drop-caret,
+    .nav__drop.is-open .nav__drop-caret { transform: rotate(180deg); }
+    .nav__drop-menu {
+      position: absolute; top: calc(100% + 8px); left: 0; z-index: 60;
+      display: flex; flex-direction: column; gap: 2px; min-width: 210px; padding: 8px;
+      background: rgba(255,255,255,0.98); border: 1px solid rgba(220,220,220,0.72);
+      border-radius: 16px; box-shadow: 0 22px 50px rgba(22,27,53,0.14);
+      opacity: 0; visibility: hidden; transform: translateY(-8px); pointer-events: none;
+      transition: opacity 0.25s, transform 0.25s, visibility 0.25s;
+    }
+    /* Mostek — wypełnia lukę między przyciskiem a listą, żeby hover nie gubił się w przerwie */
+    .nav__drop-menu::before { content: ""; position: absolute; left: 0; right: 0; top: -12px; height: 12px; }
+    .nav__drop:hover .nav__drop-menu,
+    .nav__drop:focus-within .nav__drop-menu,
+    .nav__drop.is-open .nav__drop-menu {
+      opacity: 1; visibility: visible; transform: translateY(0); pointer-events: auto;
+    }
+    .nav__drop-menu a {
+      padding: 10px 14px; border-radius: 12px; color: #22243c;
+      font-size: 15px; font-weight: 650; white-space: nowrap;
+    }
+    .nav__drop-menu a:hover { background: rgba(31,111,209,0.08); color: var(--blue); }
     .nav__actions { display: flex; align-items: center; gap: 14px; }
     .phone-link {
       display: inline-flex; align-items: center; gap: 8px;
@@ -178,6 +211,16 @@ const canonical = `https://i-hydraulik.pl${cleanPath}`;
         transition: opacity 0.28s ease, transform 0.28s ease, visibility 0.28s;
       }
       .nav__links a { padding: 14px; border-radius: 12px; font-size: 16px; }
+      .nav__drop { display: block; width: 100%; }
+      .nav__drop-btn { width: 100%; justify-content: space-between; padding: 14px; border-radius: 12px; font-size: 16px; }
+      .nav__drop-menu {
+        position: static; min-width: 0; padding: 2px 0 6px 12px; margin: 0;
+        background: transparent; border: 0; box-shadow: none;
+        opacity: 1; visibility: visible; transform: none; pointer-events: auto; display: none;
+      }
+      .nav__drop-menu::before { display: none; }
+      .nav__drop.is-open .nav__drop-menu { display: flex; }
+      .nav__drop-menu a { padding: 12px 14px; font-size: 16px; }
       .nav__links.is-open { opacity: 1; visibility: visible; pointer-events: auto; transform: translateY(0); }
     }
     @media (max-width: 640px) {
@@ -202,6 +245,15 @@ const canonical = `https://i-hydraulik.pl${cleanPath}`;
           <a href="/#uslugi">Usługi</a>
           <a href="/#proces">Jak działamy</a>
           <a href="/#cennik">Cennik</a>
+          <div class="nav__drop">
+            <button class="nav__drop-btn" type="button" aria-haspopup="true" aria-expanded="false">Dzielnice <span class="nav__drop-caret" aria-hidden="true">▾</span></button>
+            <div class="nav__drop-menu" role="menu">
+              <a href="/hydraulikmokotow" role="menuitem">Hydraulik Mokotów</a>
+              <a href="/hydraulikanin" role="menuitem">Hydraulik Anin</a>
+              <a href="/hydraulikrembertow" role="menuitem">Hydraulik Rembertów</a>
+              <a href="/hydrauliktargowek" role="menuitem">Hydraulik Targówek</a>
+            </div>
+          </div>
           <a href="/poradnik">Poradnik</a>
           <a href="/#faq">FAQ</a>
           <a href="/#kontakt">Kontakt</a>
@@ -251,6 +303,36 @@ const canonical = `https://i-hydraulik.pl${cleanPath}`;
         })
       );
     }
+  </script>
+
+  <script>
+    // @ts-nocheck
+    (function () {
+      const drops = document.querySelectorAll('.nav__drop');
+      if (!drops.length) return;
+      function closeAll() {
+        drops.forEach((drop) => {
+          drop.classList.remove('is-open');
+          const t = drop.querySelector('.nav__drop-btn');
+          if (t) t.setAttribute('aria-expanded', 'false');
+        });
+      }
+      drops.forEach((drop) => {
+        const trigger = drop.querySelector('.nav__drop-btn');
+        if (!trigger) return;
+        trigger.addEventListener('click', (e) => {
+          e.stopPropagation();
+          const willOpen = !drop.classList.contains('is-open');
+          closeAll();
+          drop.classList.toggle('is-open', willOpen);
+          trigger.setAttribute('aria-expanded', willOpen ? 'true' : 'false');
+        });
+      });
+      document.addEventListener('click', (e) => {
+        drops.forEach((drop) => { if (!drop.contains(e.target)) drop.classList.remove('is-open'); });
+      });
+      document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeAll(); });
+    })();
   </script>
 </body>
 </html>
