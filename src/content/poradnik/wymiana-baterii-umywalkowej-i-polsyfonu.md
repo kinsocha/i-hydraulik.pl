@@ -5,8 +5,8 @@ pubDate: 2026-07-19T09:41:17
 author: "i Hydraulik"
 category: "Drobne naprawy"
 readingTime: 3
-hero: "/img/poradnik/demontaz-starej-baterii-umywalkowej.webp"
-heroAlt: "Stara bateria umywalkowa po demontażu i nowe części przygotowane do montażu — realizacja na Mokotowie"
+hero: "/img/poradnik/nowa-bateria-umywalkowa-po-montazu.webp"
+heroAlt: "Nowa bateria umywalkowa zamontowana na umywalce po zakończonej pracy"
 heroTitle: "Wymiana baterii umywalkowej i półsyfonu — dokończenie samodzielnej naprawy"
 heroLead: "Klient zaczął wymianę baterii sam, ale nakrętka mocująca ani drgnęła. Skończyło się na montażu nowej baterii i nowego półsyfonu."
 keywords: "wymiana baterii umywalkowej, wymiana półsyfonu umywalki, montaż baterii umywalkowej, luźna nakrętka w gnieździe syfonu, drobne naprawy hydrauliczne"
@@ -23,6 +23,8 @@ faq:
 
 Niektórzy spośród klientów dzwonią od razu, kiedy coś im się zepsuje, inni próbują sami coś naprawić lub wymienić. Ostatnio odebrałem telefon od klienta z [Mokotowa](/hydraulikmokotow), z ul. Rakowieckiej, który nie potrafił poradzić sobie z odkręceniem nakrętki mocującej baterię umywalkową. Po przyjeździe na Mokotów odkręciłem nakrętkę dzięki kluczowi rurowemu.
 
+![Stara bateria umywalkowa po demontażu i nowe części przygotowane do montażu — realizacja na Mokotowie](/img/poradnik/demontaz-starej-baterii-umywalkowej.webp)
+
 ## Luźna nakrętka w gnieździe syfonu
 
 Okazało się też, że śruba od gniazda syfonu umywalki jest poluzowana i trzeba ją dokręcić. Po próbie dokręcenia okazało się jednak, że nie jest to kwestia dokręcenia, bo nakrętka w gnieździe jest luźna i nie da się jej przykręcić. W efekcie trzeba było wymienić także tę część i zamontować nowy **półsyfon** oraz nową **baterię umywalkową**.
@@ -32,7 +34,5 @@ Okazało się też, że śruba od gniazda syfonu umywalki jest poluzowana i trze
 ## Doszczelnienie pod baterią
 
 Ponieważ korpus baterii miał za małą średnicę w stosunku do otworu na baterię, istniała obawa, że uszczelka między baterią a umywalką nie pokryje otworu w sposób szczelny. Dlatego asekuracyjnie położyłem na uszczelkę pod baterię silikon, który miałby doszczelnić ewentualną nieszczelność. Całość pracy zajęła mi ok. godziny. Cena usługi to 350 zł. Wycenę podaję zawsze podczas rozmowy telefonicznej, na etapie umawiania wizyty.
-
-![Nowa bateria umywalkowa zamontowana na umywalce po zakończonej pracy](/img/poradnik/nowa-bateria-umywalkowa-po-montazu.webp)
 
 Jeśli mierzysz się z podobnym problemem, chcesz zamontować baterię, naprawić spłuczkę lub coś innego, to zadzwoń: **511 323 123**. Wykonuję usługi hydrauliczne drobne i większe, usuwam awarie hydrauliczne na Mokotowie, Ochocie i we Włochach.
