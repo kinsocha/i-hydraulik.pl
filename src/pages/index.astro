@@ -511,6 +511,33 @@ const dateFmt = new Intl.DateTimeFormat("pl-PL", {
       transform: rotate(45deg); color: var(--orange); background: var(--orange-soft);
     }
     .read-faq details p { margin: 0 0 17px; color: var(--muted); line-height: 1.75; }
+    .read-article ol, .read-article ul {
+      margin: 0 0 18px; padding-left: 26px; color: #3b4152; line-height: 1.8; font-size: 17px;
+    }
+    .read-article li { margin-bottom: 8px; }
+    .read-article li::marker { color: var(--blue); font-weight: 800; }
+
+    /* TABELA ZGRZEWANIA PP-R */
+    .tabela-zgrzew-wrap { overflow-x: auto; margin: 24px 0; }
+    .tabela-zgrzew {
+      width: 100%; border-collapse: collapse; font-size: 16px; color: #3b4152;
+      border-radius: var(--radius-md); overflow: hidden; box-shadow: var(--shadow-soft);
+    }
+    .tabela-zgrzew caption {
+      caption-side: top; text-align: left; font-size: 14px; color: var(--muted);
+      padding: 0 0 10px; font-style: italic;
+    }
+    .tabela-zgrzew thead th {
+      background: var(--blue-dark); color: #fff; font-weight: 700;
+      text-align: left; padding: 14px 18px; border: none;
+    }
+    .tabela-zgrzew tbody th, .tabela-zgrzew tbody td {
+      padding: 12px 18px; border: none; text-align: left;
+    }
+    .tabela-zgrzew tbody tr:nth-child(odd) { background: #f6f0e9; }
+    .tabela-zgrzew tbody tr:nth-child(even) { background: #fdfaf6; }
+    .tabela-zgrzew tbody th { font-weight: 800; color: var(--ink); }
+    .tabela-zgrzew .nagrzew { font-weight: 800; color: var(--ink); }
 
     /* CTA SECTION */
     .cta-section { padding: 84px 0 96px; }
@@ -1052,6 +1079,125 @@ const dateFmt = new Intl.DateTimeFormat("pl-PL", {
           </div>
         </section>
       )}
+
+      <!-- ═══════════════════════════════════════════════════
+           ARTYKUŁ — zgrzewanie rur PP-R w instalacjach CO
+      ════════════════════════════════════════════════════ -->
+      <section id="artykul-ppr" class="new-section">
+        <div class="container">
+          <div class="section-head reveal">
+            <div>
+              <p class="section-kicker">Artykuł</p>
+              <h2 class="section-title">Rury PP-R w centralnym ogrzewaniu — jak wygląda zgrzewanie</h2>
+            </div>
+            <p class="section-desc">Rury z polipropylenu łączy się przez zgrzewanie. Od czasu nagrzewania zależy, czy instalacja będzie szczelna — i czy woda w ogóle popłynie.</p>
+          </div>
+
+          <article class="read-article reveal">
+            <div class="read-article__tags">
+              <span class="read-tag read-tag--primary">Centralne ogrzewanie</span>
+              <span class="read-tag">Rury PP-R</span>
+              <span class="read-tag">Zgrzewanie</span>
+            </div>
+
+            <p>Instalacje centralnego ogrzewania można wykonywać z rur i kształtek z różnych materiałów. Jedną z opcji są rury z polipropylenu <strong>(PP-R)</strong> — potocznie mówi się o nich rury plastikowe albo zgrzewane, czasem Boryszew lub Wawin (od firm Boryszew i Wavin).</p>
+
+            <h3>Jak łączy się rury PP-R — zgrzewanie</h3>
+            <p>Rury i kształtki łączy się ze sobą za pomocą zgrzewu. Wygląda to tak, że na specjalną zgrzewarkę zakłada się kamienie, czyli gniazda o odpowiedniej wielkości, w zależności od średnicy rur. Następnie, po włączeniu urządzenia i jego nagrzaniu, z jednej strony zgrzewarki wsadzamy do kamienia rurę, a z drugiej strony kształtkę. Po kilku lub kilkunastu sekundach — dla każdej średnicy musi być to właściwy czas — wyjmujemy kształtkę i rurę ze zgrzewarki i łączymy ze sobą.</p>
+            <p>Ważny jest odpowiedni czas nagrzewania. Nie może być za krótki, bo zgrzew będzie niedogrzany i zacznie przeciekać od razu po napełnieniu instalacji wodą. Przeciek może pojawić się nawet po kilku bezproblemowych latach użytkowania, jeśli zgrzew został nieprawidłowo wykonany. Nie można też przegrzewać rur i kształtek, bo podczas łączenia zawęzi się średnica rury lub nawet całkowicie się zasklepi i nie będzie przepływu wody, albo woda będzie leciała przez baterię bardzo słabo. Odpowiedni czas nagrzewania i temperaturę zgrzewarki podajemy poniżej w tabeli.</p>
+
+            <div class="tabela-zgrzew-wrap">
+              <table class="tabela-zgrzew">
+                <caption>Czas i temperatura zgrzewania rur PP-R w zależności od średnicy (temperatura zgrzewarki ok. 260°C).</caption>
+                <thead>
+                  <tr>
+                    <th scope="col">Średnica rury (mm)</th>
+                    <th scope="col">Głębokość zgrzewu (mm)</th>
+                    <th scope="col">Czas nagrzewania (s)</th>
+                    <th scope="col">Czas łączenia (s)</th>
+                    <th scope="col">Czas chłodzenia (min)</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr><th scope="row">20</th><td>14</td><td class="nagrzew">5</td><td>4</td><td>2</td></tr>
+                  <tr><th scope="row">25</th><td>16</td><td class="nagrzew">7</td><td>4</td><td>2</td></tr>
+                  <tr><th scope="row">32</th><td>20</td><td class="nagrzew">8</td><td>6</td><td>4</td></tr>
+                  <tr><th scope="row">40</th><td>21</td><td class="nagrzew">12</td><td>6</td><td>4</td></tr>
+                  <tr><th scope="row">50</th><td>23</td><td class="nagrzew">18</td><td>8</td><td>4</td></tr>
+                  <tr><th scope="row">63</th><td>26</td><td class="nagrzew">24</td><td>8</td><td>6</td></tr>
+                  <tr><th scope="row">75</th><td>28</td><td class="nagrzew">30</td><td>10</td><td>6</td></tr>
+                  <tr><th scope="row">90</th><td>30</td><td class="nagrzew">40</td><td>10</td><td>8</td></tr>
+                  <tr><th scope="row">110</th><td>32,5</td><td class="nagrzew">50</td><td>12</td><td>8</td></tr>
+                </tbody>
+              </table>
+            </div>
+
+            <h3>Zdzierak do rur — kiedy jest konieczny</h3>
+            <p>Przy rurach stabilizowanych aluminium (Stabi AL) przed zgrzewaniem trzeba usunąć zewnętrzną warstwę aluminium na końcu rury. Służy do tego specjalne narzędzie — <strong>zdzierak do rur</strong>. Gdyby aluminium zostało pod zgrzewem, połączenie nie zespoli się prawidłowo i po pewnym czasie zacznie przeciekać lub warstwy rury się rozwarstwią.</p>
+            <p>Ważne: zdzieraka używamy tylko do rur z wkładką aluminiową. Rur jednorodnych oraz rur z włóknem szklanym (Stabi Glass) nie zdzieramy — tam warstwy usuwać nie trzeba, a wręcz nie wolno.</p>
+            <p>Zdzieraki są ręczne (na jedną lub dwie średnice) albo mechaniczne — nakładane na wkrętarkę przy większych instalacjach. Dobiera się je do średnicy rury (najczęściej od 16 do 125 mm).</p>
+
+            <h3>Przygotowanie rury przed zgrzewaniem</h3>
+            <ol>
+              <li><strong>Cięcie</strong> — rurę tniemy prostopadle do osi specjalnymi nożycami, aby przekrój był równy.</li>
+              <li><strong>Usunięcie zadziorów</strong> — czyścimy krawędź z zadziorów.</li>
+              <li><strong>Zdzieranie aluminium</strong> — tylko przy rurach Stabi AL (jak wyżej).</li>
+              <li><strong>Nagrzewanie</strong> — wkładamy do kamieni kształtkę i rurę na czas z tabeli.</li>
+              <li><strong>Łączenie</strong> — szybko łączymy zgrzewane elementy, nie skręcając ich już po złączeniu.</li>
+            </ol>
+
+            <h3>Zasady prawidłowego zgrzewania</h3>
+            <ul>
+              <li>Zgrzewarkę rozgrzewamy zwykle do ok. 260°C (typowo 250–270°C) i dajemy jej kilkanaście minut na nagrzanie przed pracą.</li>
+              <li>Rurę i kształtkę wsuwamy jednocześnie na czas z tabeli, a po wyjęciu łączymy bez obracania — kręcenie może uszkodzić zgrzew.</li>
+              <li>Po połączeniu trzymamy elementy nieruchomo, aż ostygną. Instalację napełniamy wodą i obciążamy w pełni najlepiej dopiero po ok. 24 godzinach.</li>
+              <li>Przy pracy w niskiej temperaturze (poniżej +5°C) czas nagrzewania wydłużamy nawet o połowę.</li>
+              <li>Końcówki grzewcze zgrzewarki regularnie czyścimy z resztek stopionego materiału.</li>
+              <li>Przed właściwą pracą warto wykonać zgrzew próbny.</li>
+            </ul>
+
+            <h3>Jak rozpoznać dobry zgrzew</h3>
+            <p>Prawidłowy zgrzew ma równomierny, symetryczny wypływ (kołnierz) materiału dookoła kształtki — bez przypaleń, przebarwień, deformacji i bez szczeliny. Zbyt mały wypływ oznacza niedogrzanie, a zbyt duży, „zalany" środek — przegrzanie i zwężenie przekroju.</p>
+
+            <h3>Awaria z terenu — źle wykonany zgrzew</h3>
+            <p>Trafiła mi się kiedyś awaria rury centralnego ogrzewania. Prawdopodobnie zgrzew był źle wykonany z powodu zbyt krótkiego czasu nagrzewania. Była tam zastosowana rura polipropylenowa do ciepłej wody użytkowej, z zewnętrzną wkładką aluminiową, zapobiegającą odkształcaniu się rury przez przepływającą wewnątrz ciepłą wodę. Przed nagrzewaniem należy obrać powłokę aluminiową specjalnym zdzierakiem — niektórzy hydraulicy nazywają ten przyrząd temperówką.</p>
+            <p>Dziś w zasadzie nie używa się już rur z zewnętrzną wkładką aluminiową, tylko rur stabilizowanych włóknem szklanym, których nie trzeba obierać. To, że rura jest stabilizowana włóknem szklanym, nie oznacza, że trzeba pracować w specjalnych rękawicach, bo można się skaleczyć. Nic z tych rzeczy. To normalna rura plastikowa, podobna do rury do zimnej wody, różniąca się jedynie czerwonym paskiem lub innym oznaczeniem wskazującym, że jest przeznaczona do ciepłej wody. Producenci odeszli od zewnętrznej wkładki aluminiowej, gdyż jej obieranie było problematyczne, zwłaszcza przy większych średnicach. Kto to kiedyś robił, ten na pewno wie, o co chodzi.</p>
+
+            <p>Jeśli mają Państwo jakieś pytania lub chcą zamówić usługę montażu instalacji wodnej lub centralnego ogrzewania przez naszego hydraulika, to zachęcamy do kontaktu: <a class="read-article__phone" href="tel:+48511323123">511&nbsp;323&nbsp;123</a>.</p>
+
+            <h3>Najczęstsze pytania — zgrzewanie rur PP-R</h3>
+            <div class="read-faq">
+              <details>
+                <summary>Po czym poznać, że zgrzew rury PP-R jest zrobiony dobrze?</summary>
+                <p>Po kołnierzu. Prawidłowy zgrzew ma równomierny, symetryczny wypływ materiału dookoła kształtki — bez przypaleń, przebarwień i bez szczeliny. Zbyt mały wypływ świadczy o niedogrzaniu, a zalany środek o przegrzaniu i zwężeniu przekroju rury.</p>
+              </details>
+              <details>
+                <summary>Czym grozi za krótkie nagrzewanie przy zgrzewaniu rur?</summary>
+                <p>Niedogrzany zgrzew potrafi przeciekać od razu po napełnieniu instalacji wodą. Bywa też podstępniej: połączenie trzyma kilka lat i dopiero potem zaczyna puszczać. Dlatego czas nagrzewania dobiera się do średnicy rury według tabeli, a nie na wyczucie.</p>
+              </details>
+              <details>
+                <summary>Czy każdą rurę PP-R trzeba zdzierać przed zgrzewaniem?</summary>
+                <p>Nie. Zdzierak jest potrzebny tylko przy rurach z wkładką aluminiową (Stabi AL) — aluminium na końcu rury musi zostać usunięte, inaczej zgrzew się nie zespoli. Rur jednorodnych i stabilizowanych włóknem szklanym nie wolno zdzierać.</p>
+              </details>
+              <details>
+                <summary>Kiedy po zgrzewaniu można napełnić instalację wodą?</summary>
+                <p>Po połączeniu elementy muszą ostygnąć nieruchomo — czas chłodzenia zależy od średnicy. Pełne obciążenie instalacji najlepiej zostawić na ok. 24 godziny po zakończeniu prac. Chcesz zlecić montaż instalacji wodnej lub centralnego ogrzewania? Zadzwoń: 511 323 123.</p>
+              </details>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <script type="application/ld+json" is:inline set:html={JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          { "@type": "Question", "name": "Po czym poznać, że zgrzew rury PP-R jest zrobiony dobrze?", "acceptedAnswer": { "@type": "Answer", "text": "Po kołnierzu. Prawidłowy zgrzew ma równomierny, symetryczny wypływ materiału dookoła kształtki — bez przypaleń, przebarwień i bez szczeliny. Zbyt mały wypływ świadczy o niedogrzaniu, a zalany środek o przegrzaniu i zwężeniu przekroju rury." } },
+          { "@type": "Question", "name": "Czym grozi za krótkie nagrzewanie przy zgrzewaniu rur?", "acceptedAnswer": { "@type": "Answer", "text": "Niedogrzany zgrzew potrafi przeciekać od razu po napełnieniu instalacji wodą. Bywa też podstępniej: połączenie trzyma kilka lat i dopiero potem zaczyna puszczać. Dlatego czas nagrzewania dobiera się do średnicy rury według tabeli, a nie na wyczucie." } },
+          { "@type": "Question", "name": "Czy każdą rurę PP-R trzeba zdzierać przed zgrzewaniem?", "acceptedAnswer": { "@type": "Answer", "text": "Nie. Zdzierak jest potrzebny tylko przy rurach z wkładką aluminiową (Stabi AL) — aluminium na końcu rury musi zostać usunięte, inaczej zgrzew się nie zespoli. Rur jednorodnych i stabilizowanych włóknem szklanym nie wolno zdzierać." } },
+          { "@type": "Question", "name": "Kiedy po zgrzewaniu można napełnić instalację wodą?", "acceptedAnswer": { "@type": "Answer", "text": "Po połączeniu elementy muszą ostygnąć nieruchomo — czas chłodzenia zależy od średnicy. Pełne obciążenie instalacji najlepiej zostawić na ok. 24 godziny po zakończeniu prac. Chcesz zlecić montaż instalacji wodnej lub centralnego ogrzewania? Zadzwoń: 511 323 123." } }
+        ]
+      })} />
 
       <!-- ═══════════════════════════════════════════════════
            REALIZACJA WIDEO — udrażnianie brodzika
