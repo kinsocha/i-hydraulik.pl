@@ -522,22 +522,24 @@ const dateFmt = new Intl.DateTimeFormat("pl-PL", {
     .tabela-zgrzew {
       width: 100%; border-collapse: collapse; font-size: 16px; color: #3b4152;
       border-radius: var(--radius-md); overflow: hidden; box-shadow: var(--shadow-soft);
+      border: 1px solid var(--line);
     }
     .tabela-zgrzew caption {
       caption-side: top; text-align: left; font-size: 14px; color: var(--muted);
       padding: 0 0 10px; font-style: italic;
     }
     .tabela-zgrzew thead th {
-      background: var(--blue-dark); color: #fff; font-weight: 700;
+      background: linear-gradient(135deg, #171a33, #23264a);
+      color: #fff; font-weight: 700;
       text-align: left; padding: 14px 18px; border: none;
     }
     .tabela-zgrzew tbody th, .tabela-zgrzew tbody td {
       padding: 12px 18px; border: none; text-align: left;
     }
-    .tabela-zgrzew tbody tr:nth-child(odd) { background: #f6f0e9; }
-    .tabela-zgrzew tbody tr:nth-child(even) { background: #fdfaf6; }
+    .tabela-zgrzew tbody tr:nth-child(odd) { background: rgba(255,255,255,0.85); }
+    .tabela-zgrzew tbody tr:nth-child(even) { background: var(--orange-soft); }
     .tabela-zgrzew tbody th { font-weight: 800; color: var(--ink); }
-    .tabela-zgrzew .nagrzew { font-weight: 800; color: var(--ink); }
+    .tabela-zgrzew .nagrzew { font-weight: 800; color: #c85500; }
 
     /* CTA SECTION */
     .cta-section { padding: 84px 0 96px; }
