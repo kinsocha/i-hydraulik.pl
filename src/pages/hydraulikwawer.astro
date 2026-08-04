@@ -1,17 +1,3 @@
----
-import { getCollection } from "astro:content";
-
-const latestPosts = (await getCollection("poradnik"))
-  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
-  .slice(0, 3);
-
-const dateFmt = new Intl.DateTimeFormat("pl-PL", {
-  day: "2-digit",
-  month: "long",
-  year: "numeric",
-});
----
-
 <!DOCTYPE html>
 <html lang="pl">
 <head>
@@ -20,22 +6,21 @@ const dateFmt = new Intl.DateTimeFormat("pl-PL", {
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300;1,400&display=swap" rel="stylesheet" />
-  <title>Hydraulik Warszawa – Naprawy Instalacji i Pogotowie Hydrauliczne</title>
-  <meta name="description" content="Pogotowie hydrauliczne Warszawa 24/7. Udrażnianie rur, przepychanie kanalizacji, WUKO, inspekcja kamerą. Zadzwoń: 511 323 123." />
-  <link rel="canonical" href="https://i-hydraulik.pl/" />
+  <title>Hydraulik Wawer — naprawy i pogotowie 24/7 | 511 323 123</title>
+  <meta name="description" content="Hydraulik Wawer — naprawy instalacji wodnych, montaż baterii i bojlerów, drobna hydraulika, awarie 24/7. Dojazd tego samego dnia, cena ustalona przed pracą. Tel: 511 323 123." />
+  <link rel="canonical" href="https://i-hydraulik.pl/hydraulikwawer" />
 
   <script type="application/ld+json" is:inline>
   {
     "@context": "https://schema.org",
     "@type": "CreativeWorkSeries",
-    "name": "i Hydraulik - Hydraulik Warszawa",
-    "@id": "https://i-hydraulik.pl/",
-    "url": "https://i-hydraulik.pl/",
-    "telephone": "+48511323123",
+    "name": "Hydraulik Wawer — i Hydraulik",
+    "url": "https://i-hydraulik.pl/hydraulikwawer",
     "aggregateRating": {
       "@type": "AggregateRating",
       "ratingValue": "5.0",
-      "reviewCount": "558"
+      "bestRating": "5",
+      "ratingCount": "558"
     }
   }
   </script>
@@ -47,34 +32,58 @@ const dateFmt = new Intl.DateTimeFormat("pl-PL", {
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Dlaczego rura zatyka się ponownie?",
+        "name": "Jak szybko hydraulik dojedzie do Wawra?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Najczęściej przez tłuszcz, osad, zbyt mały spadek, źle wykonane podejście albo zator znajdujący się głębiej niż sam syfon."
+          "text": "Najczęściej tego samego dnia, przy awariach często w ciągu paru godzin od telefonu. W Wawrze jestem regularnie i znam tutejsze uliczki, więc nie tracę czasu na dojazd. Zadzwoń: 511 323 123 i umówimy godzinę."
         }
       },
       {
         "@type": "Question",
-        "name": "Czy chemia do rur wystarczy?",
+        "name": "Jakie prace wykonuje hydraulik w Wawrze?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Przy lekkim osadzie czasem pomaga, ale przy twardym zatorze może pogorszyć sytuację i utrudnić późniejszą pracę mechaniczną."
+          "text": "Naprawy instalacji wodnych i kanalizacyjnych, montaż baterii, spłuczek i bojlerów, wymianę zaworów i wężyków, podłączenia pralek i zmywarek. W Wawrze przeważają domy jednorodzinne, więc częściej niż gdzie indziej wymieniam starsze odcinki instalacji i porządkuję podejścia po dawnych przeróbkach."
         }
       },
       {
         "@type": "Question",
-        "name": "Kiedy potrzebna jest kamera inspekcyjna?",
+        "name": "Czy przyjedziecie wieczorem albo w święto?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Gdy problem wraca, woda cofa się mimo udrażniania albo podejrzewamy uszkodzenie, przeciwspadek lub zalegający osad w rurze."
+          "text": "Tak. Telefon działa 7 dni w tygodniu, również w nocy. Pęknięty wężyk nie pyta o kalendarz — dzwoń, powiem też, co zakręcić do mojego przyjazdu."
         }
       },
       {
         "@type": "Question",
-        "name": "Czy da się podać cenę przez telefon?",
+        "name": "Ile kosztuje wizyta hydraulika w Wawrze?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Da się podać widełki, ale dokładna cena zależy od rodzaju awarii, dostępu do instalacji i metody potrzebnej do usunięcia zatoru."
+          "text": "Orientacyjne widełki podaję od razu przez telefon, po opisie problemu. Ostateczną kwotę potwierdzam na miejscu, przed rozpoczęciem pracy. Dopłat, o których nie było mowy, u mnie nie ma."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Czy dojeżdżacie do każdej części Wawra?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Tak, obsługuję całą dzielnicę — i pozostałe rejony Warszawy z okolicami. Zadzwoń: 511 323 123, a ustalimy dogodny termin."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Wymienicie starą instalację w domu jednorodzinnym?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Tak, w Wawrze to częste zlecenie. Stare stalowe rury rdzewieją od środka — spada ciśnienie, na wodzie pojawia się rudy nalot. Wymieniam takie odcinki na nowe, zwykle etapami, żeby dom cały czas miał wodę. Przed decyzją mówię wprost, co faktycznie wymaga wymiany, a co jeszcze posłuży."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Montujecie i naprawiacie bojlery?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Tak — montaż nowego bojlera, wymiana grzałki albo anody, serwis przed sezonem. W domach bez ciepłej wody z sieci to chleb powszedni. Przy starych urządzeniach mówię szczerze, czy naprawa jeszcze się opłaca."
         }
       }
     ]
@@ -463,60 +472,6 @@ const dateFmt = new Intl.DateTimeFormat("pl-PL", {
       transform: rotate(45deg); color: var(--orange); background: var(--orange-soft);
     }
 
-    /* READ ARTICLE (realizacja do czytania na index) */
-    .read-article {
-      padding: clamp(26px, 4vw, 48px);
-      border-radius: var(--radius-xl);
-      background: var(--card);
-      border: 1px solid rgba(231,222,213,0.9);
-      box-shadow: var(--shadow-soft);
-    }
-    .read-article__tags { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 26px; }
-    .read-tag {
-      display: inline-flex; padding: 8px 14px; border-radius: 999px;
-      font-size: 13px; font-weight: 800; color: var(--blue); background: var(--blue-soft);
-    }
-    .read-tag--primary {
-      color: #fff;
-      background: linear-gradient(135deg, var(--blue), var(--blue-dark));
-    }
-    .read-article h3 {
-      margin: 36px 0 12px; font-size: clamp(21px, 2.3vw, 27px); letter-spacing: -0.02em;
-    }
-    .read-article > p { margin: 0 0 18px; color: #3b4152; line-height: 1.8; font-size: 17px; }
-    .read-article strong { color: var(--ink); }
-    .read-article__img {
-      display: block; width: 100%; max-width: 780px; height: auto;
-      margin: 22px auto; border-radius: var(--radius-md); box-shadow: var(--shadow-soft);
-    }
-    .read-article__phone { color: var(--blue); font-weight: 850; white-space: nowrap; }
-    .read-faq { margin-top: 6px; display: grid; gap: 12px; }
-    .read-faq details {
-      border-radius: 18px; background: rgba(255,255,255,0.72);
-      border: 1px solid rgba(231,222,213,0.86); padding: 2px 20px;
-    }
-    .read-faq summary {
-      cursor: pointer; list-style: none; padding: 17px 0;
-      font-weight: 800; font-size: 16px; color: var(--ink);
-      display: flex; justify-content: space-between; align-items: center; gap: 16px;
-    }
-    .read-faq summary::-webkit-details-marker { display: none; }
-    .read-faq summary::after {
-      content: "+"; flex: 0 0 30px; width: 30px; height: 30px;
-      display: grid; place-items: center; border-radius: 50%;
-      color: var(--blue); background: var(--blue-soft); font-weight: 900; transition: transform 0.25s;
-    }
-    .read-faq details[open] summary { color: var(--blue); }
-    .read-faq details[open] summary::after {
-      transform: rotate(45deg); color: var(--orange); background: var(--orange-soft);
-    }
-    .read-faq details p { margin: 0 0 17px; color: var(--muted); line-height: 1.75; }
-    .read-article ol, .read-article ul {
-      margin: 0 0 18px; padding-left: 26px; color: #3b4152; line-height: 1.8; font-size: 17px;
-    }
-    .read-article li { margin-bottom: 8px; }
-    .read-article li::marker { color: var(--blue); font-weight: 800; }
-
     /* CTA SECTION */
     .cta-section { padding: 84px 0 96px; }
     .final-cta {
@@ -556,9 +511,9 @@ const dateFmt = new Intl.DateTimeFormat("pl-PL", {
     /* MOBILE CTA */
     .mobile-cta {
       display: none; position: fixed; left: 16px; right: 16px; bottom: 16px;
-      z-index: 70; min-height: 58px; border-radius: 999px; color: #1A1A2E;
-      background: linear-gradient(165deg, #FFA030 0%, #FF6B00 52%, #EE5200 100%);
-      box-shadow: 0 4px 20px rgba(255,111,0,0.38);
+      z-index: 70; min-height: 58px; border-radius: 999px; color: #fff;
+      background: linear-gradient(135deg, #ff8a1f, #ff5f00);
+      box-shadow: 0 18px 44px rgba(255,116,15,0.30);
       align-items: center; justify-content: center; font-weight: 950;
     }
 
@@ -625,41 +580,74 @@ const dateFmt = new Intl.DateTimeFormat("pl-PL", {
       .logo { font-size: 22px; }
       .new-section { padding: 48px 0; }
       .diagnostic, .process-panel, .final-cta { padding: 24px; border-radius: 28px; }
-      .mobile-cta.is-visible { display: flex; }
+      .mobile-cta { display: flex; }
       .new-footer { padding-bottom: 92px; }
     }
+    /* LOKALNIE + ZAUFANIE + OPINIE + OBSZAR (uzupełnienie treści) */
+    .local .container { max-width: 900px; }
+    .local p { color: var(--muted); line-height: 1.75; font-size: 17px; margin: 0 0 16px; }
+    .local p:last-child { margin-bottom: 0; }
 
-    @media (max-width: 400px) {
-      :global(.phone-mockup__screen .step) { display: none; }
+    .trust-row { display: grid; grid-template-columns: repeat(4,1fr); gap: 14px; margin-top: 28px; }
+    .trust-item {
+      padding: 20px; border-radius: var(--radius-md); background: var(--card);
+      border: 1px solid rgba(231,222,213,0.88); box-shadow: var(--shadow-soft);
+    }
+    .trust-item strong { display: block; font-size: 16px; margin-bottom: 6px; letter-spacing: -0.02em; }
+    .trust-item span { color: var(--muted); font-size: 15px; line-height: 1.55; }
+
+    .review-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 18px; margin-top: 28px; }
+    .review-card {
+      padding: 24px; border-radius: var(--radius-lg); background: var(--card);
+      border: 1px solid rgba(231,222,213,0.88); box-shadow: var(--shadow-soft);
+      display: flex; flex-direction: column; gap: 13px;
+    }
+    .review-card__head { display: flex; align-items: center; gap: 12px; }
+    .review-card__avatar {
+      width: 44px; height: 44px; flex: 0 0 44px; border-radius: 50%;
+      display: grid; place-items: center; color: #fff; font-weight: 900; font-size: 18px;
+    }
+    .review-card__who strong { display: block; font-size: 15px; }
+    .review-card__who span { color: var(--muted-2); font-size: 13px; }
+    .review-card__stars { color: #ff9f1a; font-size: 15px; letter-spacing: 2px; }
+    .review-card p { margin: 0; color: #33384b; line-height: 1.65; font-size: 16px; }
+
+    .area-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; align-items: stretch; }
+    .area-grid p { color: var(--muted); line-height: 1.7; font-size: 16px; margin: 0; }
+    .area-map { border: 0; width: 100%; min-height: 340px; border-radius: var(--radius-lg); box-shadow: var(--shadow-soft); }
+    .area-list { display: flex; flex-wrap: wrap; gap: 10px; margin: 20px 0 0; padding: 0; list-style: none; }
+    .area-list li {
+      padding: 8px 14px; border-radius: 999px; background: var(--blue-soft);
+      color: var(--blue-dark); font-weight: 700; font-size: 14px;
     }
 
-    @media (max-width: 368px) {
-      :global(.app-alert span) { display: none; }
+    .cases { display: grid; gap: 20px; margin-top: 26px; }
+    .case {
+      padding: 24px 26px; border-radius: var(--radius-md); background: var(--card);
+      border: 1px solid rgba(231,222,213,0.88); box-shadow: var(--shadow-soft);
     }
+    .case h3 { margin: 0 0 8px; font-size: 19px; letter-spacing: -0.02em; }
+    .case p { margin: 0; color: var(--muted); line-height: 1.7; font-size: 16px; }
 
-    @media (max-width: 340px) {
-      :global(.hero-visual) { display: none; }
+    .help-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 18px; margin-top: 28px; }
+    .help-card {
+      padding: 26px; border-radius: var(--radius-lg); background: var(--card);
+      border: 1px solid rgba(231,222,213,0.88); box-shadow: var(--shadow-soft);
     }
+    .help-card h3 { margin: 0 0 10px; font-size: 20px; letter-spacing: -0.03em; }
+    .help-card p { margin: 0; color: var(--muted); line-height: 1.65; font-size: 16px; }
 
-    /* REALIZACJA WIDEO — nagranie z roboty */
-    .video-realizacja { display: grid; grid-template-columns: minmax(0, 340px) 1fr; gap: 34px; align-items: start; }
-    .video-realizacja__player {
-      width: 100%; max-width: 340px; aspect-ratio: 9 / 16; height: auto; display: block;
-      border-radius: var(--radius-lg); background: #000; box-shadow: var(--shadow);
+    @media (max-width: 980px) {
+      .trust-row { grid-template-columns: repeat(2,1fr); }
+      .review-grid, .area-grid, .help-grid { grid-template-columns: 1fr; }
     }
-    .video-realizacja__desc p { color: var(--muted); line-height: 1.75; font-size: 17px; margin: 0 0 16px; }
-    .video-realizacja__desc p:last-child { margin-bottom: 0; }
-    .video-realizacja__phone { color: var(--blue); font-weight: 800; white-space: nowrap; }
-    @media (max-width: 860px) {
-      .video-realizacja { grid-template-columns: 1fr; gap: 24px; }
-      .video-realizacja__player { max-width: 320px; margin: 0 auto; }
+    @media (max-width: 640px) {
+      .trust-row { grid-template-columns: 1fr; }
     }
   </style>
 
   <!-- Hero / phone mockup styles -->
   <link rel="stylesheet" href="/index-style.css">
-  <!-- Poradnik (zajawka) -->
-  <link rel="stylesheet" href="/poradnik.css">
 </head>
 
 <body data-bg="premium">
@@ -687,7 +675,6 @@ const dateFmt = new Intl.DateTimeFormat("pl-PL", {
               <a href="/hydraulikwawer" role="menuitem">Hydraulik Wawer</a>
             </div>
           </div>
-          <a href="/poradnik">Poradnik</a>
           <a href="#faq">FAQ</a>
           <a href="#kontakt">Kontakt</a>
         </nav>
@@ -712,11 +699,11 @@ const dateFmt = new Intl.DateTimeFormat("pl-PL", {
       <section class="hero">
         <div class="hero-content">
           <h1>
-            <span class="h1-label">Hydraulik <span class="h1-accent">Warszawa</span></span>
-            <span class="h1-main"><span class="h1-dark">Pogotowie hydrauliczne</span> 24/7</span>
-            <span class="h1-sub">Udrażnianie rur, zlewów i kanalizacji</span>
+            <span class="h1-label">Hydraulik <span class="h1-accent">Wawer</span></span>
+            <span class="h1-main"><span class="h1-dark">Naprawy i awarie</span> 24/7</span>
+            <span class="h1-sub">Instalacje wodno-kanalizacyjne, udrażnianie, drobna hydraulika</span>
           </h1>
-          <p class="hero-subtitle">Nazywam się Marcin, od 20 lat jestem hydraulikiem. Chętnie pomogę Ci rzetelną usługą hydrauliczną.</p>
+          <p class="hero-subtitle">Nazywam się Marcin. Hydrauliką zajmuję się od kilkunastu lat — w Wawrze i całej Warszawie. Przyjeżdżam tego samego dnia, a cenę znasz, zanim zacznę.</p>
           <div class="hero-buttons">
             <a href="tel:511323123" class="btn-primary">
               <span class="btn-label">📞 Zadzwoń teraz</span>
@@ -760,9 +747,9 @@ const dateFmt = new Intl.DateTimeFormat("pl-PL", {
             <div class="phone-mockup__screen">
               <div class="app-top">
                 <div>
-                  <strong>Hydraulik na telefon</strong>
+                  <strong>Hydraulik Wawer</strong>
                 </div>
-                <div class="avatar">HF</div>
+                <div class="avatar">HA</div>
               </div>
 
               <div class="trust-badge" style="margin-top: 8px;">
@@ -819,9 +806,9 @@ const dateFmt = new Intl.DateTimeFormat("pl-PL", {
           <div class="section-head reveal">
             <div>
               <p class="section-kicker">Zakres usług</p>
-              <h2 class="section-title">Najczęstsze awarie, które usuwamy</h2>
+              <h2 class="section-title">Najczęstsze zlecenia w Wawrze</h2>
             </div>
-            <p class="section-desc">Szybka diagnoza, dobór metody i usunięcie zatoru — mechanicznie lub ciśnieniowo. Działamy w całej Warszawie.</p>
+            <p class="section-desc">Naprawy, montaż i drobna hydraulika w domach i mieszkaniach w Wawrze. Najpierw diagnoza i konkretna cena, potem robota.</p>
           </div>
 
           <div class="service-grid">
@@ -830,7 +817,7 @@ const dateFmt = new Intl.DateTimeFormat("pl-PL", {
                 <img src="/icon-udraznianie.png" alt="Udrażnianie rur" style="mix-blend-mode:multiply;" />
               </div>
               <h3>Udrażnianie rur</h3>
-              <p>Mechaniczne usuwanie zatorów w odpływach kuchennych, łazienkowych i podejściach kanalizacyjnych. Bez obiecywania cudów, za to z dobrą diagnostyką.</p>
+              <p>Woda w zlewie albo umywalce schodzi coraz wolniej? Usuwam przyczynę mechanicznie, od środka rury, a po robocie sprawdzam, czy odpływ pracuje jak trzeba.</p>
               <a class="service-card-new__more" href="tel:+48511323123">Zgłoś problem →</a>
             </article>
 
@@ -839,7 +826,7 @@ const dateFmt = new Intl.DateTimeFormat("pl-PL", {
                 <img src="/icon-wc.png" alt="Przepychanie WC" style="mix-blend-mode:multiply;" />
               </div>
               <h3>Przepychanie WC</h3>
-              <p>Pomoc przy niedrożnej muszli, cofaniu wody i problemach z odpływem. Najpierw ocena sytuacji, potem dobranie narzędzia do rodzaju zatoru.</p>
+              <p>Problem z muszlą i cofającą się wodą. Najpierw sprawdzam, co się dzieje, potem dobieram narzędzie — bez chemii lanej na ślepo.</p>
               <a class="service-card-new__more" href="tel:+48511323123">Zadzwoń →</a>
             </article>
 
@@ -848,7 +835,7 @@ const dateFmt = new Intl.DateTimeFormat("pl-PL", {
                 <img src="/icon-wuko.png" alt="WUKO" style="mix-blend-mode:multiply;" />
               </div>
               <h3>WUKO</h3>
-              <p>Czyszczenie ciśnieniowe dłuższych odcinków kanalizacji, przyłączy i rur zewnętrznych. Dobra metoda przy osadach, piasku i powtarzających się niedrożnościach.</p>
+              <p>Ciśnieniowe czyszczenie kanalizacji na zewnątrz budynku — przyłączy i dłuższych odcinków rur. Przydaje się przy piasku i osadach, które lubią wracać.</p>
               <a class="service-card-new__more" href="tel:+48511323123">Zapytaj o termin →</a>
             </article>
 
@@ -857,7 +844,7 @@ const dateFmt = new Intl.DateTimeFormat("pl-PL", {
                 <img src="/icon-kamera.png" alt="Kamera inspekcyjna" style="mix-blend-mode:multiply;" />
               </div>
               <h3>Kamera inspekcyjna</h3>
-              <p>Przy nawracających problemach warto sprawdzić, czy w rurze nie ma przeciwspadku, uszkodzenia, osadu albo błędu montażowego.</p>
+              <p>Gdy problem wraca mimo czyszczenia, kamera pokazuje stan rury od środka: osad, przeciwspadek, pęknięcie albo błąd montażowy.</p>
               <a class="service-card-new__more" href="tel:+48511323123">Umów sprawdzenie →</a>
             </article>
 
@@ -866,7 +853,7 @@ const dateFmt = new Intl.DateTimeFormat("pl-PL", {
                 <img src="/icon-piony.png" alt="Piony kanalizacyjne" style="mix-blend-mode:multiply;" />
               </div>
               <h3>Piony kanalizacyjne</h3>
-              <p>Pomoc przy problemach w blokach, lokalach usługowych i budynkach wielorodzinnych. Gdy zator jest głębiej, sama chemia zwykle nie rozwiązuje przyczyny.</p>
+              <p>Awarie w budynkach wielorodzinnych, gdy kłopot dotyczy kilku mieszkań naraz. Ustalam, gdzie leży przyczyna, i działam w porozumieniu z administracją.</p>
               <a class="service-card-new__more" href="tel:+48511323123">Skonsultuj awarię →</a>
             </article>
 
@@ -875,9 +862,28 @@ const dateFmt = new Intl.DateTimeFormat("pl-PL", {
                 <img src="/bateria_wylewka_skrocona.png" alt="Drobna hydraulika" style="mix-blend-mode:multiply;" />
               </div>
               <h3>Drobna hydraulika</h3>
-              <p>Syfony, odpływy, podejścia, nieszczelności i elementy, które często wychodzą przy okazji udrażniania. Prosty zakres, szybka decyzja, jasny kontakt.</p>
+              <p>Kapiąca bateria, wymiana wężyków i zaworów, przeciek przy syfonie. Krótkie zlecenia, które załatwiam od ręki, przy jednej wizycie.</p>
               <a class="service-card-new__more" href="tel:+48511323123">Porozmawiaj z hydraulikiem →</a>
             </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ═══════════════════════════════════════════════════
+           ZAKRES USŁUG — Wawer
+      ════════════════════════════════════════════════════ -->
+      <section class="new-section local">
+        <div class="container">
+          <div class="section-head reveal">
+            <div>
+              <p class="section-kicker">Co robię</p>
+              <h2 class="section-title">Naprawy, wymiany i podłączenia — pełny zakres</h2>
+            </div>
+          </div>
+          <div class="reveal">
+            <p>Zakres mam szeroki. Montaż i naprawa baterii, spłuczek, zaworów i wężyków, usuwanie przecieków pod zlewem i przy pralce, podłączanie pralek, zmywarek i lodówek z kostkarką. Podstawowe części wożę ze sobą, więc większość takich prac zamykam w jedną wizytę.</p>
+            <p>Biorę też większe roboty. W Wawrze to głównie domy jednorodzinne: montaż i serwis bojlerów, wymiana grzejników z zaworami termostatycznymi, przeróbki podejść przy remontach łazienek. W starszych domach instalacje bywały składane etapami przez dziesięciolecia — rury z różnych epok połączone tak, jak akurat było można. Porządkuję to i mówię wprost, co jeszcze posłuży, a co lepiej wymienić.</p>
+            <p>A gdy woda staje w zlewie? Zaczynam od syfonu. Zdejmuję go w ramach standardowej roboty, bez dopłat — i często na tym sprawa się kończy. Jeśli przyczyna siedzi dalej, w podejściu, usuwam ją od środka rury.</p>
           </div>
         </div>
       </section>
@@ -921,6 +927,53 @@ const dateFmt = new Intl.DateTimeFormat("pl-PL", {
       </section>
 
       <!-- ═══════════════════════════════════════════════════
+           LOKALNIE — Wawer
+      ════════════════════════════════════════════════════ -->
+      <section class="new-section local">
+        <div class="container">
+          <div class="section-head reveal">
+            <div>
+              <p class="section-kicker">Hydraulik w Wawrze</p>
+              <h2 class="section-title">Wawer to dzielnica domów — i instalacji z różnych epok</h2>
+            </div>
+          </div>
+          <div class="reveal">
+            <p>Największa dzielnica Warszawy, a zabudowa głównie niska: domy jednorodzinne, bliźniaki, segmenty wśród sosen. Spora część powstawała kilkadziesiąt lat temu i była potem rozbudowywana. Skutki znam z codziennej pracy. Stalowe rury obok nowych plastikowych, zawory, których nikt nie ruszał od lat, podejścia prowadzone po najkrótszej możliwej trasie. Do takich domów jeżdżę najczęściej.</p>
+            <p>Nowsze segmenty i szeregówki to inna historia. Instalacje są tam młode, za to zdarzają się usterki wykonawcze i klasyczne wyposażanie łazienki po odbiorze: baterie, spłuczka podtynkowa, podłączenie pralki i zmywarki. Robię to przy jednej wizycie, ze sprawdzeniem szczelności na koniec.</p>
+            <p>No i zwykłe awarie. Kapiąca bateria, cieknąca spłuczka, mokra plama pod szafką. Przyjeżdżam, znajduję przyczynę i naprawiam — bez dokładania robót, których nie potrzebujesz.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ═══════════════════════════════════════════════════
+           NAJCZĘSTSZE SYTUACJE — Wawer
+      ════════════════════════════════════════════════════ -->
+      <section class="new-section">
+        <div class="container">
+          <div class="section-head reveal">
+            <div>
+              <p class="section-kicker">Z czym dzwonią najczęściej</p>
+              <h2 class="section-title">Trzy sprawy, z którymi w Wawrze dzwonią najczęściej</h2>
+            </div>
+          </div>
+          <div class="cases reveal">
+            <div class="case">
+              <h3>Stare rury w domu jednorodzinnym</h3>
+              <p>Spadające ciśnienie, rudy nalot na wodzie, mokre plamy przy podejściach. W domach z lat 70. i 80. stalowe rury rdzewieją od środka — to kwestia czasu. Wymieniam zużyte odcinki i armaturę, zwykle etapami, tak żeby dom nie zostawał bez wody na dłużej.</p>
+            </div>
+            <div class="case">
+              <h3>Woda staje w kuchni albo łazience</h3>
+              <p>Zlew schodzi coraz wolniej, z umywalki zaczyna pachnieć. Pierwszy ruch to zdjęcie syfonu, bo tam przyczyna siedzi najczęściej. Gdy jest głębiej, w podejściu — mam różny sprzęt na różne okoliczności i usuwam ją od środka rury.</p>
+            </div>
+            <div class="case">
+              <h3>Ciepła woda z bojlera</h3>
+              <p>W wielu domach w Wawrze ciepłą wodę robi bojler. Gdy grzeje słabo albo woda zaczyna dziwnie pachnieć, winna jest zwykle grzałka lub zużyta anoda. Wymieniam części na miejscu, a przy starych urządzeniach mówię szczerze, czy naprawa jeszcze się opłaca.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ═══════════════════════════════════════════════════
            CENNIK
       ════════════════════════════════════════════════════ -->
       <section id="cennik" class="pricing-section">
@@ -936,38 +989,150 @@ const dateFmt = new Intl.DateTimeFormat("pl-PL", {
             <article class="price-card reveal">
               <span class="price-card__tag">Większy zakres</span>
               <h3>Montaż baterii</h3>
-              <p>Bateria umywalkowa, kuchenna albo nawannowa. Demontaż starej, montaż nowej i sprawdzenie szczelności na miejscu.</p>
-              <div class="price-val">od 350 zł</div>
+              <p>Wymiana starej baterii na nową w kuchni albo łazience. Demontaż, nowe wężyki, uszczelnienie i próba szczelności na koniec.</p>
+              <div class="price-val">od 250 zł <small>orientacyjnie</small></div>
             </article>
             <article class="price-card price-card--featured reveal">
               <span class="price-card__tag">Pilna awaria</span>
               <h3>Nagła awaria</h3>
-              <p>Niedrożna muszla, cofająca się woda, problem z odpływem lub zator na dalszym odcinku podejścia.</p>
+              <p>Pęknięty wężyk, woda pod szafką, cieknący zawór albo problem z odpływem — sytuacje, które nie mogą czekać do jutra.</p>
               <div class="price-val">do uzgodnienia</div>
             </article>
             <article class="price-card reveal">
               <span class="price-card__tag">Najczęstsze</span>
               <h3>Naprawa spłuczki</h3>
-              <p>Cieknąca spłuczka, słaby spływ, uszkodzony mechanizm lub zawór. Szybka diagnoza i wymiana części na miejscu. Cieknąca spłuczka – kompakt.</p>
-              <div class="price-val">od 350 zł</div>
+              <p>Spłuczka przepuszcza wodę do muszli albo nie spłukuje jak trzeba. Diagnoza na miejscu i wymiana zużytego mechanizmu. Cieknąca spłuczka – kompakt.</p>
+              <div class="price-val">300 zł <small>orientacyjnie</small></div>
             </article>
           </div>
           <p class="price-note">Podane ceny dotyczą usług w dni robocze w standardowych godzinach. W soboty, niedziele, święta oraz po 20:00 stawki mogą być wyższe — dokładna kwota zawsze ustalana telefonicznie.</p>
+          <div class="trust-row reveal">
+            <div class="trust-item"><strong>Wycena przed pracą</strong><span>Cenę ustalam na miejscu, zanim zacznę. Bez niespodzianek na koniec.</span></div>
+            <div class="trust-item"><strong>Faktura i paragon</strong><span>Wystawiam dokument za każdą usługę — także dla firm i wspólnot.</span></div>
+            <div class="trust-item"><strong>Gwarancja na robociznę</strong><span>Za wykonaną naprawę odpowiadam. Jak coś wróci, wracam i ja.</span></div>
+            <div class="trust-item"><strong>Dojazd tego samego dnia</strong><span>W Wawrze bywam regularnie, więc zwykle docieram szybko.</span></div>
+          </div>
         </div>
       </section>
 
       <!-- ═══════════════════════════════════════════════════
-           OPINIA
+           KOMU POMAGAM — Wawer
       ════════════════════════════════════════════════════ -->
-      <section class="testimonial-strip">
+      <section class="new-section">
         <div class="container">
-          <div class="strip-card reveal">
+          <div class="section-head reveal">
             <div>
-              <div class="rating">★★★★★ 558 opinii Google</div>
+              <p class="section-kicker">Komu pomagam</p>
+              <h2 class="section-title">Do kogo najczęściej jeżdżę w Wawrze</h2>
             </div>
-            <blockquote>
-              „Szybka pomoc przy pękniętej rurze w nocy. Fachowiec był pod blokiem w 20 minut. Wszystko sprawnie naprawione, czysto i profesjonalnie."
-            </blockquote>
+          </div>
+          <div class="help-grid reveal">
+            <div class="help-card">
+              <h3>Domy jednorodzinne</h3>
+              <p>Domy budowane i rozbudowywane przez lata. Wymiana starych odcinków instalacji, serwis bojlerów, porządkowanie podejść i zaworów — z jasną informacją, co jeszcze posłuży.</p>
+            </div>
+            <div class="help-card">
+              <h3>Segmenty i szeregówki</h3>
+              <p>Nowsza zabudowa: montaż baterii i spłuczek, podłączenia pralek i zmywarek, poprawki po ekipach wykończeniowych. Całość szczelna i sprawdzona, zanim wyjdę.</p>
+            </div>
+            <div class="help-card">
+              <h3>Wspólnoty i administracje</h3>
+              <p>Mniejsze budynki wielorodzinne: interwencje u lokatorów, wymiana zaworów w częściach wspólnych, naprawy zgłaszane przez zarządcę. Faktura bez problemu.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ═══════════════════════════════════════════════════
+           OPINIE
+      ════════════════════════════════════════════════════ -->
+      <section id="opinie" class="new-section">
+        <div class="container">
+          <div class="section-head reveal">
+            <div>
+              <p class="section-kicker">Opinie klientów</p>
+              <h2 class="section-title">Co mówią mieszkańcy Wawra</h2>
+            </div>
+            <p class="section-desc"><span class="rating">★★★★★ 5,0 — 558 opinii Google</span></p>
+          </div>
+          <div class="review-grid">
+            <article class="review-card reveal">
+              <div class="review-card__head">
+                <div class="review-card__avatar" style="background:#1f6fd1">A</div>
+                <div class="review-card__who"><strong>Pan Andrzej Wawer</strong><span>02.08.2026</span></div>
+              </div>
+              <div class="review-card__stars">★★★★★</div>
+              <p>Bojler przestał grzać w piątek wieczorem. Pan Marcin odebrał, wypytał o objawy i następnego dnia przyjechał z grzałką i anodą. Wymienił, sprawdził, wszystko działa. Przy okazji zauważył skorodowany zawór przy wejściu do domu i od razu go wymienił, żeby nie czekać na kolejną awarię. Solidna robota, polecam.</p>
+            </article>
+            <article class="review-card reveal">
+              <div class="review-card__head">
+                <div class="review-card__avatar" style="background:#ff740f">J</div>
+                <div class="review-card__who"><strong>Pani Joanna Wawer</strong><span>31.07.2026</span></div>
+              </div>
+              <div class="review-card__stars">★★★★★</div>
+              <p>Wymiana baterii w łazience i nowe wężyki. Szybko, czysto, w cenie ustalonej przez telefon.</p>
+            </article>
+            <article class="review-card reveal">
+              <div class="review-card__head">
+                <div class="review-card__avatar" style="background:#154f9c">P</div>
+                <div class="review-card__who"><strong>Pan Paweł Wawer</strong><span>29.07.2026</span></div>
+              </div>
+              <div class="review-card__stars">★★★★★</div>
+              <p>Dom po rodzicach, instalacja z różnych lat. Pan Marcin uporządkował podejścia w kuchni, wymienił trzy zawory i uczciwie powiedział, że reszta jeszcze spokojnie posłuży. Bez naciągania na zbędne prace. Polecam.</p>
+            </article>
+            <article class="review-card reveal">
+              <div class="review-card__head">
+                <div class="review-card__avatar" style="background:#e64b8e">R</div>
+                <div class="review-card__who"><strong>Pani Renata Wawer</strong><span>26.07.2026</span></div>
+              </div>
+              <div class="review-card__stars">★★★★★</div>
+              <p>Zlew w kuchni przestał odprowadzać wodę w niedzielę. Przyjechał tego samego dnia, zdjął syfon, usunął przyczynę głębiej w rurze i sprawdził odpływ — woda schodzi od razu. Miła odmiana po fachowcach, którzy nie odbierają telefonów.</p>
+            </article>
+            <article class="review-card reveal">
+              <div class="review-card__head">
+                <div class="review-card__avatar" style="background:#2a9d5c">G</div>
+                <div class="review-card__who"><strong>Pan Grzegorz Wawer</strong><span>25.07.2026</span></div>
+              </div>
+              <div class="review-card__stars">★★★★★</div>
+              <p>Podłączenie zmywarki i nowy zawór kątowy. Jedna wizyta, zero poprawek. Polecam.</p>
+            </article>
+            <article class="review-card reveal">
+              <div class="review-card__head">
+                <div class="review-card__avatar" style="background:#7c3aed">D</div>
+                <div class="review-card__who"><strong>Pani Dorota Wawer</strong><span>23.07.2026</span></div>
+              </div>
+              <div class="review-card__stars">★★★★★</div>
+              <p>Mokra plama na suficie łazienki na parterze. Baliśmy się kucia płytek na piętrze. Pan Marcin znalazł przyczynę przy wannie, wymienił skorodowane złącze i uszczelnił całość — bez rozbierania połowy łazienki. Wszystko wytłumaczył po ludzku. Polecam.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ═══════════════════════════════════════════════════
+           OBSZAR — Wawer
+      ════════════════════════════════════════════════════ -->
+      <section id="obszar" class="new-section">
+        <div class="container">
+          <div class="section-head reveal">
+            <div>
+              <p class="section-kicker">Gdzie dojeżdżam</p>
+              <h2 class="section-title">Wawer i cała Warszawa</h2>
+            </div>
+            <p class="section-desc">Bazuję na prawobrzeżnej Warszawie, więc Wawer mam pod ręką. Dojeżdżam do wszystkich części dzielnicy i po całym mieście.</p>
+          </div>
+          <div class="area-grid reveal">
+            <iframe class="area-map" src="https://www.google.com/maps?q=Wawer,+Warszawa&output=embed" loading="lazy" title="Mapa — hydraulik Wawer" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div>
+              <p>Jeżdżę po całym Wawrze — do domów przy leśnych uliczkach, segmentów i mniejszych bloków. Pozostałe rejony Warszawy też obsługuję, zwykle tego samego dnia. Wystarczy telefon i krótki opis problemu.</p>
+              <ul class="area-list">
+                <li>Międzylesie</li>
+                <li>Radość</li>
+                <li>Falenica</li>
+                <li>Miedzeszyn</li>
+                <li>Marysin Wawerski</li>
+                <li>cała Warszawa</li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>
@@ -985,343 +1150,63 @@ const dateFmt = new Intl.DateTimeFormat("pl-PL", {
           <div class="faq-list reveal">
             <article class="faq-item is-open">
               <button class="faq-question" type="button">
-                <span>Dlaczego rura zatyka się ponownie?</span><span>+</span>
+                <span>Jak szybko hydraulik dojedzie do Wawra?</span><span>+</span>
               </button>
               <div class="faq-answer">
-                <p>Najczęściej przez tłuszcz, osad, zbyt mały spadek, źle wykonane podejście albo zator znajdujący się głębiej niż sam syfon.</p>
+                <p>Najczęściej tego samego dnia, przy awariach często w ciągu paru godzin od telefonu. W Wawrze jestem regularnie i znam tutejsze uliczki, więc nie tracę czasu na dojazd. Zadzwoń: 511 323 123 i umówimy godzinę.</p>
               </div>
             </article>
             <article class="faq-item">
               <button class="faq-question" type="button">
-                <span>Czy chemia do rur wystarczy?</span><span>+</span>
+                <span>Jakie prace wykonuje hydraulik w Wawrze?</span><span>+</span>
               </button>
               <div class="faq-answer">
-                <p>Przy lekkim osadzie czasem pomaga, ale przy twardym zatorze może pogorszyć sytuację i utrudnić późniejszą pracę mechaniczną.</p>
+                <p>Naprawy instalacji wodnych i kanalizacyjnych, montaż baterii, spłuczek i bojlerów, wymianę zaworów i wężyków, podłączenia pralek i zmywarek. W Wawrze przeważają domy jednorodzinne, więc częściej niż gdzie indziej wymieniam starsze odcinki instalacji i porządkuję podejścia po dawnych przeróbkach.</p>
               </div>
             </article>
             <article class="faq-item">
               <button class="faq-question" type="button">
-                <span>Kiedy potrzebna jest kamera?</span><span>+</span>
+                <span>Czy przyjedziecie wieczorem albo w święto?</span><span>+</span>
               </button>
               <div class="faq-answer">
-                <p>Gdy problem wraca, woda cofa się mimo udrażniania albo podejrzewamy uszkodzenie, przeciwspadek lub zalegający osad w rurze.</p>
+                <p>Tak. Telefon działa 7 dni w tygodniu, również w nocy. Pęknięty wężyk nie pyta o kalendarz — dzwoń, powiem też, co zakręcić do mojego przyjazdu.</p>
               </div>
             </article>
             <article class="faq-item">
               <button class="faq-question" type="button">
-                <span>Czy da się podać cenę przez telefon?</span><span>+</span>
+                <span>Ile kosztuje wizyta hydraulika w Wawrze?</span><span>+</span>
               </button>
               <div class="faq-answer">
-                <p>Da się podać widełki, ale dokładna cena zależy od rodzaju awarii, dostępu do instalacji i metody potrzebnej do usunięcia zatoru.</p>
+                <p>Orientacyjne widełki podaję od razu przez telefon, po opisie problemu. Ostateczną kwotę potwierdzam na miejscu, przed rozpoczęciem pracy. Dopłat, o których nie było mowy, u mnie nie ma.</p>
+              </div>
+            </article>
+            <article class="faq-item">
+              <button class="faq-question" type="button">
+                <span>Czy dojeżdżacie do każdej części Wawra?</span><span>+</span>
+              </button>
+              <div class="faq-answer">
+                <p>Tak, obsługuję całą dzielnicę — i pozostałe rejony Warszawy z okolicami. Zadzwoń: 511 323 123, a ustalimy dogodny termin.</p>
+              </div>
+            </article>
+            <article class="faq-item">
+              <button class="faq-question" type="button">
+                <span>Wymienicie starą instalację w domu jednorodzinnym?</span><span>+</span>
+              </button>
+              <div class="faq-answer">
+                <p>Tak, w Wawrze to częste zlecenie. Stare stalowe rury rdzewieją od środka — spada ciśnienie, na wodzie pojawia się rudy nalot. Wymieniam takie odcinki na nowe, zwykle etapami, żeby dom cały czas miał wodę. Przed decyzją mówię wprost, co faktycznie wymaga wymiany, a co jeszcze posłuży.</p>
+              </div>
+            </article>
+            <article class="faq-item">
+              <button class="faq-question" type="button">
+                <span>Montujecie i naprawiacie bojlery?</span><span>+</span>
+              </button>
+              <div class="faq-answer">
+                <p>Tak — montaż nowego bojlera, wymiana grzałki albo anody, serwis przed sezonem. W domach bez ciepłej wody z sieci to chleb powszedni. Przy starych urządzeniach mówię szczerze, czy naprawa jeszcze się opłaca.</p>
               </div>
             </article>
           </div>
         </div>
       </section>
-
-      <!-- ═══════════════════════════════════════════════════
-           PORADNIK — zajawka najnowszych artykułów
-      ════════════════════════════════════════════════════ -->
-      {latestPosts.length > 0 && (
-        <section id="poradnik" class="new-section">
-          <div class="container">
-            <div class="section-head reveal">
-              <div>
-                <p class="section-kicker">Poradnik</p>
-                <h2 class="section-title">Porady i realne przypadki z naszych interwencji</h2>
-              </div>
-              <p class="section-desc">Krótkie, konkretne artykuły o przeciekach, awariach i udrażnianiu rur. Bez teorii — to, co naprawdę spotykamy u klientów.</p>
-            </div>
-
-            <div class="blog-grid reveal">
-              {latestPosts.map((post) => (
-                <article class="blog-card">
-                  <a class="blog-card__media" href={`/poradnik/${post.slug}`}>
-                    <img src={post.data.hero} alt={post.data.heroAlt} width="400" height="225" loading="lazy" />
-                  </a>
-                  <div class="blog-card__body">
-                    <span class="blog-tag">{post.data.category}</span>
-                    <h3><a href={`/poradnik/${post.slug}`}>{post.data.title}</a></h3>
-                    <p class="blog-card__excerpt">{post.data.description}</p>
-                    <div class="blog-meta">
-                      <span>📅 {dateFmt.format(post.data.pubDate)}</span>
-                      <span>⏱ {post.data.readingTime} min</span>
-                    </div>
-                    <a class="blog-card__more" href={`/poradnik/${post.slug}`}>Czytaj więcej →</a>
-                  </div>
-                </article>
-              ))}
-            </div>
-
-            <div class="poradnik-foot reveal">
-              <a class="btn-new btn-new--ghost" href="/poradnik">Zobacz wszystkie porady →</a>
-            </div>
-          </div>
-        </section>
-      )}
-
-      <!-- ═══════════════════════════════════════════════════
-           REALIZACJA WIDEO — udrażnianie brodzika
-      ════════════════════════════════════════════════════ -->
-      <section id="realizacja-brodzik" class="new-section">
-        <div class="container">
-          <div class="section-head reveal">
-            <div>
-              <p class="section-kicker">Zobacz, jak pracuję</p>
-              <h2 class="section-title">Udrażnianie brodzika elektryczną sprężyną — nagranie z roboty</h2>
-            </div>
-            <p class="section-desc">Krótkie nagranie z prawdziwego zlecenia. Włosy i osad w odpływie brodzika to najczęstszy powód, dla którego woda przestaje schodzić.</p>
-          </div>
-
-          <div class="video-realizacja reveal">
-            <video class="video-realizacja__player" controls preload="none" playsinline
-                   poster="/img/udraznianie-brodzika-sprezyna-elektryczna-poster.webp"
-                   width="720" height="1280">
-              <source src="/video/udraznianie-brodzika-sprezyna-elektryczna.mp4" type="video/mp4" />
-              Twoja przeglądarka nie odtwarza wideo. <a href="/video/udraznianie-brodzika-sprezyna-elektryczna.mp4">Pobierz nagranie</a>.
-            </video>
-
-            <div class="video-realizacja__desc">
-              <p>Brodzik zaczyna zbierać wodę i schodzi coraz wolniej — klasyka. Winowajcą prawie zawsze są włosy, które razem z mydłem i osadem tworzą w odpływie i syfonie gęstą plątaninę. Na tym nagraniu woda w kabinie stała już po kostki.</p>
-              <p>W brodziku syfonu często nie da się po prostu odkręcić — dostanie się do niego oznaczałoby demontaż brodzika i całej kabiny. Dlatego radzę sobie inaczej: wyjmuję zasyfonowanie i wprowadzam elektryczną sprężynę przez odpływ. Obrotami w prawo prowadzę spiralę w głąb rury, aż dojdzie do zatoru i rozbije zbite włosy z osadem; obrotami w lewo wycofuję ją po udrożnieniu. Bez chemii, bez rozkręcania pół łazienki. Cała robota to przeważnie kilka, najwyżej kilkanaście minut.</p>
-              <p>Po udrożnieniu sprawdzam, czy woda schodzi swobodnie — i brodzik znów jest drożny. Domowe mikstury przy zbitych włosach dają zwykle tylko chwilową poprawę, po której problem wraca. Lepiej rozwiązać to raz. Masz podobnie? Zadzwoń: <a class="video-realizacja__phone" href="tel:+48511323123">511&nbsp;323&nbsp;123</a> — przyjadę z odpowiednim sprzętem.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <script type="application/ld+json" is:inline set:html={JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": "VideoObject",
-        "name": "Udrażnianie brodzika elektryczną sprężyną — realizacja",
-        "description": "Nagranie z realnego zlecenia: udrożnienie odpływu brodzika zapchanego włosami i osadem przy użyciu elektrycznej sprężyny. Wyjęcie zasyfonowania, wprowadzenie spirali przez odpływ, rozbicie zatoru i sprawdzenie odpływu.",
-        "thumbnailUrl": "https://i-hydraulik.pl/img/udraznianie-brodzika-sprezyna-elektryczna-poster.webp",
-        "uploadDate": "2026-07-12",
-        "duration": "PT26S",
-        "contentUrl": "https://i-hydraulik.pl/video/udraznianie-brodzika-sprezyna-elektryczna.mp4"
-      })} />
-
-      <!-- ═══════════════════════════════════════════════════
-           REALIZACJA — przeniesienie zlewu w kuchni
-      ════════════════════════════════════════════════════ -->
-      <section id="realizacja-przeniesienie-zlewu" class="new-section">
-        <div class="container">
-          <div class="section-head reveal">
-            <div>
-              <p class="section-kicker">Z praktyki</p>
-              <h2 class="section-title">Przeniesienie zlewu w kuchni — przeróbka instalacji wodnej w mieszkaniu</h2>
-            </div>
-            <p class="section-desc">Zmiana układu kuchni to prawie zawsze także przeróbka instalacji wodnej. Tak wyglądało to na jednym z ostatnich zleceń.</p>
-          </div>
-
-          <article class="read-article reveal">
-            <div class="read-article__tags">
-              <span class="read-tag read-tag--primary">Przeniesienie zlewu</span>
-              <span class="read-tag">Instalacja wodna</span>
-              <span class="read-tag">Remont kuchni</span>
-            </div>
-
-            <p>Chcąc zrobić gruntowne przemeblowanie kuchni wraz z przeniesieniem zlewu w nowe miejsce, trzeba przerobić hydraulikę w mieszkaniu. Dziś, 27.07.2026, robiłem dokładnie taką przeróbkę w Markach przy ul. Kosynierów.</p>
-
-            <p>Klient zmienia cały układ kuchni. Zlew i zmywarka mają stanąć pod inną ścianą niż dotychczas, więc stare podejścia trzeba było przerobić do nowej sytuacji. Instalację poprowadziłem od nowa.</p>
-
-            <p>Zacząłem od skucia płytek i wykucia bruzd w ścianie oraz w podłodze — widać je dobrze na zdjęciach.</p>
-
-            <img
-              class="read-article__img"
-              src="/img/przeniesienie-zlewu-kuchnia/bruzdy-nowe-rury-wody-kuchnia.webp"
-              alt="Bruzdy w ścianie i podłodze kuchni z nowymi rurami wody, obok zgrzewarka i obcinak do rur"
-              width="1200" height="675" loading="lazy" decoding="async"
-            />
-
-            <p>Bruzdy wykute w ścianie i w podłodze, w nich nowe rury. Obok zgrzewarka i obcinak — całość łączona na zgrzew.</p>
-
-            <p>W bruzdach poprowadziłem nowe rury ciepłej i zimnej wody, aż do miejsca, w którym stanie przyszły zlewozmywak. Wszystkie połączenia zgrzewane. Zgrzew łączy rurę i kształtkę w jedną całość, więc w połączeniu zakrytym później tynkiem i płytkami nie ma się co poluzować. Każde podejście zakończyłem zaworem odcinającym — przy wymianie baterii albo wężyka za kilka lat nie trzeba będzie zakręcać wody w całym mieszkaniu. Drobiazg, a oszczędza nerwy.</p>
-
-            <img
-              class="read-article__img"
-              src="/img/przeniesienie-zlewu-kuchnia/podejscia-wody-zawory-odcinajace-kuchnia.webp"
-              alt="Nowe podejścia ciepłej i zimnej wody w kuchni zakończone zaworami odcinającymi"
-              width="1200" height="675" loading="lazy" decoding="async"
-            />
-
-            <p>Gotowe podejścia zakończone zaworami odcinającymi — dokładnie tam, gdzie staną zlew i zmywarka.</p>
-
-            <p>Na koniec puściłem wodę i sprawdziłem szczelność każdego połączenia. Sucho. Bruzdy zostają teraz do zaprawienia — tym zajmie się ekipa remontowa przy układaniu nowych płytek.</p>
-
-            <p>Planujesz remont kuchni z przeniesieniem zlewu albo inną przeróbkę instalacji wodnej? Zadzwoń: <a class="read-article__phone" href="tel:+48511323123">511&nbsp;323&nbsp;123</a> — obejrzę, wycenię przed pracą i zrobię tak, żeby po zabudowie mebli nic Cię już nie zaskoczyło.</p>
-
-            <h3>Najczęstsze pytania — przeniesienie zlewu i przeróbka instalacji</h3>
-            <div class="read-faq">
-              <details>
-                <summary>Czy zlew można przenieść w dowolne miejsce kuchni?</summary>
-                <p>Wodę da się doprowadzić praktycznie wszędzie — rury ciepłej i zimnej wody pracują pod ciśnieniem, więc trasa może biec ścianą albo podłogą. Ograniczeniem bywa odpływ: rura kanalizacyjna musi mieć spadek w stronę pionu. Im dalej od pionu stanie zlew, tym staranniej trzeba zaplanować jej trasę. Dlatego wolę obejrzeć kuchnię przed pracą i od razu powiedzieć, co jest możliwe.</p>
-              </details>
-              <details>
-                <summary>Na jakim etapie remontu kuchni zaplanować przeróbkę hydrauliki?</summary>
-                <p>Najlepiej po skuciu starych płytek, a przed tynkowaniem i układaniem nowych. Wtedy bruzdy można wykuć i poprowadzić rury bez niszczenia świeżych wykończeń. Zaprawianie bruzd zostaje po stronie ekipy remontowej — ja zostawiam sprawdzoną, szczelną instalację.</p>
-              </details>
-              <details>
-                <summary>Czy połączenia zakryte tynkiem i płytkami są bezpieczne?</summary>
-                <p>Tak, pod warunkiem że są zgrzewane. Zgrzew łączy rurę i kształtkę w jedną całość — nie ma tam uszczelki ani gwintu, które mogłyby z czasem puścić. Przed zakryciem puszczam wodę i sprawdzam każde połączenie. Dopiero wtedy bruzdy nadają się do zaprawienia.</p>
-              </details>
-              <details>
-                <summary>Ile trwa przeniesienie podejść wody w kuchni?</summary>
-                <p>Przeróbkę taką jak ta z opisu zwykle zamykam w jeden dzień roboczy. Czas zależy głównie od długości nowej trasy i od tego, w czym się kuje — cegła idzie szybko, beton wolniej. Po krótkiej rozmowie telefonicznej powiem, na co się przygotować.</p>
-              </details>
-              <details>
-                <summary>Ile kosztuje taka przeróbka instalacji wodnej?</summary>
-                <p>Cenę podaję przed rozpoczęciem pracy, po obejrzeniu kuchni. Zależy od kilku czynników: długości nowej trasy rur, zakresu kucia i liczby podejść. Zadzwoń: 511 323 123 — umówimy się na wycenę i dopasujemy termin do harmonogramu remontu.</p>
-              </details>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <script type="application/ld+json" is:inline set:html={JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-          { "@type": "Question", "name": "Czy zlew można przenieść w dowolne miejsce kuchni?", "acceptedAnswer": { "@type": "Answer", "text": "Wodę da się doprowadzić praktycznie wszędzie — rury ciepłej i zimnej wody pracują pod ciśnieniem, więc trasa może biec ścianą albo podłogą. Ograniczeniem bywa odpływ: rura kanalizacyjna musi mieć spadek w stronę pionu. Im dalej od pionu stanie zlew, tym staranniej trzeba zaplanować jej trasę. Dlatego wolę obejrzeć kuchnię przed pracą i od razu powiedzieć, co jest możliwe." } },
-          { "@type": "Question", "name": "Na jakim etapie remontu kuchni zaplanować przeróbkę hydrauliki?", "acceptedAnswer": { "@type": "Answer", "text": "Najlepiej po skuciu starych płytek, a przed tynkowaniem i układaniem nowych. Wtedy bruzdy można wykuć i poprowadzić rury bez niszczenia świeżych wykończeń. Zaprawianie bruzd zostaje po stronie ekipy remontowej — ja zostawiam sprawdzoną, szczelną instalację." } },
-          { "@type": "Question", "name": "Czy połączenia zakryte tynkiem i płytkami są bezpieczne?", "acceptedAnswer": { "@type": "Answer", "text": "Tak, pod warunkiem że są zgrzewane. Zgrzew łączy rurę i kształtkę w jedną całość — nie ma tam uszczelki ani gwintu, które mogłyby z czasem puścić. Przed zakryciem puszczam wodę i sprawdzam każde połączenie. Dopiero wtedy bruzdy nadają się do zaprawienia." } },
-          { "@type": "Question", "name": "Ile trwa przeniesienie podejść wody w kuchni?", "acceptedAnswer": { "@type": "Answer", "text": "Przeróbkę taką jak ta z opisu zwykle zamykam w jeden dzień roboczy. Czas zależy głównie od długości nowej trasy i od tego, w czym się kuje — cegła idzie szybko, beton wolniej. Po krótkiej rozmowie telefonicznej powiem, na co się przygotować." } },
-          { "@type": "Question", "name": "Ile kosztuje taka przeróbka instalacji wodnej?", "acceptedAnswer": { "@type": "Answer", "text": "Cenę podaję przed rozpoczęciem pracy, po obejrzeniu kuchni. Zależy od kilku czynników: długości nowej trasy rur, zakresu kucia i liczby podejść. Zadzwoń: 511 323 123 — umówimy się na wycenę i dopasujemy termin do harmonogramu remontu." } }
-        ]
-      })} />
-
-      <!-- ═══════════════════════════════════════════════════
-           ARTYKUŁ — wymiana dwóch baterii i spustu z click-clackiem
-      ════════════════════════════════════════════════════ -->
-      <section id="artykul-baterie" class="new-section">
-        <div class="container">
-          <div class="section-head reveal">
-            <div>
-              <p class="section-kicker">Realizacja</p>
-              <h2 class="section-title">Dwie baterie zamontowane na Ursynowie plus nowy click-clack w umywalce</h2>
-            </div>
-            <p class="section-desc">Dwie baterie do wymiany i podrdzewiały spust umywalki do przełożenia na click-clacka. Najtrudniejsze okazało się coś innego: dojście kluczem do starej nakrętki.</p>
-          </div>
-
-          <article class="read-article reveal">
-            <div class="read-article__tags">
-              <span class="read-tag read-tag--primary">Bateria kuchenna</span>
-              <span class="read-tag">Bateria umywalkowa</span>
-              <span class="read-tag">Korek click-clack</span>
-            </div>
-
-            <p>Zlecenie na Ursynowie wyglądało zwyczajnie: wymiana baterii zlewozmywakowej w kuchni, wymiana baterii umywalkowej w łazience, a przy okazji demontaż starego metalowego spustu umywalki z sitkiem — mocno już podrdzewiałego — i montaż korka click-clack z nowym syfonem. Rutyna. Do czasu, aż spróbowałem odkręcić starą baterię w zlewie.</p>
-
-            <h3>Klucz nie miał jak wejść</h3>
-            <p>Nakrętki pod zlewem były w miejscu, do którego klucz fizycznie nie wchodził. Z jednej strony komory zlewu, z drugiej drewniane wsporniki szafki. Zero miejsca. Podejrzewam, że baterię przykręcono jeszcze na luzie, zanim zlew trafił do blatu — wtedy dostęp jest pełny i nikt nie myśli o tym, że kiedyś ktoś będzie musiał ją odkręcić.</p>
-            <p>Wyjście znalazło się w skrzynce z narzędziami. Wyrzynarką wyciąłem fragment drewnianego wspornika, odsłoniłem nakrętki i stara bateria wreszcie puściła.</p>
-
-            <img
-              class="read-article__img"
-              src="/img/wymiana-baterii-clickclack/wyciety-fragment-wspornika-szafki.webp"
-              alt="Wycięty wyrzynarką fragment drewnianego wspornika szafki pod zlewem"
-              width="1200" height="675" loading="lazy" decoding="async"
-            />
-
-            <p>Ten kawałek drewna blokował dostęp do nakrętek starej baterii. Po wycięciu go wyrzynarką robota ruszyła z miejsca.</p>
-
-            <h3>Mocowanie, które ratuje w ciasnych miejscach</h3>
-            <p>Nowa bateria była kupiona w Ikei i tu miłe zaskoczenie. Miała bardzo praktyczny system mocowania, który przy bateriach zlewozmywakowych czasem występuje — niestety nie zawsze: mosiężny pierścień dociskowy z dwiema śrubami.</p>
-
-            <img
-              class="read-article__img"
-              src="/img/wymiana-baterii-clickclack/mosiezny-pierscien-dociskowy-baterii.webp"
-              alt="Mosiężny pierścień dociskowy baterii kuchennej z dwiema śrubami"
-              width="1200" height="675" loading="lazy" decoding="async"
-            />
-
-            <p>Bohater tej realizacji. Montaż jest prosty: pierścień nakręcasz od spodu ręcznie — na luzie idzie z łatwością — a kiedy poczujesz opór, dociągasz śrubokrętem te dwie śruby. Klucz nie jest do niczego potrzebny, więc nie martwisz się, że komory zlewu odetną dostęp i uniemożliwią manewrowanie nim. Z takim mocowaniem nawet laik jest w stanie samodzielnie zamontować baterię w trudno dostępnym miejscu.</p>
-
-            <img
-              class="read-article__img"
-              src="/img/wymiana-baterii-clickclack/pierscien-dociskowy-i-podkladka-dociskowa.webp"
-              alt="Mosiężny pierścień dociskowy baterii obok plastikowej podkładki dociskowej (stopki mocującej)"
-              width="1200" height="675" loading="lazy" decoding="async"
-            />
-
-            <p>Cały zestaw mocujący z bliska: mosiężny pierścień ze śrubami, a obok plastikowa podkładka dociskowa, czyli stopka mocująca. Podkładka rozkłada nacisk na spód zlewu, dzięki czemu bateria siedzi stabilnie i nic nie pracuje w jednym punkcie.</p>
-
-            <img
-              class="read-article__img"
-              src="/img/wymiana-baterii-clickclack/nowa-bateria-kuchenna-ze-sprezynowa-wylewka.webp"
-              alt="Nowa bateria zlewozmywakowa ze sprężynową wylewką zamontowana przy zlewie"
-              width="1200" height="675" loading="lazy" decoding="async"
-            />
-
-            <p>Nowa bateria ze sprężynową wylewką już na swoim miejscu.</p>
-
-            <h3>Umywalka: koniec z podrdzewiałym sitkiem</h3>
-            <p>W łazience poszło sprawniej. Zdemontowałem starą baterię i metalowy korpus spustu z sitkiem, który po latach wyglądał tak:</p>
-
-            <img
-              class="read-article__img"
-              src="/img/wymiana-baterii-clickclack/podrdzewialy-spust-umywalki-przed-wymiana.webp"
-              alt="Podrdzewiały metalowy korpus spustu umywalki nad syfonem przed wymianą"
-              width="1200" height="675" loading="lazy" decoding="async"
-            />
-
-            <p>Rdza na spuście to nie tylko kwestia wyglądu. Skorodowany metal w końcu zaczyna przepuszczać wodę, dlatego wymieniłem komplet: nową baterię, korek click-clack i nowy syfon. Click-clack zamyka się i otwiera naciśnięciem korka — a wszystkie połączenia są świeże i szczelne.</p>
-
-            <img
-              class="read-article__img"
-              src="/img/wymiana-baterii-clickclack/nowa-bateria-umywalkowa-i-click-clack.webp"
-              alt="Nowa bateria umywalkowa z lejącą się wodą i biały syfon pod umywalką"
-              width="1200" height="675" loading="lazy" decoding="async"
-            />
-
-            <p>Umywalka po wymianie: nowa bateria, nowy syfon, woda leci i schodzi jak trzeba.</p>
-
-            <h3>Kupujesz baterię kuchenną? Zwróć uwagę na jedno</h3>
-            <p>Jeśli wybierasz baterię zlewozmywakową, radzę poszukać modelu z takim właśnie zestawem mocującym — mosiężnym pierścieniem dociskowym na dwie śruby. To drobiazg, który pozwala uniknąć problemów przy montażu. A czasem i wymiany świeżo kupionej baterii na inną tylko dlatego, że tej pierwszej fizycznie nie da się przykręcić pod zlewem.</p>
-            <p>Wolisz oddać robotę komuś, kto robi to codziennie? Zadzwoń: <a class="read-article__phone" href="tel:+48511323123">511&nbsp;323&nbsp;123</a>. Baterie, spusty i syfony wymieniam na Ursynowie, <a href="/hydraulikmokotow">Mokotowie</a>, <a href="/hydraulikbialoleka">Białołęce</a> i w innych warszawskich dzielnicach — a także w miejscowościach pod Warszawą.</p>
-
-            <img
-              class="read-article__img"
-              src="/img/wymiana-baterii-clickclack/selfie-hydraulika-w-lustrze-po-robocie.webp"
-              alt="Żartobliwe selfie w lustrze łazienki — postać z głową w kształcie klucza nastawnego"
-              width="896" height="1200" loading="lazy" decoding="async"
-            />
-
-            <p>Na koniec pamiątkowe selfie z łazienki. Podobno jak ktoś za długo pracuje kluczem nastawnym, to w końcu zaczyna go przypominać.</p>
-
-            <h3>Najczęstsze pytania — wymiana baterii i spustu umywalki</h3>
-            <div class="read-faq">
-              <details>
-                <summary>Starej baterii w zlewie nie da się odkręcić, bo klucz nie wchodzi — co wtedy?</summary>
-                <p>To częstsza sytuacja, niż się wydaje — zwłaszcza gdy baterię przykręcono przed osadzeniem zlewu w blacie. Zwykle pomaga wycięcie fragmentu drewnianych elementów szafki wyrzynarką, tak żeby odsłonić nakrętki. Zlew i blat zostają nietknięte. Zadzwoń: 511 323 123 — powiem, jak to rozwiążę u Ciebie.</p>
-              </details>
-              <details>
-                <summary>Jakie mocowanie baterii kuchennej wybrać, żeby montaż nie sprawiał problemów?</summary>
-                <p>Mosiężny pierścień dociskowy z dwiema śrubami. Nakręcasz go od spodu ręcznie, a gdy poczujesz opór, dociągasz śruby śrubokrętem — klucz nie jest potrzebny, więc ciasno zabudowany zlew nie stanowi problemu. Taki system występuje w części baterii, m.in. w Ikei, ale nie jest standardem, więc sprawdź to przed zakupem.</p>
-              </details>
-              <details>
-                <summary>Czym korek click-clack różni się od metalowego spustu z sitkiem?</summary>
-                <p>Click-clacka zamykasz i otwierasz naciśnięciem korka w umywalce — może przepuszczać wodę na bieżąco albo ją zatrzymać. Metalowy spust z sitkiem z czasem rdzewieje, a skorodowany zaczyna przeciekać. Przy wymianie montuję click-clacka razem z nowym syfonem, żeby wszystkie połączenia były świeże.</p>
-              </details>
-              <details>
-                <summary>Czy przy wymianie baterii umywalkowej trzeba wymieniać też syfon?</summary>
-                <p>Nie zawsze. Sprawny i szczelny syfon może zostać. Ale kiedy spust jest podrdzewiały, a syfon ma swoje lata, lepiej wymienić komplet — spust, korek i syfon. Nowe połączenia od razu są szczelne i na długo jest spokój.</p>
-              </details>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <script type="application/ld+json" is:inline set:html={JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-          { "@type": "Question", "name": "Starej baterii w zlewie nie da się odkręcić, bo klucz nie wchodzi — co wtedy?", "acceptedAnswer": { "@type": "Answer", "text": "To częstsza sytuacja, niż się wydaje — zwłaszcza gdy baterię przykręcono przed osadzeniem zlewu w blacie. Zwykle pomaga wycięcie fragmentu drewnianych elementów szafki wyrzynarką, tak żeby odsłonić nakrętki. Zlew i blat zostają nietknięte. Zadzwoń: 511 323 123 — powiem, jak to rozwiążę u Ciebie." } },
-          { "@type": "Question", "name": "Jakie mocowanie baterii kuchennej wybrać, żeby montaż nie sprawiał problemów?", "acceptedAnswer": { "@type": "Answer", "text": "Mosiężny pierścień dociskowy z dwiema śrubami. Nakręcasz go od spodu ręcznie, a gdy poczujesz opór, dociągasz śruby śrubokrętem — klucz nie jest potrzebny, więc ciasno zabudowany zlew nie stanowi problemu. Taki system występuje w części baterii, m.in. w Ikei, ale nie jest standardem, więc sprawdź to przed zakupem." } },
-          { "@type": "Question", "name": "Czym korek click-clack różni się od metalowego spustu z sitkiem?", "acceptedAnswer": { "@type": "Answer", "text": "Click-clacka zamykasz i otwierasz naciśnięciem korka w umywalce — może przepuszczać wodę na bieżąco albo ją zatrzymać. Metalowy spust z sitkiem z czasem rdzewieje, a skorodowany zaczyna przeciekać. Przy wymianie montuję click-clacka razem z nowym syfonem, żeby wszystkie połączenia były świeże." } },
-          { "@type": "Question", "name": "Czy przy wymianie baterii umywalkowej trzeba wymieniać też syfon?", "acceptedAnswer": { "@type": "Answer", "text": "Nie zawsze. Sprawny i szczelny syfon może zostać. Ale kiedy spust jest podrdzewiały, a syfon ma swoje lata, lepiej wymienić komplet — spust, korek i syfon. Nowe połączenia od razu są szczelne i na długo jest spokój." } }
-        ]
-      })} />
 
       <!-- ═══════════════════════════════════════════════════
            CTA
@@ -1331,12 +1216,12 @@ const dateFmt = new Intl.DateTimeFormat("pl-PL", {
           <div class="final-cta reveal">
             <div class="final-cta__content">
               <div>
-                <h2>Masz zatkany odpływ? Zadzwoń i opisz objaw.</h2>
-                <p>Powiedz, gdzie stoi woda, czy problem wraca i czego już próbowano. Po krótkiej rozmowie łatwiej dobrać właściwą metodę udrażniania.</p>
+                <h2>Awaria w Wawrze? Zadzwoń i opisz, co się dzieje.</h2>
+                <p>Kilka zdań przez telefon wystarczy, żeby wycenić robotę i umówić termin. Przyjeżdżam z narzędziami i częściami pod konkretny problem.</p>
               </div>
               <div class="final-cta__box">
                 <strong>511 323 123</strong>
-                <span>Pogotowie hydrauliczne — Warszawa i okolice, 24/7</span>
+                <span>Hydraulik — Wawer i cała Warszawa, 24/7</span>
                 <div style="height: 18px"></div>
                 <a class="btn-new btn-new--primary" href="tel:+48511323123">📞 Zadzwoń teraz</a>
               </div>
@@ -1349,8 +1234,8 @@ const dateFmt = new Intl.DateTimeFormat("pl-PL", {
 
     <footer class="new-footer">
       <div class="container footer-grid">
-        <div>2006 i Hydraulik — Hydraulik Warszawa</div>
-        <div>Udrażnianie rur • WUKO • Kamera • Piony kanalizacyjne</div>
+        <div>2006 i Hydraulik — Hydraulik Wawer i Warszawa</div>
+        <div>Naprawy • Udrażnianie • Baterie • Podłączenia AGD • Awarie 24/7</div>
       </div>
     </footer>
 
@@ -1500,20 +1385,6 @@ const dateFmt = new Intl.DateTimeFormat("pl-PL", {
         document.querySelectorAll('[data-bg-choice]').forEach(b => b.classList.toggle('is-active', b === btn));
       });
     });
-  </script>
-
-  <!-- Sticky mobile CTA — pojawia się gdy hero button wychodzi z widoku -->
-  <script>
-    // @ts-nocheck
-    (function () {
-      const heroCta = document.querySelector('.hero-buttons .btn-primary');
-      const mobileCta = document.querySelector('.mobile-cta');
-      if (!heroCta || !mobileCta) return;
-      const obs = new IntersectionObserver((entries) => {
-        mobileCta.classList.toggle('is-visible', !entries[0].isIntersecting);
-      }, { threshold: 0 });
-      obs.observe(heroCta);
-    })();
   </script>
 
   <!-- Hamburger — menu mobilne -->

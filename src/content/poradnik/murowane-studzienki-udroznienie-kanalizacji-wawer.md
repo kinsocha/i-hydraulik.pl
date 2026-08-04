@@ -23,7 +23,7 @@ faq:
     a: "Najczęściej z resztek starej instalacji, które zostawiono przy przełączeniu. Zdarza się mieszanka nowego plastiku i starego żeliwa, zbyt mały spadek albo długi odcinek do kolektora z zaniedbanymi studzienkami. Jeśli u Ciebie odpływ zwalnia po zmianie na miejską kanalizację, zadzwoń: 511 323 123 — sprawdzimy całą trasę."
 ---
 
-Pojechaliśmy dziś na Wawer do awarii, która na pierwszy rzut oka wyglądała zwyczajnie — ścieki przestały schodzić z domu do kanalizacji miejskiej. Ciekawa okazała się dopiero sama instalacja. Kilka lat temu budynek korzystał ze szamba. Gdy w okolicy pojawiła się sieć miejska, właściciel przełączył odpływ na kolektor uliczny, a stary zbiornik zasypał. Przyłącze wykonano jednak wyjątkowo oszczędnie i to właśnie ono dało o sobie znać.
+Pojechaliśmy dziś do awarii w Wawrze, która na pierwszy rzut oka wyglądała zwyczajnie — ścieki przestały schodzić z domu do kanalizacji miejskiej. Ciekawa okazała się dopiero sama instalacja. Kilka lat temu budynek korzystał ze szamba. Gdy w okolicy pojawiła się sieć miejska, właściciel przełączył odpływ na kolektor uliczny, a stary zbiornik zasypał. Przyłącze wykonano jednak wyjątkowo oszczędnie i to właśnie ono dało o sobie znać.
 
 ## Studzienki wymurowane z cegły
 
