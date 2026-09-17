@@ -661,7 +661,13 @@
           <span class="logo__i">i</span><span class="logo__name">Hydraulik</span>
         </a>
         <nav class="nav__links" id="primary-nav" aria-label="Główna nawigacja">
-          <a href="#uslugi">Usługi</a>
+          <div class="nav__drop">
+            <button class="nav__drop-btn" type="button" aria-haspopup="true" aria-expanded="false">Usługi <span class="nav__drop-caret" aria-hidden="true">▾</span></button>
+            <div class="nav__drop-menu" role="menu">
+              <a href="/wymiana-baterii" role="menuitem">Wymiana i montaż baterii</a>
+              <a href="#uslugi" role="menuitem">Wszystkie usługi</a>
+            </div>
+          </div>
           <a href="#proces">Jak działamy</a>
           <a href="#cennik">Cennik</a>
           <div class="nav__drop">
