@@ -14,4 +14,27 @@
       <video:live>no</video:live>
     </video:video>
   </url>
+  <url>
+    <loc>https://i-hydraulik.pl/hydraulikwola</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i-hydraulik.pl/img/hydraulikwola/woda-leci-pod-zlewem-nagranie-klientki-poster.webp</video:thumbnail_loc>
+      <video:title>Woda leci pod zlewem — nagranie przysłane przez klientkę z Woli</video:title>
+      <video:description>Film z telefonu klientki: w szafce pod zlewem słychać szum wody lecącej bez przerwy z instalacji wodnej. Nagranie w słabej jakości, przysłane przed przyjazdem hydraulika.</video:description>
+      <video:content_loc>https://i-hydraulik.pl/video/woda-leci-pod-zlewem-nagranie-klientki.mp4</video:content_loc>
+      <video:duration>9</video:duration>
+      <video:publication_date>2026-09-18T12:47:26+02:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://i-hydraulik.pl/img/hydraulikwola/korek-wypadl-z-trojnika-pod-zlewem-poster.webp</video:thumbnail_loc>
+      <video:title>Korek wypadł z trójnika pod zlewem — przyczyna wycieku wody</video:title>
+      <video:description>Nagranie hydraulika z szafki pod zlewem: skorodowany korek leży na dnie szafki, a wyżej widać chromowany trójnik z otwartym bocznym wylotem, przez który leciała woda.</video:description>
+      <video:content_loc>https://i-hydraulik.pl/video/korek-wypadl-z-trojnika-pod-zlewem.mp4</video:content_loc>
+      <video:duration>7</video:duration>
+      <video:publication_date>2026-09-18T12:51:43+02:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+  </url>
 </urlset>
