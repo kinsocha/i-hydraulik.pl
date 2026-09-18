@@ -90,33 +90,6 @@
   }
   </script>
 
-  <script type="application/ld+json" is:inline>
-  {
-    "@context": "https://schema.org",
-    "@type": "VideoObject",
-    "name": "Woda leci pod zlewem — nagranie przysłane przez klientkę z Woli",
-    "description": "Film z telefonu klientki: w szafce pod zlewem słychać szum wody lecącej bez przerwy z instalacji wodnej. Nagranie w słabej jakości, przysłane przed przyjazdem hydraulika.",
-    "thumbnailUrl": "https://i-hydraulik.pl/img/hydraulikwola/woda-leci-pod-zlewem-nagranie-klientki-poster.webp",
-    "contentUrl": "https://i-hydraulik.pl/video/woda-leci-pod-zlewem-nagranie-klientki.mp4",
-    "uploadDate": "2026-09-18T12:47:26+02:00",
-    "duration": "PT9S",
-    "inLanguage": "pl"
-  }
-  </script>
-
-  <script type="application/ld+json" is:inline>
-  {
-    "@context": "https://schema.org",
-    "@type": "VideoObject",
-    "name": "Korek wypadł z trójnika pod zlewem — przyczyna wycieku wody",
-    "description": "Nagranie hydraulika z szafki pod zlewem: skorodowany korek leży na dnie szafki, a wyżej widać chromowany trójnik z otwartym bocznym wylotem, przez który leciała woda.",
-    "thumbnailUrl": "https://i-hydraulik.pl/img/hydraulikwola/korek-wypadl-z-trojnika-pod-zlewem-poster.webp",
-    "contentUrl": "https://i-hydraulik.pl/video/korek-wypadl-z-trojnika-pod-zlewem.mp4",
-    "uploadDate": "2026-09-18T12:51:43+02:00",
-    "duration": "PT7S",
-    "inLanguage": "pl"
-  }
-  </script>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -672,26 +645,8 @@
     @media (max-width: 640px) {
       .trust-row { grid-template-columns: 1fr; }
     }
-    /* REALIZACJA — nagrania i zdjęcia z awarii */
-    .awaria-filmy { display: grid; grid-template-columns: repeat(2, minmax(0, 300px)); gap: 28px; justify-content: center; margin: 30px 0; }
-    .awaria-film { margin: 0; }
-    .awaria-film video { width: 100%; aspect-ratio: 9 / 16; height: auto; display: block; border-radius: var(--radius-lg); background: #000; box-shadow: var(--shadow); }
-    .awaria-film figcaption { margin-top: 12px; color: var(--muted); line-height: 1.55; font-size: 16px; }
-    .awaria-film figcaption strong { display: block; margin-bottom: 4px; color: var(--ink); font-weight: 800; }
-    .awaria-zdjecia { display: grid; grid-template-columns: repeat(3,1fr); gap: 18px; margin: 30px 0; }
-    .awaria-zdjecie { margin: 0; background: #fff; border: 1px solid var(--line); border-radius: var(--radius-md); overflow: hidden; box-shadow: var(--shadow-soft); }
-    .awaria-zdjecie img { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; }
-    .awaria-zdjecie figcaption { padding: 14px 16px; color: var(--muted); line-height: 1.55; font-size: 16px; }
-    .awaria-zdjecie figcaption strong { display: block; margin-bottom: 4px; color: var(--ink); font-weight: 800; }
-    .awaria-tel { color: var(--blue); font-weight: 800; white-space: nowrap; }
-    .local a:not(.awaria-tel) { color: var(--blue); font-weight: 700; }
+    .local a { color: var(--blue); font-weight: 700; }
     .case a { color: var(--blue); font-weight: 700; }
-    @media (max-width: 860px) {
-      .awaria-zdjecia { grid-template-columns: 1fr; }
-    }
-    @media (max-width: 640px) {
-      .awaria-filmy { grid-template-columns: minmax(0, 300px); }
-    }
   </style>
 
   <!-- Hero / phone mockup styles -->
@@ -998,72 +953,8 @@
           </div>
           <div class="reveal">
             <p>Na Woli obok siebie stoją budynki z bardzo różnych lat. Bloki na Kole i Młynowie mają po pięćdziesiąt, sześćdziesiąt lat. Wysokie bloki z wielkiej płyty na Mirowie są niewiele młodsze. Kilka ulic dalej, na Odolanach i Czystem, mieszkania oddano parę lat temu.</p>
-            <p>W starszych blokach część instalacji wodnej to nadal stal, a zawory i złączki pamiętają poprzednie remonty. Najwięcej zgłoszeń stamtąd to przecieki na gwintach, zawory, które nie zamykają wody, i wymiany armatury. Jedną taką awarię pokazuję niżej na nagraniach.</p>
+            <p>W starszych blokach część instalacji wodnej to nadal stal, a zawory i złączki pamiętają poprzednie remonty. Najwięcej zgłoszeń stamtąd to przecieki na gwintach, zawory, które nie zamykają wody, i wymiany armatury. Jedną taką awarię opisałem z nagraniami i zdjęciami: <a href="/#artykul-woda-leci-pod-zlewem-korek-z-trojnika">leciała woda pod zlewem, bo z trójnika wypadł skorodowany korek</a>. W poradniku jest też opis <a href="/poradnik/wymiana-baterii-na-woli-w-zlewie-granitowym">wymiany baterii w zlewie granitowym</a> u klienta z Woli.</p>
             <p>W nowych mieszkaniach robota jest inna: poprawki po ekipach wykończeniowych, spłuczki podtynkowe, które przepuszczają wodę do muszli, podłączenia pralek i zmywarek. Do tego lokale usługowe i biura, gdzie naprawę trzeba zmieścić przed otwarciem albo po zamknięciu.</p>
-          </div>
-        </div>
-      </section>
-
-      <!-- ═══════════════════════════════════════════════════
-           REALIZACJA — korek wypadł z trójnika (nagrania + zdjęcia)
-      ════════════════════════════════════════════════════ -->
-      <section id="realizacja" class="new-section local">
-        <div class="container">
-          <div class="section-head reveal">
-            <div>
-              <p class="section-kicker">Realizacja z Woli</p>
-              <h2 class="section-title">Woda leciała pod zlewem, bo z trójnika wypadł skorodowany korek</h2>
-            </div>
-          </div>
-
-          <div class="reveal">
-            <p>Klientka zadzwoniła z Woli, że w szafce pod zlewem leci woda. Przysłała też film z telefonu. Nagranie jest słabej jakości i mało na nim widać, ale słychać to, co najważniejsze: szum wody lecącej bez przerwy. Tak cieknie instalacja wodna, która jest cały czas pod ciśnieniem. Z odpływu woda kapie tylko wtedy, gdy ktoś korzysta ze zlewu.</p>
-          </div>
-
-          <div class="awaria-filmy reveal">
-            <figure class="awaria-film">
-              <video controls preload="none" playsinline
-                     poster="/img/hydraulikwola/woda-leci-pod-zlewem-nagranie-klientki-poster.webp"
-                     width="360" height="648">
-                <source src="/video/woda-leci-pod-zlewem-nagranie-klientki.mp4" type="video/mp4" />
-                Twoja przeglądarka nie odtwarza wideo. <a href="/video/woda-leci-pod-zlewem-nagranie-klientki.mp4">Pobierz nagranie</a>.
-              </video>
-              <figcaption><strong>Nagranie od klientki</strong>Słaba jakość obrazu, ale z dźwiękiem: w szafce słychać wodę lecącą z instalacji.</figcaption>
-            </figure>
-            <figure class="awaria-film">
-              <video controls preload="none" playsinline
-                     poster="/img/hydraulikwola/korek-wypadl-z-trojnika-pod-zlewem-poster.webp"
-                     width="720" height="1280">
-                <source src="/video/korek-wypadl-z-trojnika-pod-zlewem.mp4" type="video/mp4" />
-                Twoja przeglądarka nie odtwarza wideo. <a href="/video/korek-wypadl-z-trojnika-pod-zlewem.mp4">Pobierz nagranie</a>.
-              </video>
-              <figcaption><strong>Moje nagranie z miejsca</strong>Korek leży na dnie szafki, a w trójniku widać otwarty wylot, z którego wypadł.</figcaption>
-            </figure>
-          </div>
-
-          <div class="reveal">
-            <p>Przyjechałem w pół godziny. Pod zlewem, na podejściu wody, był chromowany trójnik. Jego boczny wylot ktoś kiedyś zaślepił wkręcanym korkiem, bo nic nie było tam podłączone. Korek przerdzewiał, odleciał od trójnika i leżał na dnie szafki, a woda leciała przez otwarty wylot. Pokazuję to na drugim nagraniu.</p>
-            <p>Zakręciłem wodę, wykręciłem trójnik i zrobiłem to połączenie od nowa. Potem odkręciłem wodę i sprawdziłem gwinty. Sucho. Naprawa zajęła 10 minut.</p>
-          </div>
-
-          <div class="awaria-zdjecia reveal">
-            <figure class="awaria-zdjecie">
-              <img src="/img/hydraulikwola/trojnik-i-skorodowany-korek-po-demontazu.webp" alt="Chromowany trójnik wykręcony spod zlewu i leżący obok skorodowany korek, widok od strony wody" width="1200" height="675" loading="lazy" decoding="async" />
-              <figcaption><strong>Trójnik i korek po wykręceniu</strong>Z lewej wylot trójnika, z prawej korek od strony wody. Oba w rdzy.</figcaption>
-            </figure>
-            <figure class="awaria-zdjecie">
-              <img src="/img/hydraulikwola/skorodowany-korek-z-kwadratowym-lbem.webp" alt="Zardzewiały korek z kwadratowym łbem pod klucz, który wypadł z trójnika instalacji wodnej" width="1200" height="675" loading="lazy" decoding="async" />
-              <figcaption><strong>Korek od strony łba</strong>Kwadratowy łeb pod klucz. Rdza objęła cały korek, nie tylko gwint.</figcaption>
-            </figure>
-            <figure class="awaria-zdjecie">
-              <img src="/img/hydraulikwola/wylot-trojnika-z-rdza-i-korek-po-wykreceniu.webp" alt="Wylot chromowanego trójnika z rdzawym osadem w środku, obok skorodowany korek" width="1200" height="675" loading="lazy" decoding="async" />
-              <figcaption><strong>Wylot, z którego wypadł korek</strong>W środku został rdzawy osad. Przez ten otwór woda leciała do szafki.</figcaption>
-            </figure>
-          </div>
-
-          <div class="reveal">
-            <p>Stal, która latami ma kontakt z wodą, koroduje, a najszybciej słabnie na gwincie, bo tam materiału jest najmniej. Jeśli na złączce pod zlewem albo przy wodomierzu widać rdzawy nalot lub zaciek, to gwint jest już osłabiony i może puścić tak samo, także w nocy albo pod nieobecność domowników. Wtedy woda leci, dopóki ktoś nie zakręci zaworu. Taką złączkę wymieniam w kilkanaście minut. Zadzwoń: <a class="awaria-tel" href="tel:+48511323123">511&nbsp;323&nbsp;123</a>.</p>
-            <p>Z Woli jest też opis innej roboty w poradniku: <a href="/poradnik/wymiana-baterii-na-woli-w-zlewie-granitowym">wymiana baterii w zlewie granitowym</a>.</p>
           </div>
         </div>
       </section>
@@ -1185,7 +1076,7 @@
                 <div class="review-card__who"><strong>Pani Karolina Wola</strong><span>17.09.2026</span></div>
               </div>
               <div class="review-card__stars">★★★★★</div>
-              <p>Wieczorem usłyszałam szum w szafce pod zlewem, a po otwarciu drzwiczek zobaczyłam, że leci tam woda. Wysłałam panu Marcinowi film i po pół godzinie był u mnie. Okazało się, że z trójnika wypadł zardzewiały korek. Naprawa trwała może dziesięć minut. Polecam.</p>
+              <p>Wieczorem usłyszałam szum w szafce pod zlewem, a po otwarciu drzwiczek zobaczyłam, że leci tam woda. Zakręciliśmy wodę przy wodomierzu i wysłałam panu Marcinowi film. Po pół godzinie był u nas. Okazało się, że z trójnika wypadł zardzewiały korek. Pan Marcin usunął niepotrzebny trójnik i po dziesięciu minutach znów mieliśmy wodę. Polecam.</p>
             </article>
             <article class="review-card reveal">
               <div class="review-card__head">
