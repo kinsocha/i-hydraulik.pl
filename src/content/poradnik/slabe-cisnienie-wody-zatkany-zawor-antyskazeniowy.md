@@ -71,4 +71,4 @@ Odkręciliśmy wodę i sprawdziliśmy kran w mieszkaniu. Ciśnienie wróciło do
   </a>
 </div>
 
-Hydraulik Warszawa — tel. **511 323 123**. Zestawy wodomierzowe naprawiam w kamienicach i blokach, a także w domach z własnym przyłączem, choćby w Starej Miłośnie, gdzie zestaw z zaworem antyskażeniowym często siedzi w studzience przed domem. Do awarii przyjeżdżam także wieczorami i w weekendy.
+Hydraulik Warszawa — tel. **511 323 123**. Zestawy wodomierzowe naprawiam w kamienicach i blokach, a także w domach z własnym przyłączem, choćby w Starej Miłośnie, Międzylesiu, Radości, Wesołej, Sulejówku, Halinowie, Góraszce czy Wiązownie, gdzie zestaw z zaworem antyskażeniowym często siedzi w studzience przed domem. Do awarii przyjeżdżam także wieczorami i w weekendy.
