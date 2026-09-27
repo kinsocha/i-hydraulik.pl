@@ -53,11 +53,11 @@ Wykręciłem stary zawór. W środku widać było kamień i rdzę, dokładnie ja
 
 ## Plomba na wodomierzu
 
-Zawór siedzi na sztywno między kolanem a zaworem kulowym, więc żeby go wykręcić, trzeba rozkręcić śrubunek wodomierza. A śrubunek jest zaplombowany przez wodociągi. Wpierw zadzwoniliśmy do MPWiK, że musimy zdjąć plombę. Dostaliśmy zgodę. Zdjęliśmy plombę, rozkręciliśmy śrubunek, wykręciliśmy stary zawór i wkręciliśmy nowy. Skręciliśmy zestaw z powrotem i zadzwoniliśmy drugi raz, że mogą przyjechać i zaplombować. Cała naprawa trwała kilkanaście minut.
+Zawór siedzi na sztywno między kolanem a zaworem kulowym, więc żeby go wykręcić, trzeba rozkręcić śrubunek wodomierza. A śrubunek jest zaplombowany przez wodociągi. Wpierw zadzwoniliśmy do warszawskiego MPWiK pod numer 994, że musimy zdjąć plombę. Dostaliśmy zgodę. Zdjęliśmy plombę, rozkręciliśmy śrubunek, wykręciliśmy stary zawór i wkręciliśmy nowy. Skręciliśmy zestaw z powrotem i zadzwoniliśmy drugi raz, że mogą przyjechać i zaplombować. Cała naprawa trwała kilkanaście minut.
 
 <img src="/img/poradnik/nowy-zawor-antyskazeniowy-za-wodomierzem.webp" alt="Nowy mosiężny zawór antyskażeniowy 3/4 cala z dwoma białymi korkami wkręcony między kolano a zawór kulowy PN16" width="800" height="600" loading="lazy" decoding="async" />
 
-Odkręciliśmy wodę i sprawdziliśmy kran w mieszkaniu. Ciśnienie wróciło do normalnego, a na śrubunku i na gwintach było sucho. Klientka była zadowolona.
+Odkręciliśmy wodę i sprawdziliśmy kran w mieszkaniu. Ciśnienie wróciło do normalnego stanu, a na śrubunku i na gwintach było sucho. Klientka była zadowolona.
 
 <div class="article-gallery">
   <a class="article-gallery__item" href="/img/poradnik/instalacja-po-wymianie-zaworu-antyskazeniowego.webp" target="_blank" rel="noopener">
