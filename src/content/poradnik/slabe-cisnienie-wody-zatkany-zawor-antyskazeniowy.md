@@ -78,4 +78,4 @@ Producenci oznaczają zwykłe zawory antyskażeniowe do mieszkań jako typ EA. T
 - **E** to rodzina: zabezpieczenia w postaci zaworu zwrotnego, czyli pojedynczego zamknięcia (grzybka), które przepuszcza wodę tylko w jedną stronę.
 - **A** to typ w tej rodzinie: zawór kontrolowany, czyli taki, którego szczelność da się sprawdzić w trakcie użytkowania.
 
-Hydraulik Warszawa — tel. **511 323 123**. Zestawy wodomierzowe naprawiam w kamienicach i blokach, a także w domach z własnym przyłączem, choćby w Starej Miłośnie, Międzylesiu, Radości, Wesołej, Sulejówku, Halinowie, Góraszce czy Wiązownie, gdzie wodomierz czasami siedzi w studzience przed domem. Do awarii przyjeżdżam także wieczorami i w weekendy.
+[Hydraulik Warszawa](/) — tel. **511 323 123**. Zestawy wodomierzowe naprawiam w kamienicach i blokach, a także w domach z własnym przyłączem, choćby w Starej Miłośnie, Międzylesiu, Radości, Wesołej, Sulejówku, Halinowie, Góraszce czy Wiązownie, gdzie wodomierz czasami siedzi w studzience przed domem. Do awarii przyjeżdżam także wieczorami i w weekendy.
