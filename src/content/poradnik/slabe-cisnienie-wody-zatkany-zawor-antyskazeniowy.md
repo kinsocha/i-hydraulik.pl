@@ -47,7 +47,7 @@ Korek od strony mieszkania zakrywa otwór spustowy. Tym otworem opróżnia się 
 
 ## Kamień w środku
 
-Wykręciłem stary zawór. W środku widać było kamień i rdzę, dokładnie jak na zdjęciu. Podobnego stanu można się spodziewać w innych przedwojennych kamienicach, choćby na Pradze-Północ, jeśli stary mosiężny zawór pracuje od lat bez przeglądu i zbiera to, co ruszy z rur. Grzybek nie miał już jak swobodnie odsuwać się od gniazda, więc woda przeciskała się wąską szczeliną i w kranie leciał słaby strumień. Spróbowałem wyjąć nalot z korpusu, ale przy pierwszym ruchu część mechaniczna rozpadła się w rękach. Ten zawór i tak nie nadawał się już do niczego.
+Wykręciłem stary zawór. W środku widać było kamień i rdzę, dokładnie jak na zdjęciu. Podobnego stanu można się spodziewać w innych przedwojennych kamienicach, choćby na Pradze-Północ, jeśli stary mosiężny zawór pracuje od lat bez przeglądu i zbiera to, co ruszy z rur. Grzybek nie miał już jak swobodnie odsuwać się od gniazda, więc woda przeciskała się wąską szczeliną i w kranie leciał słaby strumień. Spróbowałem wyjąć nalot z korpusu, ale przy pierwszym ruchu część mechaniczna rozpadła się w rękach. Ten zawór i tak nie nadawał się już do niczego. Sytuacja wyglądałaby inaczej, gdyby przed zaworem antyskażeniowym zamontowany był filtr siatkowy skośny, nazywany też czasem filtrem mechanicznym. Wyłapywałby on kamień i rdzę, które woda porywa z sieci wodociągowej, zanim zdążyłyby dostać się do zaworu.
 
 <img src="/img/poradnik/kamien-w-zaworze-antyskazeniowym-po-demontazu.webp" alt="Wnętrze wykręconego zaworu antyskażeniowego: na grzybku i ściankach korpusu widać brązowy kamień i rdzę" width="800" height="600" loading="lazy" decoding="async" />
 
