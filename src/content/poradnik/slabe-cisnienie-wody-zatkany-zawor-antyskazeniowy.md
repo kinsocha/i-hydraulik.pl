@@ -18,7 +18,7 @@ faq:
   - q: "Do czego służą dwa korki na zaworze antyskażeniowym?"
     a: "Pod nimi są dwa otwory kontrolne, po jednym z każdej strony zaworu zwrotnego. Pierwszy, od strony wodomierza, służy do sprawdzenia, czy zamknięty zawór trzyma: zamyka się zawór odcinający przed nim, odkręca korek i spuszcza wodę z tego odcinka. Jeśli z korka nic więcej nie leci, zawór zwrotny jest szczelny. Drugi, od strony mieszkania, to otwór spustowy do opróżnienia instalacji za zaworem, na przykład przed remontem."
   - q: "Czy można samemu zdjąć plombę z wodomierza, żeby wymienić zawór?"
-    a: "Nie. Plombę na śrubunku wodomierza zakłada dostawca wody i tylko on może zgodzić się na jej zdjęcie. Przed rozkręceniem dzwonię do MPWiK, dostaję zgodę, a po skręceniu zestawu zgłaszam, że można przyjechać i zaplombować na nowo. Zerwana plomba bez zgłoszenia oznacza kłopot z dostawcą wody."
+    a: "Nie. Plombę na śrubunku wodomierza zakłada dostawca wody i tylko on może zgodzić się na jej zdjęcie. Przed rozkręceniem dzwonię do MPWiK, dostaję zgodę, a po skręceniu zestawu zgłaszam, że można przyjechać i zaplombować na nowo. Zerwana plomba bez zgłoszenia może oznaczać kłopot."
   - q: "Ile trwa wymiana zaworu antyskażeniowego?"
     a: "Sama wymiana to kilkanaście minut, jeśli hydraulik ma nowy zawór ze sobą. Do tego dochodzi telefon do MPWiK w sprawie plomby przed rozkręceniem śrubunka. Cenę podaję przed rozpoczęciem pracy: 511 323 123."
 ---
@@ -71,4 +71,4 @@ Odkręciliśmy wodę i sprawdziliśmy kran w mieszkaniu. Ciśnienie wróciło do
   </a>
 </div>
 
-Hydraulik Warszawa — tel. **511 323 123**. Zestawy wodomierzowe naprawiam w kamienicach i blokach, a także w domach z własnym przyłączem, choćby w Starej Miłośnie, Międzylesiu, Radości, Wesołej, Sulejówku, Halinowie, Góraszce czy Wiązownie, gdzie zestaw z zaworem antyskażeniowym często siedzi w studzience przed domem. Do awarii przyjeżdżam także wieczorami i w weekendy.
+Hydraulik Warszawa — tel. **511 323 123**. Zestawy wodomierzowe naprawiam w kamienicach i blokach, a także w domach z własnym przyłączem, choćby w Starej Miłośnie, Międzylesiu, Radości, Wesołej, Sulejówku, Halinowie, Góraszce czy Wiązownie, gdzie wodomierz czasami siedzi w studzience przed domem. Do awarii przyjeżdżam także wieczorami i w weekendy.
