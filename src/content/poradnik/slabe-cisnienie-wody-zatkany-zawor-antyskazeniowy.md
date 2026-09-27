@@ -8,7 +8,7 @@ readingTime: 5
 hero: "/img/poradnik/slabe-cisnienie-wody-zatkany-zawor-antyskazeniowy.webp"
 heroAlt: "Wykręcony stary zawór antyskażeniowy z widocznym kamieniem i rdzą w środku, z gwintu zwisa kropla wody"
 heroTitle: "Słabe ciśnienie wody po naprawie sieci w ulicy — zatkany zawór antyskażeniowy za wodomierzem"
-heroLead: "Klientka z kamienicy przy Walecznych na Saskiej Kępie zadzwoniła, że od chwili, gdy wodociągi odkręciły wodę po naprawie w ulicy, w jej mieszkaniu leci słaby strumień. Z rozmowy wyszło, że problem siedzi tuż za wodomierzem — w zaworze antyskażeniowym. Poniżej zdjęcia z wymiany i wyjaśnienie, po co ten zawór jest i do czego służą jego dwa korki."
+heroLead: "Klientka z kamienicy przy Walecznych na Saskiej Kępie zadzwoniła, że od chwili, gdy wodociągi odkręciły wodę po naprawie w ulicy, w jej mieszkaniu z kranów leci słaby strumień. Z rozmowy wyszło, że problem siedzi tuż za wodomierzem — w zaworze antyskażeniowym. Poniżej zdjęcia z wymiany i wyjaśnienie, po co ten zawór jest i do czego służą jego dwa korki."
 keywords: "słabe ciśnienie wody, zawór antyskażeniowy, zawór za wodomierzem, plomba na wodomierzu, wymiana zaworu antyskażeniowego, niskie ciśnienie wody po pracach MPWiK, hydraulik Warszawa"
 faq:
   - q: "Skąd słabe ciśnienie wody zaraz po pracach wodociągów w ulicy?"
@@ -33,21 +33,21 @@ Tak wyglądał zestaw przed naprawą: od wodomierza przez dwa zawory kulowe do z
 
 Zawór antyskażeniowy to zawór zwrotny na przyłączu. Producent w instrukcji pisze wprost: montuje się go bezpośrednio za wodomierzem jako zabezpieczenie klasy EA według normy PN-EN 1717 przed przepływem zwrotnym. W środku siedzi ruchomy grzybek dociskany sprężyną do gniazda. Kiedy odkręcasz kran, woda odsuwa grzybek i płynie do mieszkania. Kiedy zakręcasz, sprężyna dociska grzybek z powrotem i zawór jest zamknięty.
 
-Chodzi o sytuację, gdy w sieci spadnie ciśnienie, a tak dzieje się właśnie przy naprawie w ulicy. Woda z twojej instalacji mogłaby wtedy cofnąć się do rury miejskiej. Razem z nią to, co stało w bojlerze, w wężyku od pralki albo w starych rurach. Zawór zwrotny zamyka się w tym momencie i nie puszcza nic z powrotem. W przedwojennych kamienicach ze stalowymi rurami, jakich sporo stoi na Pradze-Północ, po każdym opróżnieniu sieci do tego zaworu trafia też najwięcej rdzy i osadu z rur.
+Chodzi o sytuację, gdy w sieci spadnie ciśnienie, a tak dzieje się właśnie przy naprawie w ulicy lub przy awarii od strony miasta. Woda z twojej instalacji mogłaby wtedy cofnąć się do rury miejskiej. Jeśli w jednym mieszkaniu woda jest skażona, na przykład bakteriami E. coli z bojlera albo ze starych rur, to bez tego zabezpieczenia bakterie poszłyby z cofającą się wodą do sieci miejskiej. Zawór zwrotny zamyka się w tym momencie i nie puszcza nic z powrotem.
 
 <img src="/img/poradnik/stary-zawor-antyskazeniowy-dwa-korki-kontrolne.webp" alt="Zbliżenie starego mosiężnego zaworu antyskażeniowego 3/4 cala z dwoma sześciokątnymi korkami kontrolnymi na górze korpusu" width="800" height="600" loading="lazy" decoding="async" />
 
 ## Po co są dwa korki
 
-Na korpusie widać dwa sześciokątne korki. Sprawdziłem w instrukcji montażu takiego zaworu, co producent o nich pisze: to dwa otwory kontrolne i każdy ma inne zadanie.
+Na korpusie starego zaworu widać dwa mosiężne sześciokątne korki. Na nowych zaworach są one przeważnie plastikowe i okrągłe, jak na zdjęciu po wymianie. To dwa otwory kontrolne i każdy ma inne zadanie.
 
-Korek od strony wodomierza zakrywa otwór kontrolny. Służy do sprawdzenia w trakcie użytkowania, czy zamknięty zawór zwrotny jest szczelny. Zamyka się zawór odcinający przed zaworem antyskażeniowym, odkręca korek i spuszcza wodę z odcinka między tymi dwoma zaworami. Jeśli potem z otworu nic więcej nie leci, grzybek trzyma. Jeśli woda dalej sączy się z otworu, to znaczy, że przecieka z instalacji z powrotem przez zawór zwrotny i zawór jest do wymiany.
+Korek od strony wodomierza zakrywa otwór kontrolny. Służy do sprawdzenia w trakcie użytkowania, czy zamknięty zawór zwrotny jest szczelny. Żeby to sprawdzić, zamyka się zawór odcinający przed zaworem antyskażeniowym, odkręca korek i spuszcza wodę z odcinka między tymi dwoma zaworami. Jeśli potem z otworu nic więcej nie leci, grzybek trzyma. Jeśli woda dalej sączy się z otworu, to znaczy, że przecieka z instalacji z powrotem przez zawór zwrotny i zawór jest do wymiany.
 
-Korek od strony mieszkania zakrywa otwór spustowy. Tym otworem opróżnia się instalację za zaworem zwrotnym, na przykład przed remontem albo przed zimą w domu, w którym nikt nie mieszka. Producent zaleca też montować zawór korkami skierowanymi do dołu, bo wtedy wygodniej spuszcza się wodę, i dodatkowo wstawić przed nim filtr osadnikowy. W tej szafce filtra nie było.
+Korek od strony mieszkania zakrywa otwór spustowy. Tym otworem opróżnia się instalację za zaworem zwrotnym, na przykład przed remontem albo przed zimą w domu, w którym nikt nie mieszka. Zawór można montować w dowolnej pozycji. Producent zaleca korki skierowane do dołu, jeśli jest na to miejsce, bo wtedy wygodniej spuszcza się wodę. Do wkręcania i wykręcania korków z króćców wygodniejsza jest jednak pozycja do góry, zwłaszcza dla mieszkańca, który raczej rzadko posługuje się kluczami, jakich używa hydraulik. Dlatego zdecydowaliśmy się zamontować zawór korkami do góry, żeby właścicielce było łatwiej kontrolować pracę zaworu.
 
 ## Kamień w środku
 
-Wykręciłem stary zawór. W środku widać było kamień i rdzę, dokładnie jak na zdjęciu. Grzybek nie miał już jak swobodnie odsuwać się od gniazda, więc woda przeciskała się wąską szczeliną i w kranie leciał słaby strumień. Spróbowałem wyjąć nalot z korpusu, ale przy pierwszym ruchu część mechaniczna rozpadła się w rękach. Ten zawór i tak nie nadawał się już do niczego.
+Wykręciłem stary zawór. W środku widać było kamień i rdzę, dokładnie jak na zdjęciu. Podobnego stanu można się spodziewać w innych przedwojennych kamienicach, choćby na Pradze-Północ, jeśli stary mosiężny zawór pracuje od lat bez przeglądu i zbiera to, co ruszy z rur. Grzybek nie miał już jak swobodnie odsuwać się od gniazda, więc woda przeciskała się wąską szczeliną i w kranie leciał słaby strumień. Spróbowałem wyjąć nalot z korpusu, ale przy pierwszym ruchu część mechaniczna rozpadła się w rękach. Ten zawór i tak nie nadawał się już do niczego.
 
 <img src="/img/poradnik/kamien-w-zaworze-antyskazeniowym-po-demontazu.webp" alt="Wnętrze wykręconego zaworu antyskażeniowego: na grzybku i ściankach korpusu widać brązowy kamień i rdzę" width="800" height="600" loading="lazy" decoding="async" />
 
