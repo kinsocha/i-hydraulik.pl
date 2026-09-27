@@ -33,7 +33,7 @@ Tak wyglądał zestaw przed naprawą: od wodomierza przez dwa zawory kulowe do z
 
 Zawór antyskażeniowy to zawór zwrotny na przyłączu. Producent w instrukcji pisze wprost: montuje się go bezpośrednio za wodomierzem jako zabezpieczenie klasy EA według normy PN-EN 1717 przed przepływem zwrotnym. W środku siedzi ruchomy grzybek dociskany sprężyną do gniazda. Kiedy odkręcasz kran, woda odsuwa grzybek i płynie do mieszkania. Kiedy zakręcasz, sprężyna dociska grzybek z powrotem i zawór jest zamknięty.
 
-Chodzi o sytuację, gdy w sieci spadnie ciśnienie, a tak dzieje się właśnie przy naprawie w ulicy lub przy awarii od strony miasta. Woda z twojej instalacji mogłaby wtedy cofnąć się do rury miejskiej. Jeśli w jednym mieszkaniu woda jest skażona, na przykład bakteriami E. coli z bojlera albo ze starych rur, to bez tego zabezpieczenia bakterie poszłyby z cofającą się wodą do sieci miejskiej. Zawór zwrotny zamyka się w tym momencie i nie puszcza nic z powrotem.
+Chodzi o sytuację, gdy w sieci spadnie ciśnienie, a tak dzieje się właśnie przy naprawie w ulicy lub przy awarii od strony miasta. Woda z twojej instalacji mogłaby wtedy cofnąć się do rury miejskiej. Jeśli w jednym mieszkaniu woda jest skażona, na przykład bakteriami E. coli z bojlera albo ze starych rur, to bez tego zabezpieczenia bakterie poszłyby z cofającą się wodą do sieci miejskiej. Zawór zwrotny zapobiega takim sytuacjom, bo w chwili spadku ciśnienia grzybek szczelnie się zamyka i skażona woda nie dostanie się do sieci miejskiej.
 
 <img src="/img/poradnik/stary-zawor-antyskazeniowy-dwa-korki-kontrolne.webp" alt="Zbliżenie starego mosiężnego zaworu antyskażeniowego 3/4 cala z dwoma sześciokątnymi korkami kontrolnymi na górze korpusu" width="800" height="600" loading="lazy" decoding="async" />
 
