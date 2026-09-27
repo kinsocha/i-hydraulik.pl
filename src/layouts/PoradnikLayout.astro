@@ -55,7 +55,7 @@ const canonical = `https://i-hydraulik.pl${cleanPath}`;
     a { color: inherit; text-decoration: none; }
 
     .page-shell { min-height: 100vh; display: flex; flex-direction: column; }
-    .container { width: min(var(--container), calc(100% - 40px)); margin: 0 auto; }
+    :global(.container) { width: min(var(--container), calc(100% - 40px)); margin: 0 auto; }
 
     /* TOPBAR */
     .topbar {
@@ -224,7 +224,7 @@ const canonical = `https://i-hydraulik.pl${cleanPath}`;
       .nav__links.is-open { opacity: 1; visibility: visible; pointer-events: auto; transform: translateY(0); }
     }
     @media (max-width: 640px) {
-      .container { width: min(100% - 28px, var(--container)); }
+      :global(.container) { width: min(100% - 36px, var(--container)); }
       .phone-link, .nav__actions .btn-new { display: none; }
       .logo { font-size: 22px; }
       .mobile-cta { display: flex; }
