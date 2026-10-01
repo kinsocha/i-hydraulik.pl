@@ -25,8 +25,6 @@ faq:
 
 Filtr u klienta [na Ursynowie](/hydraulikursynow) wisi na ścianie tuż za wodomierzem i przechodzi przez niego cała woda do instalacji. Korpus jest przezroczysty, więc stan wkładu widać bez rozkręcania. Nowy wkład jest jasny. Ten był rdzawobrązowy od góry do dołu.
 
-<img src="/img/poradnik/filtr-wody-za-wodomierzem-przed-wymiana-wkladu.webp" alt="Filtr wody z niebieską głowicą i przezroczystym korpusem z rdzawym wkładem, podłączony do rur z polipropylenu nad wodomierzem i zaworami" width="800" height="600" loading="lazy" decoding="async" />
-
 ## Skąd rdza w wannie, skoro jest filtr
 
 Wkład wstępny to gęste włókno, przez które woda musi się przecisnąć. Rdza i piasek zostają w nim warstwa po warstwie, od zewnątrz do środka. Przez pierwsze tygodnie woda przechodzi bez oporu. Z miesiąca na miesiąc wolnego miejsca we włóknie jest coraz mniej, różnica ciśnień przed wkładem i za nim rośnie i woda zaczyna przepychać przez włókno drobne cząstki rdzy, które wcześniej by w nim zostały.
@@ -48,6 +46,10 @@ W domach z własną studnią montuje się odżelaziacze, a czasem też zmiękcza
 Rdza nie musi pochodzić z samej wody. Często pochodzi ze starych rur sieci i przyłączy, przez które woda płynie, zanim dotrze do wodomierza. Kiedy wodociągi naprawiają rurę w ulicy, woda po ponownym odkręceniu rusza z inną siłą i porywa z rur piasek i osad. U klientki z Saskiej Kępy taki osad [zapchał zawór antyskażeniowy za wodomierzem](/poradnik/slabe-cisnienie-wody-zatkany-zawor-antyskazeniowy). Filtr zatrzymuje to wszystko przed zaworami, głowicami baterii, pralką i podgrzewaczem wody. Bez niego cała rdza, którą widać na tym wkładzie, poszłaby prosto do armatury i spłuczek.
 
 ## Wymiana wkładu
+
+Do odkręcenia korpusu potrzebny jest klucz do filtra. To plastikowy pierścień z rączką. Zakłada się go na korpus od dołu tak, żeby występy w środku pierścienia weszły między żeberka na korpusie. Korpus jest mocno dokręcony i ręką zwykle nie da się go ruszyć. Kluczem schodzi bez szarpania.
+
+<img src="/img/poradnik/klucz-do-korpusu-filtra-wody.webp" alt="Plastikowy klucz do odkręcania korpusu filtra wody: pierścień z czterema występami w środku i długą rączką, obok miarka" width="600" height="800" loading="lazy" decoding="async" />
 
 Zakręciliśmy wodę i upuściliśmy ciśnienie kranem. Odkręciliśmy korpus kluczem do filtra, wyjęliśmy stary wkład i umyliśmy korpus od środka. Włożyliśmy nowy wkład, sprawdziliśmy uszczelkę pod głowicą i skręciliśmy filtr. Po odkręceniu wody puściliśmy chwilę kran, żeby zeszło powietrze, i sprawdziliśmy, czy na gwincie korpusu jest sucho. Klient był zadowolony.
 
