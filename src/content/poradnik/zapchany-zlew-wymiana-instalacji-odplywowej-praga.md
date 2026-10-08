@@ -52,4 +52,4 @@ Jeśli chodziło tylko o osad — rzadko wraca szybko. Tutaj wymieniliśmy insta
 ---
 
 Masz zapchany zlew albo podejrzewasz, że instalacja odpływowa wymaga przeglądu?
-Zadzwoń: **511 323 123**. Przyjeżdżamy na Pragę i całą Warszawę.
+Zadzwoń: **511 323 123**. Przyjeżdżamy na Pragę i do całej Warszawy: do bloków [na Targówku](/hydrauliktargowek), kamienic [na Żoliborzu](/hydraulikzoliborz) i mieszkań [na Woli](/hydraulikwola).

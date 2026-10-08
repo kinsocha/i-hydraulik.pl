@@ -1,0 +1,134 @@
+---
+import { getCollection } from "astro:content";
+
+interface Props {
+  slugi: string[];
+}
+
+const { slugi } = Astro.props;
+const teraz = new Date();
+const wszystkie = await getCollection("poradnik", ({ data }) => data.pubDate <= teraz);
+const wpisy = slugi
+  .map((s) => wszystkie.find((w) => w.slug === s))
+  .filter((w): w is (typeof wszystkie)[number] => Boolean(w));
+
+const data = new Intl.DateTimeFormat("pl-PL", { day: "2-digit", month: "2-digit", year: "numeric" });
+---
+
+{wpisy.length > 0 && (
+  <section class="new-section zlecenia" aria-labelledby="zlecenia-tytul">
+    <div class="container">
+      <div class="section-head reveal">
+        <div>
+          <p class="section-kicker">Z poradnika</p>
+          <h2 class="section-title" id="zlecenia-tytul">Opisane zlecenia</h2>
+        </div>
+        <p class="section-desc">Zdjęcia i przebieg naprawy krok po kroku, tak jak wyglądało to u klienta.</p>
+      </div>
+      <ul class="zlecenia__lista reveal">
+        {wpisy.map((w) => (
+          <li class="zlecenie">
+            <a class="zlecenie__link" href={`/poradnik/${w.slug}`}>
+              <span class="zlecenie__foto">
+                <img src={w.data.hero} alt={w.data.heroAlt} width="600" height="338" loading="lazy" decoding="async" />
+              </span>
+              <span class="zlecenie__opis">
+                <span class="zlecenie__info">
+                  <span>{w.data.category}</span>
+                  <time datetime={w.data.pubDate.toISOString()}>{data.format(w.data.pubDate)}</time>
+                </span>
+                <strong class="zlecenie__tytul">{w.data.title}</strong>
+                <span class="zlecenie__zajawka">{w.data.description}</span>
+                <span class="zlecenie__dalej">Czytaj opis naprawy</span>
+              </span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+)}
+
+<style>
+  .zlecenia__lista {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 22px;
+  }
+  .zlecenie__link {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    color: inherit;
+    text-decoration: none;
+    background: var(--card, #fff);
+    border: 1px solid var(--line, #e7ded5);
+    border-top: 3px solid var(--orange, #ff740f);
+    border-radius: var(--radius-lg, 24px);
+    overflow: hidden;
+    box-shadow: var(--shadow-soft, none);
+    transition: transform 0.25s, border-color 0.25s;
+  }
+  .zlecenie__link:hover,
+  .zlecenie__link:focus-visible {
+    transform: translateY(-3px);
+    border-color: var(--blue, #1f6fd1);
+  }
+  .zlecenie__foto {
+    display: block;
+    aspect-ratio: 16 / 9;
+    background: var(--blue-soft, #eaf2ff);
+  }
+  .zlecenie__foto img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .zlecenie__opis {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 22px 24px 26px;
+    flex: 1;
+  }
+  .zlecenie__info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 14px;
+    color: var(--muted, #6e7482);
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .zlecenie__info span {
+    color: var(--blue-dark, #154f9c);
+  }
+  .zlecenie__tytul {
+    font-size: 20px;
+    line-height: 1.3;
+    color: var(--ink, #181b35);
+  }
+  .zlecenie__zajawka {
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--muted, #6e7482);
+  }
+  .zlecenie__dalej {
+    margin-top: auto;
+    padding-top: 6px;
+    font-size: 16px;
+    font-weight: 800;
+    color: var(--orange, #ff740f);
+  }
+  @media (max-width: 760px) {
+    .zlecenia__lista {
+      grid-template-columns: 1fr;
+    }
+    .zlecenie__opis {
+      padding: 18px 18px 22px;
+    }
+  }
+</style>

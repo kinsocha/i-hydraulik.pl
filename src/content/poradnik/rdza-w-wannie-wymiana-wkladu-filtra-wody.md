@@ -53,4 +53,4 @@ Do odkręcenia korpusu potrzebny jest klucz do filtra. To plastikowy pierścień
 
 Zakręciliśmy wodę i upuściliśmy ciśnienie kranem. Odkręciliśmy korpus kluczem do filtra, wyjęliśmy stary wkład i umyliśmy korpus od środka. Włożyliśmy nowy wkład, sprawdziliśmy uszczelkę pod głowicą i skręciliśmy filtr. Po odkręceniu wody puściliśmy chwilę kran, żeby zeszło powietrze, i sprawdziliśmy, czy na gwincie korpusu jest sucho. Klient był zadowolony.
 
-[Hydraulik Warszawa](/) — tel. **511 323 123**. Filtry wody montuję i serwisuję przy różnych instalacjach: przy stalowych pionach, jakie bywają w starszych blokach [na Mokotowie](/hydraulikmokotow), i przy własnych przyłączach domów [w Aninie](/hydraulikanin). Na wymianę wkładu umawiam się także wieczorem.
+[Hydraulik Warszawa](/) — tel. **511 323 123**. Filtry wody montuję i serwisuję przy różnych instalacjach: przy stalowych pionach, jakie bywają w starszych blokach [na Mokotowie](/hydraulikmokotow) i [na Woli](/hydraulikwola), i przy własnych przyłączach domów [w Wawrze](/hydraulikwawer). Na wymianę wkładu umawiam się także wieczorem.

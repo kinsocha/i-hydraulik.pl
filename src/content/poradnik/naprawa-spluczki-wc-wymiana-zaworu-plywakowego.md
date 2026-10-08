@@ -23,7 +23,7 @@ faq:
     a: "Sama wymiana to zwykle kilka minut. U klienta na Białołęce zajęła około pięciu. Czas zależy od dostępu do zaworu i stanu starej części — przy zapieczonym, starym przyłączu bywa dłużej, ale i tak jest to jedna z szybszych napraw hydraulicznych."
 ---
 
-Kompakt WC to jedna z najpopularniejszych toalet w polskich mieszkaniach — zestaw, w którym ceramiczna spłuczka osadzona jest bezpośrednio na misce ustępowej. Rozwiązanie proste i wygodne, ale jak każdy element instalacji sanitarnej po latach potrafi zawieść. Ostatnio pojechałem do klienta na Białołęce, gdzie spłuczka źle się napełniała, a woda nie odcinała się jak należy po spłukaniu.
+Kompakt WC to jedna z najpopularniejszych toalet w polskich mieszkaniach — zestaw, w którym ceramiczna spłuczka osadzona jest bezpośrednio na misce ustępowej. Rozwiązanie proste i wygodne, ale jak każdy element instalacji sanitarnej po latach potrafi zawieść. Pojechałem do klienta [na Białołęce](/hydraulikbialoleka), gdzie spłuczka źle się napełniała, a woda nie odcinała się jak należy po spłukaniu.
 
 ## Kiedy winny jest zawór pływakowy?
 
@@ -41,4 +41,4 @@ Po zakręceniu zaworu odcinającego, spuszczeniu wody i demontażu starego eleme
 
 ## Czy zawór pływakowy można wymienić samodzielnie?
 
-W wielu przypadkach tak: zakręcasz zawór odcinający, opróżniasz zbiornik, odkręcasz stary zawór i wkładasz nowy o odpowiednim rozmiarze. Schody zaczynają się, gdy przyłącze jest zapieczone, cieknie u nasady albo nie wiadomo, co dokładnie zawiodło — zawór pływakowy, spustowy, uszczelka czy cały mechanizm. Jeśli chcesz mieć pewność, że kompakt będzie działał szczelnie, zadzwoń: **511 323 123**. Naprawiam spłuczki, wymieniam kompakty WC, montuję baterie i usuwam drobne awarie w Warszawie i okolicach.
+W wielu przypadkach tak: zakręcasz zawór odcinający, opróżniasz zbiornik, odkręcasz stary zawór i wkładasz nowy o odpowiednim rozmiarze. Schody zaczynają się, gdy przyłącze jest zapieczone, cieknie u nasady albo nie wiadomo, co dokładnie zawiodło — zawór pływakowy, spustowy, uszczelka czy cały mechanizm. Jeśli chcesz mieć pewność, że kompakt będzie działał szczelnie, zadzwoń: **511 323 123**. Naprawiam spłuczki, wymieniam kompakty WC, montuję baterie i usuwam drobne awarie w Warszawie i okolicach — dla lokatorów bloków [na Bielanach](/hydraulikbielany), właścicieli mieszkań w kamienicach [na Żoliborzu](/hydraulikzoliborz) i wspólnot mieszkaniowych [na Targówku](/hydrauliktargowek).

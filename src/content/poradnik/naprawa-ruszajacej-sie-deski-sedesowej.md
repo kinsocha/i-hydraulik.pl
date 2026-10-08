@@ -27,10 +27,10 @@ faq:
 
 Deska była źle przymocowana i przesuwała się na boki. Szybka naprawa — i znów nie rusza się ani o milimetr.
 
-Hydraulik to nie tylko wymiana baterii czy naprawa spłuczki. Sporo czasu zajmują drobne naprawy, które dla klienta znaczą naprawdę wiele. Tak było na Kochanowskiego 32 na Bielanach, gdzie czekała na mnie luźna, huśtająca się deska sedesowa.
+Hydraulik to nie tylko wymiana baterii czy naprawa spłuczki. Sporo czasu zajmują drobne naprawy, które dla klienta znaczą naprawdę wiele. Tak było na Kochanowskiego 32 [na Bielanach](/hydraulikbielany), gdzie czekała na mnie luźna, huśtająca się deska sedesowa.
 
 **Zgłoszenie: deska się rusza i trzeszczy.** To typowy sygnał źle dokręconych śrub mocujących. Deska łączy się z muszlą na kilka sposobów — najczęściej na dwa metalowe zapięcia z boku albo na śruby przechodzące przez ceramikę. Tu były śruby, ale niedokręcone równomiernie. Po sprawdzeniu każda okazała się luźna. Zdarza się tak, gdy od początku nie zostały dociągnięte prawidłowo albo rozluźniły się po kilku miesiącach używania. Nieustabilizowana deska zaczyna pracować, przesuwa się i trzeszczy.
 
 **Jak to naprawiłem.** Prosto: równomiernie dokręciłem wszystkie śruby. Ważne jest wyczucie — za mocno dokręcona śruba może połamać mocowanie, za słabo dokręcona i problem wróci za kilka tygodni. Sprawdziłem każdy punkt mocowania, upewniłem się, że wszystko jest równo zaciśnięte, i gotowe. Deska siedzi stabilnie, bez ruchu i bez trzeszczenia.
 
-**Dlaczego takie naprawy mają znaczenie.** Wykonuję drobne usługi hydrauliczne: naprawę deski sedesowej, wymianę syfonu pod umywalką, dokręcenie rozluźnionej armatury, wymianę baterii. Masz podobny problem? Zadzwoń: **511 323 123** — zajmę się tym.
+**Dlaczego takie naprawy mają znaczenie.** Wykonuję drobne usługi hydrauliczne: naprawę deski sedesowej, wymianę syfonu pod umywalką, dokręcenie rozluźnionej armatury, wymianę baterii. Masz podobny problem? Zadzwoń: **511 323 123** — zajmę się tym. Do takich drobnych napraw jeżdżę do kamienic [na Żoliborzu](/hydraulikzoliborz), nowych osiedli [na Białołęce](/hydraulikbialoleka) i bloków [na Woli](/hydraulikwola).

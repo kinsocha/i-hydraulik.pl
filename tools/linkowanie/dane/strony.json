@@ -1,0 +1,12 @@
+{
+  "hydraulikanin": { "miejsce": "Anin", "anchor": "w Aninie", "kafle": ["slabe-cisnienie-wody-zatkany-zawor-antyskazeniowy", "jak-zgrzewac-rury-z-polipropylenu-ppr"] },
+  "hydraulikbialoleka": { "miejsce": "Białołęka", "anchor": "na Białołęce", "kafle": [] },
+  "hydraulikbielany": { "miejsce": "Bielany", "anchor": "na Bielanach", "kafle": [] },
+  "hydraulikmokotow": { "miejsce": "Mokotów", "anchor": "na Mokotowie", "kafle": ["wymiana-baterii-umywalkowej-i-polsyfonu", "podejscie-z-rury-32-mm-dlaczego-odplyw-ciagle-sie-zatyka"] },
+  "hydraulikrembertow": { "miejsce": "Rembertów", "anchor": "w Rembertowie", "kafle": ["zapchany-zlew-wymiana-instalacji-odplywowej-praga", "przeniesienie-zlewu-w-kuchni-marki"] },
+  "hydrauliktargowek": { "miejsce": "Targówek", "anchor": "na Targówku", "kafle": ["kapiacy-zawor-w-piwnicy-bloku-wymiana", "nowy-sedes-zamiast-wymiany-zaworu-bledna-diagnoza"] },
+  "hydraulikursynow": { "miejsce": "Ursynów", "anchor": "na Ursynowie", "kafle": [] },
+  "hydraulikwawer": { "miejsce": "Wawer", "anchor": "w Wawrze", "kafle": [] },
+  "hydraulikwola": { "miejsce": "Wola", "anchor": "na Woli", "kafle": [] },
+  "hydraulikzoliborz": { "miejsce": "Żoliborz", "anchor": "na Żoliborzu", "kafle": ["cieknacy-korek-automatyczny-w-zlewie", "urwana-wylewka-wymiana-baterii-z-elastyczna-wylewka"] }
+}

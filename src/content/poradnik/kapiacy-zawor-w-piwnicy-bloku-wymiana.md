@@ -12,7 +12,7 @@ heroLead: "Zdjęcie z oględzin: mosiężny zawór kulowy pod stropem piwnicy, z
 keywords: "kapiący zawór w piwnicy, cieknący zawór kulowy, przeciek na śrubunku, wymiana zaworu odcinającego, cyrkulacja ciepłej wody w bloku, hydraulik Warszawa"
 faq:
   - q: "Kapiący zawór w piwnicy bloku — czyja to sprawa: mieszkańca czy administracji?"
-    a: "Instalacja w piwnicy to zwykle część wspólna budynku, więc przeciek najlepiej zgłosić administracji albo zarządcy. Takie naprawy wykonuję i dla wspólnot, i dla mieszkańców — dla administracji bloków na Bielanach tak samo jak dla lokatora, który sam zauważył kapanie. Ważne, żeby ktoś usterkę po prostu zgłosił, bo sama nie przejdzie."
+    a: "Instalacja w piwnicy to zwykle część wspólna budynku, więc przeciek najlepiej zgłosić administracji albo zarządcy. Takie naprawy wykonuję i dla wspólnot, i dla mieszkańców — dla administracji bloku tak samo jak dla lokatora, który sam zauważył kapanie. Ważne, żeby ktoś usterkę po prostu zgłosił, bo sama nie przejdzie."
   - q: "Jak odróżnić przeciek zaworu od skroplin na rurze?"
     a: "Skropliny pojawiają się latem na zimnych rurach i pokrywają je drobnymi kropelkami mniej więcej równomiernie, na dłuższym odcinku. Przeciek wygląda inaczej — woda zbiera się w jednym punkcie, na przykład przy śrubunku albo trzpieniu dźwigni, i z niego kapie niezależnie od pogody."
   - q: "Czy wystarczy mocniej dokręcić śrubunek?"
@@ -66,4 +66,4 @@ Mokra posadzka i stała wilgoć to dla piwnicy nic dobrego — a za ścianą zwy
 
 Najpierw zamknięcie odcinka, na którym siedzi zawór — w bloku ustalam to z administracją, a przerwa w dostawie wody dotyczy zwykle kilku lokali i trwa krótko. Tu akurat kartka z numerami mieszkań od razu podpowiada, kogo uprzedzić. Potem, zależnie od tego, skąd sączy woda: nowe uszczelki w śrubunkach, nowe uszczelnienie gwintu albo wymiana całego zaworu. Dzięki śrubunkom po obu stronach stary zawór po prostu się wykręca, a nowy wpina w to samo miejsce — bez ingerencji w rury z polipropylenu. Przeważnie jest to robota na jedną krótką wizytę, a cenę podaję przed rozpoczęciem pracy. Takie zlecenia wykonuję zarówno dla mieszkańców, jak i dla administracji czy zarządców budynków.
 
-Hydraulik Warszawa — tel. **511 323 123**. Kapiące zawory, śrubunki i inne przecieki naprawiam w starszych blokach [na Mokotowie](/hydraulikmokotow) i w domach jednorodzinnych [w Aninie](/hydraulikanin), a poza Warszawą dojeżdżam też do Marek i Legionowa. Do awarii przyjeżdżam również wieczorami i w weekendy.
+Hydraulik Warszawa — tel. **511 323 123**. Kapiące zawory, śrubunki i inne przecieki naprawiam w starszych blokach [na Żoliborzu](/hydraulikzoliborz), w nowych osiedlach [na Białołęce](/hydraulikbialoleka) i w domach jednorodzinnych [w Rembertowie](/hydraulikrembertow), a poza Warszawą dojeżdżam też do Marek i Legionowa. Do awarii przyjeżdżam również wieczorami i w weekendy.

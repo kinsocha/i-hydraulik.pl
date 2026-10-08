@@ -25,7 +25,7 @@ faq:
     a: "Przeważnie jedna wizyta: odcięcie wody, zdjęcie zbiornika, montaż nowego zaworu z uszczelką, złożenie i regulacja poziomu wody. Cenę podaję przed rozpoczęciem pracy: 511 323 123."
 ---
 
-Telefon z bloku na Woli: w toalecie od kilku dni słychać, jak spłuczka co chwilę dopuszcza wodę, a po ściance muszli stale spływa cienka strużka. Nikt nie spłukuje, a woda leci. Winowajcą okazał się zawór spustowy — poniżej wyjaśniam, co to za element, dlaczego z czasem zaczyna przepuszczać i jak wygląda wymiana. Masz podobny objaw? Zadzwoń: **511 323 123**.
+Telefon z bloku [na Woli](/hydraulikwola): w toalecie od kilku dni słychać, jak spłuczka co chwilę dopuszcza wodę, a po ściance muszli stale spływa cienka strużka. Nikt nie spłukuje, a woda leci. Winowajcą okazał się zawór spustowy — poniżej wyjaśniam, co to za element, dlaczego z czasem zaczyna przepuszczać i jak wygląda wymiana. Masz podobny objaw? Zadzwoń: **511 323 123**.
 
 ## Co siedzi w spłuczce i który element zawodzi
 
@@ -55,4 +55,4 @@ Montuję nowy zawór spustowy z nową uszczelką — dobrany do modelu spłuczki
 
 Czasem da się poprzestać na wymianie samej uszczelki. Przy starszym zaworze zwykle jednak odradzam takie połowiczne podejście: plastikowe zatrzaski i regulacje mają już swoje lata i jeśli któryś pęknie przy rozbieraniu, to i tak kończy się montażem nowego zaworu — tyle że w dwóch podejściach zamiast jednego.
 
-Spłuczka dopuszcza wodę, w muszli stale płynie strużka albo kompakt odzywa się nocą? Hydraulik Warszawa — tel. **511 323 123**. Cieknące spłuczki i zawory spustowe wymieniam w całym mieście; usługi hydrauliczne wykonuję także [na Ursynowie](/hydraulikursynow), [w Wawrze](/hydraulikwawer) i [na Białołęce](/hydraulikbialoleka). Przyjeżdżam też wieczorami i w weekendy.
+Spłuczka dopuszcza wodę, w muszli stale płynie strużka albo kompakt odzywa się nocą? Hydraulik Warszawa — tel. **511 323 123**. Cieknące spłuczki i zawory spustowe wymieniam w całym mieście: w starych kompaktach w kamienicach [na Żoliborzu](/hydraulikzoliborz), w spłuczkach sprzed kilkudziesięciu lat w blokach [na Bielanach](/hydraulikbielany) i w nowszych mieszkaniach [na Mokotowie](/hydraulikmokotow), gdzie spłuczka bywa schowana w stelażu podtynkowym. Przyjeżdżam też wieczorami i w weekendy.

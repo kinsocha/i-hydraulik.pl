@@ -23,7 +23,7 @@ faq:
     a: "Da się — szukamy wtedy innego punktu dostępu do rury, tylko praca trwa dłużej. Przy okazji można od razu dorobić rewizję, żeby następna interwencja była szybka i tania. Zadzwoń: 511 323 123, doradzimy najlepsze miejsce na czyszczak i wycenimy pracę przed rozpoczęciem."
 ---
 
-Właściciel domu na Wawrze zadzwonił z klasycznym objawem: ścieki przestały schodzić, a w najniższych odpływach zaczęła stawać woda. Pierwsze podejrzenie — pełne szambo. Tyle że zbiornik był wybierany całkiem niedawno i miał zapas miejsca. Skoro szambo mogło przyjmować ścieki, a mimo to nic do niego nie płynęło, korek musiał siedzieć w rurze łączącej dom ze zbiornikiem.
+Właściciel domu [na Wawrze](/hydraulikwawer) zadzwonił z klasycznym objawem: ścieki przestały schodzić, a w najniższych odpływach zaczęła stawać woda. Pierwsze podejrzenie — pełne szambo. Tyle że zbiornik był wybierany całkiem niedawno i miał zapas miejsca. Skoro szambo mogło przyjmować ścieki, a mimo to nic do niego nie płynęło, korek musiał siedzieć w rurze łączącej dom ze zbiornikiem.
 
 ## Rewizja w piwnicy — dziś rzadki widok
 
@@ -43,6 +43,6 @@ Rewizja to tani element, który przy awarii oszczędza mnóstwo pracy. Daje bezp
 
 ## Masz zatkaną rurę od szamba?
 
-Udrażniamy rury i montujemy rewizje na terenie całej Warszawy, dojeżdżamy też do Otwocka, Józefowa i Marek. Pracujemy czysto, a cenę podajemy przed rozpoczęciem pracy.
+Udrażniamy rury i montujemy rewizje na terenie całej Warszawy: w domach [w Rembertowie](/hydraulikrembertow), w starszych blokach z żeliwnymi pionami [na Mokotowie](/hydraulikmokotow) i w nowszych budynkach [na Ursynowie](/hydraulikursynow). Dojeżdżamy też do Otwocka, Józefowa i Marek. Pracujemy czysto, a cenę podajemy przed rozpoczęciem pracy.
 
 Zadzwoń **511 323 123** — powiemy od razu, od czego zacząć.

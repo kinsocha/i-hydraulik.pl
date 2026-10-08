@@ -1,0 +1,87 @@
+{
+  "Anin": {
+    "lat": 52.211,
+    "lon": 21.175,
+    "typ": "osiedle"
+  },
+  "Białołęka": {
+    "lat": 52.318,
+    "lon": 20.99,
+    "typ": "dzielnica"
+  },
+  "Bielany": {
+    "lat": 52.29,
+    "lon": 20.93,
+    "typ": "dzielnica"
+  },
+  "Mokotów": {
+    "lat": 52.19,
+    "lon": 21.03,
+    "typ": "dzielnica"
+  },
+  "Rembertów": {
+    "lat": 52.25,
+    "lon": 21.16,
+    "typ": "dzielnica"
+  },
+  "Targówek": {
+    "lat": 52.28,
+    "lon": 21.05,
+    "typ": "dzielnica"
+  },
+  "Ursynów": {
+    "lat": 52.14,
+    "lon": 21.05,
+    "typ": "dzielnica"
+  },
+  "Wawer": {
+    "lat": 52.2,
+    "lon": 21.17,
+    "typ": "dzielnica"
+  },
+  "Wola": {
+    "lat": 52.235,
+    "lon": 20.95,
+    "typ": "dzielnica"
+  },
+  "Żoliborz": {
+    "lat": 52.27,
+    "lon": 20.98,
+    "typ": "dzielnica"
+  },
+  "Bródno": {
+    "lat": 52.29,
+    "lon": 21.03,
+    "typ": "osiedle"
+  },
+  "Praga Północ": {
+    "lat": 52.255,
+    "lon": 21.03,
+    "typ": "dzielnica"
+  },
+  "Praga Południe": {
+    "lat": 52.235,
+    "lon": 21.08,
+    "typ": "dzielnica"
+  },
+  "Wesoła": {
+    "lat": 52.25,
+    "lon": 21.22,
+    "typ": "dzielnica"
+  },
+  "Stara Miłosna": {
+    "lat": 52.225,
+    "lon": 21.24,
+    "typ": "osiedle"
+  },
+  "Marki": {
+    "lat": 52.32,
+    "lon": 21.1,
+    "typ": "miasto"
+  },
+  "Saska Kępa": {
+    "lat": 52.232,
+    "lon": 21.056,
+    "typ": "osiedle"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "Anin": [
+    "hydraulikwawer",
+    "hydraulikrembertow",
+    "hydraulikmokotow"
+  ],
+  "Białołęka": [
+    "hydraulikbielany",
+    "hydraulikzoliborz",
+    "hydrauliktargowek"
+  ],
+  "Bielany": [
+    "hydraulikzoliborz",
+    "hydraulikbialoleka",
+    "hydraulikwola"
+  ],
+  "Mokotów": [
+    "hydraulikursynow",
+    "hydraulikwola",
+    "hydraulikzoliborz"
+  ],
+  "Rembertów": [
+    "hydraulikwawer",
+    "hydrauliktargowek",
+    "hydraulikmokotow"
+  ],
+  "Targówek": [
+    "hydraulikzoliborz",
+    "hydraulikbialoleka",
+    "hydraulikrembertow"
+  ],
+  "Ursynów": [
+    "hydraulikmokotow",
+    "hydraulikwawer",
+    "hydraulikwola"
+  ],
+  "Wawer": [
+    "hydraulikrembertow",
+    "hydraulikmokotow",
+    "hydraulikursynow"
+  ],
+  "Wola": [
+    "hydraulikzoliborz",
+    "hydraulikbielany",
+    "hydraulikmokotow"
+  ],
+  "Żoliborz": [
+    "hydraulikbielany",
+    "hydraulikwola",
+    "hydrauliktargowek"
+  ],
+  "Bródno": [
+    "hydrauliktargowek",
+    "hydraulikzoliborz",
+    "hydraulikbialoleka"
+  ],
+  "Praga Północ": [
+    "hydrauliktargowek",
+    "hydraulikzoliborz",
+    "hydraulikwola"
+  ],
+  "Praga Południe": [
+    "hydrauliktargowek",
+    "hydraulikrembertow",
+    "hydraulikmokotow"
+  ],
+  "Wesoła": [
+    "hydraulikrembertow",
+    "hydraulikwawer",
+    "hydrauliktargowek"
+  ],
+  "Stara Miłosna": [
+    "hydraulikwawer",
+    "hydraulikrembertow",
+    "hydrauliktargowek"
+  ],
+  "Marki": [],
+  "Saska Kępa": [
+    "hydraulikmokotow",
+    "hydrauliktargowek",
+    "hydraulikzoliborz"
+  ]
+}

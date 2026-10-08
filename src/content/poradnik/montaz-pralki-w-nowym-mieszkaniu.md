@@ -23,7 +23,7 @@ faq:
     a: "Cena zależy od kilku czynników — przede wszystkim od tego, czy podłączam pralkę do gotowego podejścia, czy dopiero je przygotowuję. Konkretną wycenę podaję przed rozpoczęciem pracy, bez ukrytych kosztów. Zadzwoń: 511 323 123 i opisz, co masz w łazience — od razu powiem, jak to będzie wyglądać."
 ---
 
-Podłączenie pralki wygląda na robotę na pięć minut. Czasem tak jest. Częściej okazuje się, że po drodze trzeba przypilnować kilku szczegółów, które decydują o tym, czy pralka będzie prać cicho i bez wycieków przez następne lata. Poniżej opisuję realizację z Białołęki — od pierwszego kroku do próbnego prania.
+Podłączenie pralki wygląda na robotę na pięć minut. Czasem tak jest. Częściej okazuje się, że po drodze trzeba przypilnować kilku szczegółów, które decydują o tym, czy pralka będzie prać cicho i bez wycieków przez następne lata. Poniżej opisuję realizację [z Białołęki](/hydraulikbialoleka) — od pierwszego kroku do próbnego prania.
 
 ## Realizacja w nowym mieszkaniu na osiedlu
 
@@ -49,4 +49,4 @@ Na koniec ustawienie. Pralka stoi na regulowanych nóżkach — ustawiam je tak,
 
 ## Potrzebujesz podłączenia pralki?
 
-Podłączam pralki, zmywarki i suszarki na terenie całej Warszawy — w tym [na Białołęce](/hydraulikbialoleka), gdzie nowych mieszkań wciąż przybywa. Zajmę się też sytuacją, w której w łazience albo w kuchni nie ma jeszcze gotowego podejścia: dołożę zawór i przygotuję odpływ. Zadzwoń: **511 323 123** — umówimy termin, a po montażu zostawię pralkę sprawdzoną na próbnym praniu.
+Podłączam pralki, zmywarki i suszarki na terenie całej Warszawy. Do zgłoszeń [z Bielan](/hydraulikbielany), [z Żoliborza](/hydraulikzoliborz) i [z Targówka](/hydrauliktargowek) przyjeżdżam z tym samym kompletem złączek i wężyków co do tego mieszkania na Białołęce. Zajmę się też sytuacją, w której w łazience albo w kuchni nie ma jeszcze gotowego podejścia: dołożę zawór i przygotuję odpływ. Zadzwoń: **511 323 123** — umówimy termin, a po montażu zostawię pralkę sprawdzoną na próbnym praniu.

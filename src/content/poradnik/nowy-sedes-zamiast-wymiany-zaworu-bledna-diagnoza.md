@@ -84,4 +84,4 @@ Ta historia nie jest o pechu. Jest o tym, że przypadkowy wykonawca potrafi kosz
 
 W hydraulice pracuję ponad dwadzieścia lat. Montaże, naprawy, lokalizacja awarii, udrożnienia, spawanie, lutowanie, zgrzewanie — pełnej listy nie zmieszczę w kilku zdaniach. Ten staż można zweryfikować w opiniach: ponad 500 pozytywnych ocen i średnia 5.0 w Google.
 
-Cenę ustalam przez telefon, zanim przyjadę — a później się jej trzymam. Usługi hydrauliczne wykonuję na Zaciszu, [Targówku](/hydrauliktargowek) i Białołęce, w [Rembertowie](/hydraulikrembertow), Wawrze i w innych warszawskich dzielnicach. Zadzwoń: 511 323 123.
+Cenę ustalam przez telefon, zanim przyjadę — a później się jej trzymam. Usługi hydrauliczne wykonuję w całej Warszawie: w starszych blokach [na Targówku](/hydrauliktargowek), w nowych osiedlach [na Białołęce](/hydraulikbialoleka) i w kamienicach [na Żoliborzu](/hydraulikzoliborz). Zadzwoń: 511 323 123.

@@ -21,7 +21,7 @@ faq:
     a: "Nie zawsze. Sprawny i szczelny syfon może zostać. Ale kiedy spust jest podrdzewiały, a syfon ma swoje lata, lepiej wymienić komplet — spust, korek i syfon. Nowe połączenia od razu są szczelne i na długo jest spokój."
 ---
 
-Zlecenie na Ursynowie wyglądało zwyczajnie: wymiana baterii zlewozmywakowej w kuchni, wymiana baterii umywalkowej w łazience, a przy okazji demontaż starego metalowego spustu umywalki z sitkiem — mocno już podrdzewiałego — i montaż korka click-clack z nowym syfonem. Rutyna. Do czasu, aż spróbowałem odkręcić starą baterię w zlewie.
+Zlecenie [na Ursynowie](/hydraulikursynow) wyglądało zwyczajnie: wymiana baterii zlewozmywakowej w kuchni, wymiana baterii umywalkowej w łazience, a przy okazji demontaż starego metalowego spustu umywalki z sitkiem — mocno już podrdzewiałego — i montaż korka click-clack z nowym syfonem. Rutyna. Do czasu, aż spróbowałem odkręcić starą baterię w zlewie.
 
 ## Klucz nie miał jak wejść
 
@@ -65,7 +65,7 @@ Umywalka po wymianie: nowa bateria, nowy syfon, woda leci i schodzi jak trzeba.
 
 Jeśli wybierasz baterię zlewozmywakową, radzę poszukać modelu z takim właśnie zestawem mocującym — mosiężnym pierścieniem dociskowym na dwie śruby. To drobiazg, który pozwala uniknąć problemów przy montażu. A czasem i wymiany świeżo kupionej baterii na inną tylko dlatego, że tej pierwszej fizycznie nie da się przykręcić pod zlewem.
 
-Wolisz oddać robotę komuś, kto robi to codziennie? Zadzwoń: **511 323 123**. W Google znajdziesz mnie pod frazą „hydraulik Warszawa", a baterie, spusty i syfony wymieniam na Ursynowie, [Mokotowie](/hydraulikmokotow), [Białołęce](/hydraulikbialoleka) i w innych warszawskich dzielnicach — a także w miejscowościach pod Warszawą.
+Wolisz oddać robotę komuś, kto robi to codziennie? Hydraulik Warszawa — tel. **511 323 123**. Baterie, spusty i syfony wymieniam w całym mieście: w starszych blokach [na Mokotowie](/hydraulikmokotow), w kamienicach i nowych budynkach [na Woli](/hydraulikwola) i w domach jednorodzinnych [w Wawrze](/hydraulikwawer). Dojeżdżam też do miejscowości pod Warszawą.
 
 ![Żartobliwe selfie w lustrze łazienki — postać z głową w kształcie klucza nastawnego](/img/wymiana-baterii-clickclack/selfie-hydraulika-w-lustrze-po-robocie.webp)
 

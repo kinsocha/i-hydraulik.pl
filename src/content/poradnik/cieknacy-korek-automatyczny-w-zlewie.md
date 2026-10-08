@@ -55,4 +55,4 @@ Wkręciłem nową śrubę, osadziłem nowe sitko, podłączyłem nowy przelew i 
 
 <img src="/img/nowy-korpus-korka-automatycznego-pod-zlewem.webp" alt="Nowy biały korpus korka automatycznego z podłączonym cięgnem i kolanem syfonu zamontowany pod zlewem" width="600" height="450" loading="lazy" decoding="async" />
 
-Hydraulik Warszawa — tel. **511 323 123**. Przecieki pod zlewem i wymiany takich części to robota na jedną wizytę, a cenę podaję przed rozpoczęciem pracy. Podobne naprawy wykonuję też [na Bielanach](/hydraulikbielany), [na Targówku](/hydrauliktargowek) i [w Rembertowie](/hydraulikrembertow), a do awarii przyjeżdżam również wieczorami i w weekendy.
+Hydraulik Warszawa — tel. **511 323 123**. Przecieki pod zlewem i wymiany takich części to robota na jedną wizytę, a cenę podaję przed rozpoczęciem pracy. Podobne naprawy wykonuję też [na Bielanach](/hydraulikbielany), [na Woli](/hydraulikwola) i [na Targówku](/hydrauliktargowek), a do awarii przyjeżdżam również wieczorami i w weekendy.
