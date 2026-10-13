@@ -1,4 +1,5 @@
 ---
+import reviews from "../data/google-reviews.json";
 import ZleceniaZPoradnika from "../components/ZleceniaZPoradnika.astro";
 ---
 <!DOCTYPE html>
@@ -13,7 +14,7 @@ import ZleceniaZPoradnika from "../components/ZleceniaZPoradnika.astro";
   <meta name="description" content="Hydraulik Rembertów — naprawy instalacji wodno-kanalizacyjnych, udrażnianie, awarie 24/7. Dojazd tego samego dnia, wycena przed pracą. Zadzwoń: 511 323 123." />
   <link rel="canonical" href="https://i-hydraulik.pl/hydraulikrembertow" />
 
-  <script type="application/ld+json" is:inline>
+  <script type="application/ld+json" is:inline set:html={`
   {
     "@context": "https://schema.org",
     "@type": "CreativeWorkSeries",
@@ -23,10 +24,10 @@ import ZleceniaZPoradnika from "../components/ZleceniaZPoradnika.astro";
       "@type": "AggregateRating",
       "ratingValue": "5.0",
       "bestRating": "5",
-      "ratingCount": "558"
+      "ratingCount": "${reviews.count}"
     }
   }
-  </script>
+  `}></script>
 
   <script type="application/ld+json" is:inline>
   {
@@ -777,7 +778,7 @@ import ZleceniaZPoradnika from "../components/ZleceniaZPoradnika.astro";
                   <span class="trust-badge-google-label">Google Moja Firma</span>
                 </div>
                 <div class="trust-badge-middle">
-                  <span class="trust-badge-count">558 Opinii</span>
+                  <span class="trust-badge-count">{reviews.count} Opinii</span>
                 </div>
                 <div class="trust-badge-bottom">
                   <span class="trust-badge-score">5,0</span>
@@ -1067,7 +1068,7 @@ import ZleceniaZPoradnika from "../components/ZleceniaZPoradnika.astro";
               <p class="section-kicker">Opinie klientów</p>
               <h2 class="section-title">Co mówią mieszkańcy Rembertowa</h2>
             </div>
-            <p class="section-desc"><span class="rating">★★★★★ 5,0 — 558 opinii Google</span></p>
+            <p class="section-desc"><span class="rating">★★★★★ 5,0 — {reviews.count} opinii Google</span></p>
           </div>
           <div class="review-grid">
             <article class="review-card reveal">

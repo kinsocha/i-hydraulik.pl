@@ -1,4 +1,5 @@
 ---
+import reviews from "../data/google-reviews.json";
 import { getCollection } from "astro:content";
 
 const latestPosts = (await getCollection("poradnik"))
@@ -24,7 +25,7 @@ const dateFmt = new Intl.DateTimeFormat("pl-PL", {
   <meta name="description" content="Pogotowie hydrauliczne 24/7 awarie wodno-kanalizacyjne, montaż armatury, udrażnianie rur, wuko, naprawy spłuczek, lokalizacja wycieku." />
   <link rel="canonical" href="https://i-hydraulik.pl/" />
 
-  <script type="application/ld+json" is:inline>
+  <script type="application/ld+json" is:inline set:html={`
   {
     "@context": "https://schema.org",
     "@type": "CreativeWorkSeries",
@@ -35,10 +36,10 @@ const dateFmt = new Intl.DateTimeFormat("pl-PL", {
     "aggregateRating": {
       "@type": "AggregateRating",
       "ratingValue": "5.0",
-      "reviewCount": "558"
+      "reviewCount": "${reviews.count}"
     }
   }
-  </script>
+  `}></script>
 
   <script type="application/ld+json" is:inline>
   {
@@ -790,7 +791,7 @@ const dateFmt = new Intl.DateTimeFormat("pl-PL", {
                   <span class="trust-badge-google-label">Google Moja Firma</span>
                 </div>
                 <div class="trust-badge-middle">
-                  <span class="trust-badge-count">558 Opinii</span>
+                  <span class="trust-badge-count">{reviews.count} Opinii</span>
                 </div>
                 <div class="trust-badge-bottom">
                   <span class="trust-badge-score">5,0</span>
@@ -977,7 +978,7 @@ const dateFmt = new Intl.DateTimeFormat("pl-PL", {
         <div class="container">
           <div class="strip-card reveal">
             <div>
-              <div class="rating">★★★★★ 558 opinii Google</div>
+              <div class="rating">★★★★★ {reviews.count} opinii Google</div>
             </div>
             <blockquote>
               „Szybka pomoc przy pękniętej rurze w nocy. Fachowiec był pod blokiem w 20 minut. Wszystko sprawnie naprawione, czysto i profesjonalnie."
