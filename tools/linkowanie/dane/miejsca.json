@@ -49,6 +49,11 @@
     "lon": 20.98,
     "typ": "dzielnica"
   },
+  "Ochota": {
+    "lat": 52.21,
+    "lon": 20.975,
+    "typ": "dzielnica"
+  },
   "Bródno": {
     "lat": 52.29,
     "lon": 21.03,
