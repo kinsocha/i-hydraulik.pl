@@ -41,4 +41,4 @@ Zakręciłem zawory kątowe w szafce pod zlewem i odkręciłem wężyki starej b
 
 Przy głębokiej pojedynczej komorze, jak w tym zlewie, elastyczna wylewka ma sens. Strumień nakierujesz na dno komory albo na garnek stojący obok, bez przestawiania naczyń pod stały wylot wody. Do tego czarna bateria przy czarnym zlewie wygląda jak jeden komplet, a nie jak dwie rzeczy z różnych epok. Cała robota zamknęła się w jednej wizycie, a cenę klient znał przed jej rozpoczęciem.
 
-Hydraulik Warszawa — tel. **511 323 123**. Do zgłoszeń [z Żoliborza](/hydraulikzoliborz), [z Bielan](/hydraulikbielany) i [z Mokotowa](/hydraulikmokotow) dojeżdżam tak samo jak do tej kuchni na Woli, z narzędziami i zapasowymi wężykami w aucie. Baterie wymieniam także wieczorami i w weekendy.
+Hydraulik Warszawa — tel. **511 323 123**. Do zgłoszeń [z Ochoty](/hydraulikochota), [z Żoliborza](/hydraulikzoliborz) i [z Bielan](/hydraulikbielany) dojeżdżam tak samo jak do tej kuchni na Woli, z narzędziami i zapasowymi wężykami w aucie. Baterie wymieniam także wieczorami i w weekendy.

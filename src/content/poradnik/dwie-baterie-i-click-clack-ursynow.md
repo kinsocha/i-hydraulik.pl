@@ -65,7 +65,7 @@ Umywalka po wymianie: nowa bateria, nowy syfon, woda leci i schodzi jak trzeba.
 
 Jeśli wybierasz baterię zlewozmywakową, radzę poszukać modelu z takim właśnie zestawem mocującym — mosiężnym pierścieniem dociskowym na dwie śruby. To drobiazg, który pozwala uniknąć problemów przy montażu. A czasem i wymiany świeżo kupionej baterii na inną tylko dlatego, że tej pierwszej fizycznie nie da się przykręcić pod zlewem.
 
-Wolisz oddać robotę komuś, kto robi to codziennie? Hydraulik Warszawa — tel. **511 323 123**. Baterie, spusty i syfony wymieniam w całym mieście: w starszych blokach [na Mokotowie](/hydraulikmokotow), w kamienicach i nowych budynkach [na Woli](/hydraulikwola) i w domach jednorodzinnych [w Wawrze](/hydraulikwawer). Dojeżdżam też do miejscowości pod Warszawą.
+Wolisz oddać robotę komuś, kto robi to codziennie? Hydraulik Warszawa — tel. **511 323 123**. Baterie, spusty i syfony wymieniam w całym mieście: w starszych blokach [na Mokotowie](/hydraulikmokotow), w kamienicach i nowych budynkach [na Ochocie](/hydraulikochota) i w domach jednorodzinnych [w Wawrze](/hydraulikwawer). Dojeżdżam też do miejscowości pod Warszawą.
 
 ![Żartobliwe selfie w lustrze łazienki — postać z głową w kształcie klucza nastawnego](/img/wymiana-baterii-clickclack/selfie-hydraulika-w-lustrze-po-robocie.webp)
 
