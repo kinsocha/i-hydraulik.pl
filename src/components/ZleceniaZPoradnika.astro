@@ -16,16 +16,16 @@ const data = new Intl.DateTimeFormat("pl-PL", { day: "2-digit", month: "2-digit"
 ---
 
 {wpisy.length > 0 && (
-  <section class="new-section zlecenia" aria-labelledby="zlecenia-tytul">
-    <div class="container">
-      <div class="section-head reveal">
+  <section class="zlecenia" aria-labelledby="zlecenia-tytul">
+    <div class="zlecenia__kontener">
+      <div class="zlecenia__naglowek">
         <div>
-          <p class="section-kicker">Z poradnika</p>
-          <h2 class="section-title" id="zlecenia-tytul">Opisane zlecenia</h2>
+          <p class="zlecenia__kicker">Z poradnika</p>
+          <h2 class="zlecenia__h2" id="zlecenia-tytul">Opisane zlecenia</h2>
         </div>
-        <p class="section-desc">Zdjęcia i przebieg naprawy krok po kroku, tak jak wyglądało to u klienta.</p>
+        <p class="zlecenia__wstep">Zdjęcia i przebieg naprawy krok po kroku, tak jak wyglądało to u klienta.</p>
       </div>
-      <ul class="zlecenia__lista reveal">
+      <ul class="zlecenia__lista">
         {wpisy.map((w) => (
           <li class="zlecenie">
             <a class="zlecenie__link" href={`/poradnik/${w.slug}`}>
@@ -50,6 +50,42 @@ const data = new Intl.DateTimeFormat("pl-PL", { day: "2-digit", month: "2-digit"
 )}
 
 <style>
+  .zlecenia {
+    padding: 72px 0;
+  }
+  .zlecenia__kontener {
+    width: min(var(--container, 1180px), calc(100% - 40px));
+    margin: 0 auto;
+  }
+  .zlecenia__naglowek {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    gap: 24px;
+    margin-bottom: 30px;
+  }
+  .zlecenia__kicker {
+    margin: 0 0 10px;
+    color: var(--orange, #ff740f);
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    font-size: 12px;
+  }
+  .zlecenia__h2 {
+    margin: 0;
+    font-size: clamp(32px, 4vw, 52px);
+    letter-spacing: -0.01em;
+    line-height: 1.15;
+    max-width: 720px;
+  }
+  .zlecenia__wstep {
+    margin: 0;
+    color: var(--muted, #6e7482);
+    line-height: 1.7;
+    max-width: 430px;
+    font-size: 16px;
+  }
   .zlecenia__lista {
     list-style: none;
     margin: 0;
@@ -122,6 +158,22 @@ const data = new Intl.DateTimeFormat("pl-PL", { day: "2-digit", month: "2-digit"
     font-size: 16px;
     font-weight: 800;
     color: var(--orange, #ff740f);
+  }
+  @media (max-width: 980px) {
+    .zlecenia__naglowek {
+      display: block;
+    }
+    .zlecenia__wstep {
+      margin-top: 16px;
+    }
+  }
+  @media (max-width: 640px) {
+    .zlecenia {
+      padding: 48px 0;
+    }
+    .zlecenia__kontener {
+      width: min(100% - 28px, var(--container, 1180px));
+    }
   }
   @media (max-width: 760px) {
     .zlecenia__lista {
