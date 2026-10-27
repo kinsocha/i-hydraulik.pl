@@ -16,10 +16,12 @@
   "rdza-w-wannie-wymiana-wkladu-filtra-wody": { "miejsce": "Ursynów", "potwierdzone": true },
   "slabe-cisnienie-wody-zatkany-zawor-antyskazeniowy": { "miejsce": "Saska Kępa", "potwierdzone": true },
   "urwana-wylewka-wymiana-baterii-z-elastyczna-wylewka": { "miejsce": null, "potwierdzone": true },
+  "woda-ze-zmywarki-wybila-do-zlewu-po-remoncie": { "miejsce": null, "zrodlo": "brak miejsca (poradnik ogólny)", "potwierdzone": true },
   "wymiana-baterii-kuchennej-z-wyciagana-wylewka": { "miejsce": null, "potwierdzone": true },
   "wymiana-baterii-na-woli-w-zlewie-granitowym": { "miejsce": "Wola", "potwierdzone": true },
-  "wymiana-syfonu-wannowego-bez-skuwania-plytek": { "miejsce": "Bródno", "potwierdzone": true },
+  "wymiana-baterii-prysznicowej-sciana-z-otoczakow-rozetki": { "miejsce": "Wawer", "zrodlo": "treść: „Ściana w tej kabinie prysznicowej jest wyłożona otoczakami — drobnymi, gładkimi …”", "potwierdzone": true },
   "wymiana-baterii-umywalkowej-i-polsyfonu": { "miejsce": "Mokotów", "potwierdzone": true },
+  "wymiana-syfonu-wannowego-bez-skuwania-plytek": { "miejsce": "Bródno", "potwierdzone": true },
   "zapchany-zlew-wymiana-instalacji-odplywowej-praga": { "miejsce": "Praga Północ", "potwierdzone": true },
   "zatkana-rura-od-szamba-rewizja-w-piwnicy-wawer": { "miejsce": "Wawer", "potwierdzone": true }
 }
