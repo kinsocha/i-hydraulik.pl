@@ -13,6 +13,7 @@ RewriteRule ^ https://%1%{REQUEST_URI} [R=301,L]
 # 0) Stałe przekierowania 301 (stare adresy artykułów)
 RewriteRule ^poradnik/deski-sedesowa-ktora-rusza-sie-bielany/?$ /poradnik/naprawa-ruszajacej-sie-deski-sedesowej [R=301,L]
 RewriteRule ^poradnik/montaz-pralki-bialoleka/?$ /poradnik/montaz-pralki-w-nowym-mieszkaniu [R=301,L]
+RewriteRule ^poradnik/wymiana-baterii-prysznicowej-sciana-z-otoczakow-rozetki/?$ /poradnik/bateria-prysznicowa-sciana-z-otoczakow [R=301,L]
 RewriteRule ^nowyx/?$ / [R=301,L]
 
 # 1) Przekieruj adres z kreską na końcu na wersję bez kreski (poza rootem)

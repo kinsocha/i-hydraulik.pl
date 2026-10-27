@@ -1,5 +1,5 @@
 ---
-title: "Wymiana baterii prysznicowej na ścianie z otoczaków — co zrobić, gdy nie ma miejsca na rozetki?"
+title: "Bateria prysznicowa na ścianie z otoczaków — rozetki bez wykręcania mimośrodów"
 description: "Nowa bateria prysznicowa weszła na stare przyłącza, ale mimośrody siedziały w ścianie z otoczaków za głęboko i rozetki się nie mieściły. Zwężenie rozetek szlifierką i silikon zamiast wykręcania mimośrodów."
 pubDate: 2026-10-26T18:22:47
 author: "i Hydraulik"
@@ -7,7 +7,7 @@ category: "Wymiana armatury"
 readingTime: 4
 hero: "/img/poradnik/stara-bateria-prysznicowa-osad-wapienny-sciana-z-otoczakow.webp"
 heroAlt: "Stara bateria prysznicowa z walcowatym korpusem pokrytym białym osadem z wody, zamontowana na ścianie z otoczaków"
-heroTitle: "Wymiana baterii prysznicowej na ścianie z otoczaków — co zrobić, gdy nie ma miejsca na rozetki?"
+heroTitle: "Bateria prysznicowa na ścianie z otoczaków — rozetki bez wykręcania mimośrodów"
 heroLead: "Nowa bateria weszła na stare przyłącza bez problemu. Kłopot zrobiły rozetki: mimośrody siedziały w ścianie za głęboko, a wykręcanie ich na ścianie z otoczaków to ryzyko dla kamyków. Poniżej pokazuję na zdjęciach, jak to rozwiązałem."
 keywords: "wymiana baterii prysznicowej, bateria prysznicowa ściana z otoczaków, rozetki baterii nie mieszczą się, mimośrody baterii, zwężanie rozetek, silikon przy rozetce, hydraulik Warszawa"
 faq:
