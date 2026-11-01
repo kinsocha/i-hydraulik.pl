@@ -2,6 +2,7 @@
 title: "Zapchany zlew i odwrotny spadek — udrożnienie i wymiana instalacji odpływowej"
 description: "Odpływ od zlewu kuchennego przestał odprowadzać wodę. Przyczyną był odwrotny spadek i trójnik skierowany w stronę zmywarki zamiast pionu. Udrożnienie sprężyną i nowa instalacja w jednej wizycie."
 pubDate: 2026-06-04T11:23:47
+updatedDate: 2026-11-01T15:26:34
 author: "i Hydraulik"
 category: "Kanalizacja"
 readingTime: 3
@@ -31,6 +32,8 @@ Po robocie sprawdziliśmy przepływ. Woda schodzi swobodnie.
 Zanim złożyłem wszystko z powrotem, oczyściłem rozebrane rury ręcznie i wymieniłem uszczelki. Nie miało sensu składać tego bez wymiany — stare były twarde i przy takim demontażu prędzej czy później zaczęłyby przeciekać.
 
 Nowe rury PVC fi 50 mm, kształtki z prawidłowym spadkiem, trójnik obrócony w dobrą stronę. Zlew i zmywarka dostały każde swój odcinek odpływu prowadzący prosto do pionu. Woda schodziła od razu po odkręceniu kranów.
+
+Nawracające zatkanie nie zawsze znaczy, że zator wrócił. Inne przyczyny z praktyki są w części o [awariach instalacji kanalizacyjnej](/poradnik/awarie-hydrauliczne-woda-kanalizacja-co#instalacja-kanalizacyjna).
 
 ## FAQ
 

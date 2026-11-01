@@ -2,6 +2,7 @@
 title: "Słabe ciśnienie wody po naprawie sieci w ulicy — zatkany zawór antyskażeniowy za wodomierzem"
 description: "Po pracach wodociągów w ulicy w jednym mieszkaniu kamienicy leciał słaby strumień. Winny był zawór antyskażeniowy za wodomierzem, zapchany kamieniem. Piszę, co ten zawór robi, po co ma dwa korki i jak przebiegła wymiana."
 pubDate: 2026-09-24T18:41:07
+updatedDate: 2026-11-01T15:24:17
 author: "i Hydraulik"
 category: "Instalacje wodne"
 readingTime: 5
@@ -77,5 +78,7 @@ Producenci oznaczają zwykłe zawory antyskażeniowe do mieszkań jako typ EA. T
 
 - **E** to rodzina: zabezpieczenia w postaci zaworu zwrotnego, czyli pojedynczego zamknięcia (grzybka), które przepuszcza wodę tylko w jedną stronę.
 - **A** to typ w tej rodzinie: zawór kontrolowany, czyli taki, którego szczelność da się sprawdzić w trakcie użytkowania.
+
+Kamienica z osobnymi wodomierzami to jeden z przykładów na to, że budynek wpływa na przebieg awarii. Pozostałe zebrałem na stronie o [awariach instalacji wodnej](/poradnik/awarie-hydrauliczne-woda-kanalizacja-co#instalacja-wodna).
 
 [Hydraulik Warszawa](/) — tel. **511 323 123**. Zestawy wodomierzowe naprawiam w kamienicach [na Ochocie](/hydraulikochota), w blokach [na Mokotowie](/hydraulikmokotow) i [na Targówku](/hydrauliktargowek), a także w domach z własnym przyłączem, choćby w Starej Miłośnie, Międzylesiu, Radości, Wesołej, Sulejówku, Halinowie, Góraszce czy Wiązownie, gdzie wodomierz czasami siedzi w studzience przed domem. Do awarii przyjeżdżam także wieczorami i w weekendy.

@@ -2,6 +2,7 @@
 title: "Naprawa hydrauliki w Markach — przeciek przy baterii w łazience"
 description: "Wilgoć po stronie sąsiada bez śladu awarii w łazience. Interwencja hydraulika w Markach: jak niezabezpieczona szczelina przy mimośrodzie baterii zalewa przegrodę — i jak to naprawić bez kucia."
 pubDate: 2026-06-16T01:18:40
+updatedDate: 2026-11-01T15:25:06
 author: "i Hydraulik"
 category: "Przecieki"
 readingTime: 3
@@ -46,6 +47,8 @@ Na co zwrócić uwagę u siebie w domu:
 - stęchły zapach w pomieszczeniu mimo braku widocznego źródła wody.
 
 Regularny przegląd tych elementów potrafi zapobiec stratom liczonym nie w setkach, a w tysiącach złotych.
+
+Wilgoć u sąsiada to tylko jeden z objawów awarii wodnych. Kolejne, z różnych typów budynków, opisuję w części o [awariach instalacji wodnej](/poradnik/awarie-hydrauliczne-woda-kanalizacja-co#instalacja-wodna).
 
 ## Potrzebujesz fachowca od przecieków?
 

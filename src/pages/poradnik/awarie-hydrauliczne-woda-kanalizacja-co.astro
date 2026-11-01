@@ -77,6 +77,12 @@ const faqLd = {
             Chcę opowiedzieć o różnych rodzajach awarii, z którymi spotkałem się w pracy hydraulika w ciągu ostatnich 20 lat swojej działalności. Ich przyczyny, przebieg i skutki mogą zależeć nie tylko od tego, czy mówimy o instalacji wodnej, kanalizacyjnej czy centralnego ogrzewania, lecz także od rodzaju budynku i położenia usterki. Inaczej może wyglądać awaria w domu jednorodzinnym, a inaczej w bloku, gdzie znaczenie ma położenie mieszkania. Na przykład awaria na ostatnim piętrze może mieć inne przyczyny i skutki niż usterka na parterze w wysokim budynku.
           </p>
 
+          <nav class="awarie-spis" aria-label="Części strony">
+            <a href="#instalacja-wodna">Instalacja wodna</a>
+            <a href="#instalacja-kanalizacyjna">Instalacja kanalizacyjna</a>
+            <a href="#centralne-ogrzewanie">Centralne ogrzewanie</a>
+          </nav>
+
           <section id="instalacja-wodna" class="awarie-czesc">
             <h2>Awarie instalacji wodnej</h2>
             <div class="awarie-przypadek">
@@ -173,6 +179,22 @@ const faqLd = {
 
   <style is:global>
     .awarie-czesc { scroll-margin-top: 100px; }
+    .awarie-spis {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 0 0 8px;
+    }
+    .awarie-spis a {
+      padding: 10px 16px;
+      border-radius: 999px;
+      border: 1px solid var(--line, #e7ded5);
+      background: var(--card, rgba(255, 255, 255, 0.86));
+      color: var(--blue, #1f6fd1);
+      font-size: 16px;
+      font-weight: 700;
+    }
+    .awarie-spis a:hover { background: var(--blue-soft, #eaf2ff); }
     .article__content .awarie-przypadek {
       margin: 0 0 22px;
       padding: 22px 24px 6px;

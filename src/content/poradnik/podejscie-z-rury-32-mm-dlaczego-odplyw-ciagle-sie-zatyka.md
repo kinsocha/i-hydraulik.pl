@@ -2,6 +2,7 @@
 title: "Podejście pod umywalkę lub pralkę z rury 32 mm — dlaczego ten odpływ ciągle się zatyka"
 description: "Norma dopuszcza rury 32 mm na podejściach, ale w praktyce taki odpływ potrafi wracać z problemami przez lata. Wyjaśniam, skąd się to bierze."
 pubDate: 2026-07-26T19:42:17
+updatedDate: 2026-11-01T15:27:19
 author: "i Hydraulik"
 category: "Kanalizacja"
 readingTime: 3
@@ -46,6 +47,8 @@ Za głowicą pracuje elastyczny przegub. Pomaga na łagodnych łukach, ale ostre
 ## Jak udrożnić tak wąski odpływ
 
 Tak wąskiego i pokręconego odcinka nie da się udrożnić bez specjalistycznego sprzętu. Zresztą nawet ze sprzętem bywa to trudne. Dlatego taki odpływ powinien udrażniać fachowiec, który ma nie tylko odpowiednie narzędzia, ale i duże doświadczenie.
+
+To jedna z kilku nawracających awarii kanalizacji, które opisałem w części o [awariach instalacji kanalizacyjnej](/poradnik/awarie-hydrauliczne-woda-kanalizacja-co#instalacja-kanalizacyjna).
 
 ## Robisz remont? Sprawdź, co kładzie ekipa
 

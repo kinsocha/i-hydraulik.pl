@@ -2,6 +2,7 @@
 title: "Zatkana rura od szamba na Wawrze — udrożnienie przez rewizję w piwnicy"
 description: "Ścieki przestały schodzić do szamba, ale dom miał w piwnicy rzadkość: porządnie zamontowaną rewizję na rurze kanalizacyjnej. Dzięki niej udrożniłem odpływ sprężyną elektryczną bez kucia i kopania."
 pubDate: 2026-08-10T12:08:44
+updatedDate: 2026-11-01T15:25:52
 author: "i Hydraulik"
 category: "Kanalizacja"
 readingTime: 3
@@ -40,6 +41,8 @@ Na koniec test: woda schodzi od razu, bez cofania i bulgotania. Korek rewizji wr
 ## Po co w instalacji rewizja
 
 Rewizja to tani element, który przy awarii oszczędza mnóstwo pracy. Daje bezpośredni dostęp do rury bez rozbierania instalacji, pozwala szybko wyczyścić przewód i obejrzeć go od środka. Jeżeli budujesz dom albo remontujesz instalację, dopilnuj, żeby na wyjściu kanalizacji z budynku znalazł się czyszczak. A jeżeli Twoja instalacja go nie ma — można go dorobić, najlepiej zanim przyjdzie pierwszy zator.
+
+Ścieki cofające się w domu to inny obraz awarii niż w bloku. Różnice opisuję na stronie o [awariach instalacji kanalizacyjnej](/poradnik/awarie-hydrauliczne-woda-kanalizacja-co#instalacja-kanalizacyjna).
 
 ## Masz zatkaną rurę od szamba?
 

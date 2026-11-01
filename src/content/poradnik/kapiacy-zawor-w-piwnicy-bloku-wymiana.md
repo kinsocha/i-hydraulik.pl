@@ -2,6 +2,7 @@
 title: "Kapiący zawór w piwnicy bloku — skąd się bierze przeciek i jak go usunąć?"
 description: "Pod stropem piwnicy kapie mosiężny zawór kulowy na cyrkulacji ciepłej wody. Piszę, skąd biorą się takie przecieki, jak odróżnić je od skroplin, dlaczego zawór odcinający nie powinien sączyć i jak wygląda wymiana."
 pubDate: 2026-09-06T10:17:43
+updatedDate: 2026-11-01T15:23:41
 author: "i Hydraulik"
 category: "Przecieki"
 readingTime: 4
@@ -65,5 +66,7 @@ Mokra posadzka i stała wilgoć to dla piwnicy nic dobrego — a za ścianą zwy
 ## Jak wygląda naprawa
 
 Najpierw zamknięcie odcinka, na którym siedzi zawór — w bloku ustalam to z administracją, a przerwa w dostawie wody dotyczy zwykle kilku lokali i trwa krótko. Tu akurat kartka z numerami mieszkań od razu podpowiada, kogo uprzedzić. Potem, zależnie od tego, skąd sączy woda: nowe uszczelki w śrubunkach, nowe uszczelnienie gwintu albo wymiana całego zaworu. Dzięki śrubunkom po obu stronach stary zawór po prostu się wykręca, a nowy wpina w to samo miejsce — bez ingerencji w rury z polipropylenu. Przeważnie jest to robota na jedną krótką wizytę, a cenę podaję przed rozpoczęciem pracy. Takie zlecenia wykonuję zarówno dla mieszkańców, jak i dla administracji czy zarządców budynków.
+
+Ile lokali obejmuje awaria i co zmienia w niej rodzaj budynku, opisuję w zestawieniu [awarii instalacji wodnej](/poradnik/awarie-hydrauliczne-woda-kanalizacja-co#instalacja-wodna).
 
 Hydraulik Warszawa — tel. **511 323 123**. Kapiące zawory, śrubunki i inne przecieki naprawiam w starszych blokach [na Żoliborzu](/hydraulikzoliborz), w nowych osiedlach [na Białołęce](/hydraulikbialoleka) i w domach jednorodzinnych [w Rembertowie](/hydraulikrembertow), a poza Warszawą dojeżdżam też do Marek i Legionowa. Do awarii przyjeżdżam również wieczorami i w weekendy.
