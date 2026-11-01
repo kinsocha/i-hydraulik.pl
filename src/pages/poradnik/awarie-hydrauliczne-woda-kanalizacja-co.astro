@@ -1,0 +1,204 @@
+---
+import PoradnikLayout from "../../layouts/PoradnikLayout.astro";
+
+const title = "Awarie hydrauliczne w domu i mieszkaniu – woda, kanalizacja, c.o.";
+const h1 = "Awarie instalacji wodnej, kanalizacyjnej i centralnego ogrzewania – z praktyki hydraulika";
+const description =
+  "Awarie instalacji wodnej, kanalizacyjnej i centralnego ogrzewania z 20 lat pracy hydraulika. Przyczyny, przebieg i skutki zależne od rodzaju budynku i piętra.";
+
+const faq = [
+  {
+    q: "Co zrobić jako pierwsze, gdy z rury leje się woda?",
+    a: "Zakręcić zawór główny, najczęściej przy wodomierzu, żeby odciąć dopływ wody. Jeśli woda dostała się w pobliże gniazdek albo rozdzielnicy, wyłączyć też prąd. Dopiero potem dzwonić po hydraulika: 511 323 123.",
+  },
+  {
+    q: "Jak sprawdzić, czy woda ucieka z instalacji, gdy sąsiad zgłasza zaciek?",
+    a: "Zamknij wszystkie krany i wyłącz pralkę oraz zmywarkę, a potem spójrz na wodomierz. Jeśli licznik nadal się kręci, woda ucieka z instalacji. Jeśli stoi, przyczyny trzeba szukać gdzie indziej, na przykład w odpływie, w centralnym ogrzewaniu albo w mieszkaniu wyżej.",
+  },
+  {
+    q: "Jak zatrzymać wyciek z rury centralnego ogrzewania?",
+    a: "Zamknąć zawory na uszkodzonym odcinku, przy grzejniku albo na pionie, o ile masz do nich dostęp. W bloku piony odcina się zwykle centralnie, więc od razu trzeba zawiadomić administrację. Po odcięciu pionu woda z wyższych kondygnacji może jeszcze przez jakiś czas spływać do miejsca pęknięcia.",
+  },
+  {
+    q: "Czy cofające się ścieki oznaczają, że usterka jest w moim mieszkaniu?",
+    a: "Nie zawsze. Gdy ścieki wypływają w mieszkaniu na parterze, przyczyną może być przewód odpływowy w piwnicy. Gdy zatka się pion, ścieki cofają się na najniższe piętro położone nad zatorem, kiedy ktoś z wyższych pięter spuści wodę.",
+  },
+  {
+    q: "Co powiedzieć hydraulikowi przez telefon przy awarii?",
+    a: "Gdzie dokładnie widać skutki, jaki to budynek, na którym piętrze mieszkasz i czy udało się zakręcić wodę. Rodzaj budynku i piętro wpływają na przebieg awarii, więc te informacje pozwalają lepiej przygotować się do dojazdu. Zgłoszenia przyjmuje numer 511 323 123.",
+  },
+];
+
+const articleLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: h1,
+  description,
+  author: { "@type": "Organization", name: "i Hydraulik" },
+  publisher: {
+    "@type": "Organization",
+    name: "i Hydraulik",
+    logo: { "@type": "ImageObject", url: "https://i-hydraulik.pl/favicon.svg" },
+  },
+  mainEntityOfPage: "https://i-hydraulik.pl/poradnik/awarie-hydrauliczne-woda-kanalizacja-co",
+  datePublished: "2026-11-01T11:42:17+01:00",
+  dateModified: "2026-11-01T11:42:17+01:00",
+};
+
+const faqLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faq.map((item) => ({
+    "@type": "Question",
+    name: item.q,
+    acceptedAnswer: { "@type": "Answer", text: item.a },
+  })),
+};
+---
+
+<PoradnikLayout title={title} description={description}>
+  <script type="application/ld+json" is:inline set:html={JSON.stringify(articleLd)} />
+  <script type="application/ld+json" is:inline set:html={JSON.stringify(faqLd)} />
+
+  <div class="article-wrap">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Ścieżka">
+        <a href="/">Start</a> <span>/</span>
+        <a href="/poradnik">Poradnik</a> <span>/</span>
+        <span>Awarie hydrauliczne</span>
+      </nav>
+
+      <article class="article">
+        <span class="article__tag">Awarie</span>
+        <h1>{h1}</h1>
+
+        <div class="article__content">
+          <p>
+            Chcę opowiedzieć o różnych rodzajach awarii, z którymi spotkałem się w pracy hydraulika w ciągu ostatnich 20 lat swojej działalności. Ich przyczyny, przebieg i skutki mogą zależeć nie tylko od tego, czy mówimy o instalacji wodnej, kanalizacyjnej czy centralnego ogrzewania, lecz także od rodzaju budynku i położenia usterki. Inaczej może wyglądać awaria w domu jednorodzinnym, a inaczej w bloku, gdzie znaczenie ma położenie mieszkania. Na przykład awaria na ostatnim piętrze może mieć inne przyczyny i skutki niż usterka na parterze w wysokim budynku.
+          </p>
+
+          <section id="instalacja-wodna" class="awarie-czesc">
+            <h2>Awarie instalacji wodnej</h2>
+            <div class="awarie-przypadek">
+              <h3>Dlaczego przy wycieku z rury w podłodze dół ościeżnicy może spuchnąć, zanim sąsiad zauważy zaciek na suficie?</h3>
+              <p>
+                Znaczenie ma budowa podłogi. Jeśli pod wylewką znajduje się folia, woda z uszkodzonej rury może przez dłuższy czas gromadzić się nad folią. Jednym z pierwszych widocznych objawów w mieszkaniu bywa wtedy pęczniejący dół ościeżnicy albo wilgotna ściana tuż przy podłodze. W tym samym czasie na suficie u sąsiada piętro niżej może jeszcze nie być śladu przecieku.
+              </p>
+            </div>
+            <div class="awarie-przypadek">
+              <h3><a href="/poradnik/kapiacy-zawor-w-piwnicy-bloku-wymiana">Dlaczego przy kapiącym zaworze w piwnicy bloku nie da się zamknąć wody tylko jednemu mieszkaniu?</a></h3>
+              <p>
+                Zawór na cyrkulacji ciepłej wody siedzi na pionie wspólnym dla kilku lokali, w opisanym bloku dla czterech. Zamknięcie go odcina je wszystkie naraz, a do pełnego odcięcia ciepłej wody trzeba zakręcić jeszcze drugi zawór, od zasilania.
+              </p>
+              <p class="awarie-link"><a href="/poradnik/kapiacy-zawor-w-piwnicy-bloku-wymiana">Pełny opis realizacji →</a></p>
+            </div>
+            <div class="awarie-przypadek">
+              <h3><a href="/poradnik/slabe-cisnienie-wody-zatkany-zawor-antyskazeniowy">Dlaczego po naprawie sieci w ulicy słaby strumień leci tylko w jednym mieszkaniu kamienicy?</a></h3>
+              <p>
+                W kamienicy każde mieszkanie miało własny wodomierz, a w drugim ciśnienie było normalne. To wskazywało na usterkę za jednym licznikiem, w tym przypadku na zawór antyskażeniowy zapchany kamieniem.
+              </p>
+              <p class="awarie-link"><a href="/poradnik/slabe-cisnienie-wody-zatkany-zawor-antyskazeniowy">Pełny opis realizacji →</a></p>
+            </div>
+            <div class="awarie-przypadek">
+              <h3><a href="/poradnik/mokra-sciana-sasiada-przeciek-przy-baterii">Dlaczego wilgoć pojawia się u sąsiada za ścianą, a w mojej łazience nie widać przecieku?</a></h3>
+              <p>
+                Gdy łazienka i pokój sąsiada dzielą ścianę, woda wchodząca pod płytki w niezabezpieczone szczeliny przy mimośrodach baterii może przejść przez przegrodę. W mieszkaniu wszystko wygląda na suche, a plama rośnie dopiero po drugiej stronie.
+              </p>
+              <p class="awarie-link"><a href="/poradnik/mokra-sciana-sasiada-przeciek-przy-baterii">Pełny opis realizacji →</a></p>
+            </div>
+          </section>
+
+          <section id="centralne-ogrzewanie" class="awarie-czesc">
+            <h2>Awarie instalacji centralnego ogrzewania</h2>
+            <div class="awarie-przypadek">
+              <h3>Dlaczego przy pęknięciu rury centralnego ogrzewania na parterze może wypłynąć więcej wody niż na ostatnim piętrze?</h3>
+              <p>
+                Znaczenie ma to, ile wody znajduje się w części instalacji połączonej z miejscem wycieku. Jeśli rura pęknie na parterze, nawet po odcięciu dopływu do uszkodzonego pionu do miejsca pęknięcia może jeszcze spływać woda z rur i grzejników na wyższych kondygnacjach. Z kolei gdy rura pęknie na ostatnim piętrze, nad miejscem awarii jest znacznie krótszy odcinek instalacji. Ilość wody, która może z niego wypłynąć, zależy od układu rur i od tego, który odcinek udało się odciąć.
+              </p>
+            </div>
+          </section>
+
+          <section id="instalacja-kanalizacyjna" class="awarie-czesc">
+            <h2>Awarie instalacji kanalizacyjnej</h2>
+            <div class="awarie-przypadek">
+              <h3>Na którym piętrze mogą cofnąć się ścieki, gdy zatka się pion kanalizacyjny lub przewód odpływowy w piwnicy?</h3>
+              <p>
+                To zależy od miejsca zatoru. Jeśli zatka się przewód odpływowy w piwnicy, ścieki mogą wypłynąć przez odpływy w mieszkaniu na parterze. Jeśli natomiast pion zatka się między drugim a trzecim piętrem, ścieki mogą cofnąć się do mieszkania na trzecim piętrze, gdy ktoś z wyższych pięter spuści wodę.
+              </p>
+            </div>
+            <div class="awarie-przypadek">
+              <h3><a href="/poradnik/zatkana-rura-od-szamba-rewizja-w-piwnicy-wawer">Dlaczego w domu z szambem ścieki cofają się w najniższych odpływach, choć zbiornik ma wolne miejsce?</a></h3>
+              <p>
+                Jeśli szambo jest wybrane, a ścieki i tak do niego nie płyną, korek siedzi w rurze łączącej dom ze zbiornikiem. W opisanym domu dostęp do niej dała rewizja w piwnicy, dzięki czemu obyło się bez kucia.
+              </p>
+              <p class="awarie-link"><a href="/poradnik/zatkana-rura-od-szamba-rewizja-w-piwnicy-wawer">Pełny opis realizacji →</a></p>
+            </div>
+            <div class="awarie-przypadek">
+              <h3><a href="/poradnik/zapchany-zlew-wymiana-instalacji-odplywowej-praga">Dlaczego zlew po udrożnieniu znowu się zatyka?</a></h3>
+              <p>
+                Gdy przyczyną jest nie tylko osad, ale i sposób ułożenia rur, samo udrożnienie nie wystarcza. W opisanym mieszkaniu rury leżały pod odwrotnym spadkiem, a trójnik kierował odpływ ze zlewu w stronę zmywarki, więc trzeba było wymienić instalację odpływową.
+              </p>
+              <p class="awarie-link"><a href="/poradnik/zapchany-zlew-wymiana-instalacji-odplywowej-praga">Pełny opis realizacji →</a></p>
+            </div>
+            <div class="awarie-przypadek">
+              <h3><a href="/poradnik/podejscie-z-rury-32-mm-dlaczego-odplyw-ciagle-sie-zatyka">Dlaczego odpływ pod umywalką lub pralką ciągle się zatyka?</a></h3>
+              <p>
+                Podejście z rury 32 mm zatyka się szybciej, bo osad w tak wąskiej rurze szybciej tworzy korek, a woda zwalnia na każdym kolanie. Taką rurą zwykle nie przejdzie też kamera inspekcyjna, więc trudno ocenić jej stan od środka.
+              </p>
+              <p class="awarie-link"><a href="/poradnik/podejscie-z-rury-32-mm-dlaczego-odplyw-ciagle-sie-zatyka">Pełny opis realizacji →</a></p>
+            </div>
+          </section>
+        </div>
+
+        <section class="article__faq" aria-label="Najczęstsze pytania">
+          <h2>Najczęściej zadawane pytania</h2>
+          {faq.map((item) => (
+            <details class="faq-item">
+              <summary>{item.q}</summary>
+              <div class="faq-item__a"><p>{item.a}</p></div>
+            </details>
+          ))}
+        </section>
+
+        <div class="article__cta">
+          <div>
+            <strong>Masz awarię? Zadzwoń: 511 323 123</strong>
+            <span>Hydraulik Warszawa i okolice — diagnoza i naprawa bez zbędnego kucia.</span>
+          </div>
+          <a class="btn-new btn-new--primary" href="tel:+48511323123">📞 Zadzwoń teraz</a>
+        </div>
+      </article>
+    </div>
+  </div>
+
+  <style is:global>
+    .awarie-czesc { scroll-margin-top: 100px; }
+    .article__content .awarie-przypadek {
+      margin: 0 0 22px;
+      padding: 22px 24px 6px;
+      border: 1px solid var(--line, #e7ded5);
+      border-radius: var(--radius-md, 18px);
+      background: var(--card, rgba(255, 255, 255, 0.86));
+    }
+    .article__content .awarie-przypadek h3 {
+      margin: 0 0 12px;
+      font-size: clamp(18px, 2.2vw, 21px);
+      line-height: 1.35;
+      letter-spacing: -0.01em;
+      color: var(--ink, #181b35);
+    }
+    .article__content .awarie-przypadek h3 a {
+      color: inherit;
+    }
+    .article__content .awarie-przypadek h3 a:hover {
+      color: var(--blue, #1f6fd1);
+    }
+    .article__content .awarie-przypadek .awarie-link a {
+      color: var(--blue, #1f6fd1);
+      font-weight: 700;
+    }
+    @media (max-width: 640px) {
+      .article__content .awarie-przypadek { padding: 18px 18px 2px; }
+    }
+  </style>
+</PoradnikLayout>

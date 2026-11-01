@@ -48,3 +48,11 @@ Bez `--apply` / `--zapisz` nic nie jest zmieniane.
 - każdy `href="/…"` ma plik w `dist`; zero `href` kończących się `/` i zero `.html`;
 - na zmienionych podstronach bez zmian liczba pytań FAQ i blok FAQPage;
 - zero numerów innych marek.
+
+## Dwa punkty linkowania realizacji (żądanie właściciela 2026-11-01) – oba ZAWSZE DWUKIERUNKOWO
+
+**Punkt 1 – realizacja z dzielnicy/miasta ↔ podstrona dzielnicy** (cały system opisany wyżej): link z artykułu do podstrony dzielnicy zlecenia + 3 najbliższe z `sasiedzi.json`; z podstrony `/hydraulik<dzielnica>` kafelek artykułu w `ZleceniaZPoradnika` (`kafle --apply`).
+
+**Punkt 2 – realizacja ↔ poradnik o awariach instalacji:** strona `https://i-hydraulik.pl/poradnik/awarie-hydrauliczne-woda-kanalizacja-co` (tytuł: „Awarie hydrauliczne w domu i mieszkaniu – woda, kanalizacja, c.o.: rodzaje i co robić”). Wstęp: jak rodzaj instalacji wpływa na przebieg awarii i jej skutki. Trzy części: instalacja wodna, kanalizacyjna, centralne ogrzewanie; w każdej punkty z awariami z pracy hydraulika. Przy KAŻDEJ nowej realizacji dotyczącej jednej z tych instalacji: link z artykułu do właściwej części tej strony ORAZ link z tej części (przy odpowiedniej awarii) do artykułu. Stan 01.11.2026: strony jeszcze nie ma w `src/content/poradnik`.
+
+Po każdej realizacji wykonać oba punkty i podać w podsumowaniu, co zlinkowano w którą stronę. Tekst strony o awariach pisać po przeczytaniu `Pisanie tekstów\memory.md`; w treści tylko numer 511 323 123.
