@@ -1,0 +1,158 @@
+---
+import PoradnikLayout from "../../layouts/PoradnikLayout.astro";
+
+const title = "Wyciek wody w mieszkaniu lub domu: skąd leci woda i co zrobić";
+const h1 = "Wyciek wody w mieszkaniu lub domu. Jak rozpoznać, skąd leci woda i co zrobić?";
+const description =
+  "Skąd leci woda w mieszkaniu albo domu: kanalizacja, instalacja wodna czy centralne ogrzewanie? Trzy pytania, które to rozstrzygają, i podział, komu zgłosić wyciek.";
+
+const faq = [
+  {
+    q: "Czy ścieki mogą wypłynąć w mieszkaniu, w którym nikt nie korzysta z wody?",
+    a: "Tak. Gdy pion kanalizacyjny albo przewód odpływowy w piwnicy jest zatkany nisko, ścieki wypływają w najniżej położonym mieszkaniu, kiedy ktoś z wyższego piętra spuści wodę. U lokatora parteru może być wtedy sucho aż do chwili, gdy sąsiad skorzysta z toalety albo prysznica.",
+  },
+  {
+    q: "Jak odróżnić cieknący syfon od cieknącego wężyka pod zlewem?",
+    a: "Po tym, czy kapie bez użycia odpływu. Wyciek z syfonu zależy od tego, czy przez odpływ płynie woda, a z połączenia wężyka z zaworem kątowym może kapać także w nocy, przy zakręconej baterii.",
+  },
+  {
+    q: "Czy zamknięcie zaworu przy wodomierzu zatrzyma każdy wyciek?",
+    a: "Nie. Odetnie dopływ do uszkodzonego wężyka, baterii albo spłuczki, ale nie pomoże przy awarii na pionie przed zaworem mieszkania ani przy rurze centralnego ogrzewania, bo ten zawór nie odcina obiegu grzewczego.",
+  },
+  {
+    q: "Dlaczego pęknięcie rury c.o. na parterze bloku może oznaczać więcej wody niż na poddaszu domu?",
+    a: "Nad parterem bloku jest dużo rur i grzejników z wyższych pięter, z których woda może jeszcze spływać do pęknięcia po odcięciu uszkodzonego odcinka. Na poddaszu domu nad miejscem awarii został znacznie krótszy odcinek instalacji.",
+  },
+  {
+    q: "Komu zgłosić wyciek, który zaczyna się piętro wyżej?",
+    a: "Plamę na suficie po kąpieli zgłoś sąsiadowi z góry, bo to u niego jest przyczyna. Cofające się ścieki z pionu i wyciek na wspólnej instalacji grzewczej trafiają do administracji lub pogotowia technicznego budynku. Wyciek w obrębie mieszkania lub domu zgłoś pod numerem 511 323 123.",
+  },
+];
+
+const articleLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: h1,
+  description,
+  author: { "@type": "Organization", name: "i Hydraulik" },
+  publisher: {
+    "@type": "Organization",
+    name: "i Hydraulik",
+    logo: { "@type": "ImageObject", url: "https://i-hydraulik.pl/favicon.svg" },
+  },
+  mainEntityOfPage: "https://i-hydraulik.pl/poradnik/wyciek-wody-w-mieszkaniu-skad-leci-woda-i-co-zrobic",
+  datePublished: "2026-11-03T09:41:27+01:00",
+  dateModified: "2026-11-03T09:41:27+01:00",
+};
+
+const faqLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faq.map((item) => ({
+    "@type": "Question",
+    name: item.q,
+    acceptedAnswer: { "@type": "Answer", text: item.a },
+  })),
+};
+---
+
+<PoradnikLayout title={title} description={description}>
+  <script type="application/ld+json" is:inline set:html={JSON.stringify(articleLd)} />
+  <script type="application/ld+json" is:inline set:html={JSON.stringify(faqLd)} />
+
+  <div class="article-wrap">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Ścieżka">
+        <a href="/">Start</a> <span>/</span>
+        <a href="/poradnik">Poradnik</a> <span>/</span>
+        <span>Wyciek wody w mieszkaniu</span>
+      </nav>
+
+      <article class="article">
+        <span class="article__tag">Awarie</span>
+        <h1>{h1}</h1>
+        <p class="article__lead">
+          Plama na suficie, mokra szafka pod zlewem, woda spod brodzika. Za podobnymi objawami potrafią stać zupełnie inne awarie, a od tego, która z nich to jest, zależy, co zrobić jako pierwsze.
+        </p>
+
+        <div class="article__content">
+          <p>
+            Przez 20 lat pracy nauczyłem się je odróżniać po kilku pytaniach. Rodzaj budynku i piętro zmieniają przebieg awarii tylko w dwóch przypadkach: gdy ścieki cofają się z pionu i gdy pęka rura centralnego ogrzewania. Przy cieknącym syfonie pod zlewem ważniejsze jest co innego, czyli to, kiedy woda się pojawia.
+          </p>
+
+          <h2>Trzy pytania, od których zaczynam</h2>
+          <p>
+            Pierwsze: gdzie dokładnie widać wodę? Drugie: co się działo tuż przed jej pojawieniem? Trzecie: czy kapie również wtedy, gdy nikt z niczego nie korzysta?
+          </p>
+          <p>
+            Weźmy szafkę pod zlewem. Przez cały dzień jest w niej sucho, a woda pojawia się dopiero po wyjęciu korka z pełnej komory. Skoro mokro robi się tylko wtedy, gdy woda płynie odpływem, przyczyny trzeba szukać w syfonie albo w rurze odpływowej.
+          </p>
+          <p>
+            Z plamą na suficie u sąsiada po kąpieli jest trudniej, bo możliwości jest więcej. Podczas jednego prysznica woda płynie dwiema drogami: do odpływu i po ścianie, aż do połączenia ściany z brodzikiem. Sam fakt, że ktoś korzystał z łazienki, mówi więc niewiele. Liczy się, z czego korzystał i jak.
+          </p>
+
+          <h2>Woda po użyciu zlewu, wanny lub toalety: szukam w kanalizacji</h2>
+          <p>
+            Gdy mokro robi się dopiero po spuszczeniu wody, przyczyna siedzi zwykle w odpływie. Znam to z odkręconego mocowania syfonu pod brodzikiem. Przez cały dzień jest sucho, a podczas kąpieli część wody zamiast do kanalizacji wypływa pod brodzik. Taki przypadek opisałem w artykule o <a href="/poradnik/zatkany-brodzik-nie-odkrecac-korpusu-syfonu">zatkanym brodziku i korpusie syfonu</a>.
+          </p>
+          <p>
+            Pierwsze, co trzeba wtedy zrobić, to przestać korzystać z tego odpływu, bo każda następna kąpiel oznacza kolejną porcję wody pod brodzikiem.
+          </p>
+
+          <h2>Cofka z pionu: ścieki wypływają, choć nikt w mieszkaniu nie używa wody</h2>
+          <p>
+            To wyjątek od prostego skojarzenia „nikt u mnie nie korzysta z wody, więc to nie kanalizacja”. Pion kanalizacyjny to wspólna rura, do której odpływy z kolejnych pięter wpadają jeden nad drugim. Jeśli jest zatkany nisko, w dolnej części pionu albo w przewodzie odpływowym w piwnicy, najniżej położone mieszkanie dostaje ścieki jako pierwsze. Lokator parteru może mieć zakręcone wszystkie krany, a ścieki i tak wypłyną u niego przez brodzik, gdy ktoś wyżej spuści wodę.
+          </p>
+          <p>
+            Dlatego przy takim zgłoszeniu pytam o piętro. Trzeba też powiadomić sąsiadów korzystających z tego samego pionu, żeby na razie nie spuszczali wody.
+          </p>
+
+          <h2>Kapie przy zakręconych kranach: to instalacja wody użytkowej</h2>
+          <p>
+            Instalacja wody użytkowej to rury i wężyki, którymi woda dopływa do kranów, spłuczek i urządzeń. Najłatwiej pokazać jej awarię na tej samej szafce pod zlewem. Jeśli kapie z syfonu, liczy się to, czy przez odpływ płynie woda. Jeśli kapie z połączenia wężyka z zaworem kątowym, woda może kapać także w nocy, gdy bateria jest zakręcona. Mokro jest w tym samym miejscu, a sposób postępowania zależy od tego, które połączenie cieknie.
+          </p>
+          <p>
+            O kapaniu bez użycia wody przesądza wodomierz. Gdy wszystkie krany są zamknięte, pralka i zmywarka nie pracują, a licznik mimo to się kręci, woda ucieka z instalacji.
+          </p>
+          <p>
+            Gdy woda cieknie z wężyka, baterii albo spłuczki, zamknięcie zaworu przy wodomierzu odcina dopływ do uszkodzonego miejsca i kapanie ustaje. Przy awarii na pionie, przed zaworem mieszkania, to nic nie da, bo uszkodzony odcinek jest dalej zasilany. O zaworze wspólnym dla kilku lokali pisałem w artykule o <a href="/poradnik/kapiacy-zawor-w-piwnicy-bloku-wymiana">kapiącym zaworze w piwnicy bloku</a>.
+          </p>
+
+          <h2>Pęknięta rura c.o.: parter dziesięciopiętrowego bloku i poddasze domu</h2>
+          <p>
+            Zacznę od porównania. Rura centralnego ogrzewania pęka raz na parterze dziesięciopiętrowego bloku, raz na poddaszu domu jednorodzinnego. W obu przypadkach zamknięcie zaworu przy wodomierzu nie odcina obiegu grzewczego.
+          </p>
+          <p>
+            Różnicę robi to, co leży powyżej pęknięcia, i skąd woda może jeszcze spłynąć po odcięciu uszkodzonego odcinka. Na parterze bloku nad miejscem awarii stoi cały pion z rurami i grzejnikami z kolejnych pięter. Nawet po odcięciu dopływu do uszkodzonego odcinka woda z tych rur i grzejników może jeszcze spływać do pęknięcia. Na poddaszu domu nad pęknięciem został krótki odcinek instalacji, więc wypłynąć może znacznie mniej wody. Ilość zależy zawsze od układu rur i od tego, który odcinek uda się odciąć.
+          </p>
+
+          <h2>Komu zgłosić wyciek</h2>
+          <p>
+            Plama na suficie po kąpieli piętro wyżej: od razu zadzwoń do sąsiada, bo to u niego trzeba szukać przyczyny. Cofające się ścieki z pionu i wyciek na wspólnej instalacji grzewczej zgłasza się administracji albo pogotowiu technicznemu budynku. A gdy nieszczelność jest w obrębie mieszkania lub domu, przyjeżdżam ja: naprawiam syfony, wężyki i zawory kątowe pod zlewem i umywalką, baterie, spłuczki oraz odpływy brodzików.
+          </p>
+          <p>
+            Przypadki z mojej pracy, osobno dla instalacji <a href="/poradnik/awarie-hydrauliczne-woda-kanalizacja-co#instalacja-wodna">wodnej</a>, <a href="/poradnik/awarie-hydrauliczne-woda-kanalizacja-co#instalacja-kanalizacyjna">kanalizacyjnej</a> i <a href="/poradnik/awarie-hydrauliczne-woda-kanalizacja-co#centralne-ogrzewanie">centralnego ogrzewania</a>, zebrałem na stronie o awariach hydraulicznych.
+          </p>
+        </div>
+
+        <section class="article__faq" aria-label="Najczęstsze pytania">
+          <h2>Najczęściej zadawane pytania</h2>
+          {faq.map((item) => (
+            <details class="faq-item">
+              <summary>{item.q}</summary>
+              <div class="faq-item__a"><p>{item.a}</p></div>
+            </details>
+          ))}
+        </section>
+
+        <div class="article__cta">
+          <div>
+            <strong>Woda cieknie? Zadzwoń: 511 323 123</strong>
+            <span>Hydraulik Warszawa i okolice — diagnoza i naprawa bez zbędnego kucia.</span>
+          </div>
+          <a class="btn-new btn-new--primary" href="tel:+48511323123">📞 Zadzwoń teraz</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</PoradnikLayout>
