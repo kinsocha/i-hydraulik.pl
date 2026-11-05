@@ -13,7 +13,9 @@
       "Edit",
       "Write",
       "MultiEdit",
-      "WebFetch"
+      "WebFetch",
+      "ClaudeInChromeDomain(localhost:4321)",
+      "ClaudeInChromeDomain(i-hydraulik.pl)"
     ],
     "ask": [
       "Bash(git push:*)",
