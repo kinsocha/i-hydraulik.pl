@@ -1,0 +1,144 @@
+---
+import PoradnikLayout from "../../layouts/PoradnikLayout.astro";
+
+const title = "Wyciek w podłodze z folią pod wylewką: skutki i osuszanie";
+const h1 = "Wyciek z rury w podłodze z folią pod wylewką: dlaczego ościeżnica puchnie, a sąsiad z dołu nic nie widzi";
+const description =
+  "Jak przebiega wyciek z rury, gdy pod wylewką leży folia: gdzie zbiera się woda, jak szukać przecieku i ile trwa osuszanie podłogi.";
+const hero = "/img/poradnik/folia-na-styropianie-pod-wylewka.webp";
+const heroAlt = "Robotnik rozkłada czarną folię na płytach styropianu przed wylaniem wylewki";
+
+const faq = [
+  {
+    q: "Skąd wiedzieć, czy pod wylewką w moim mieszkaniu jest folia?",
+    a: "Wiek budynku tego nie rozstrzyga. Odpowiedź daje projekt podłogi w dokumentacji budynku, informacja od dewelopera lub zarządcy albo widok warstw posadzki, gdy podłoga jest rozbierana przy remoncie.",
+  },
+  {
+    q: "Czy zamknięcie zaworu przy wodomierzu zatrzyma wyciek w podłodze?",
+    a: "Tylko wtedy, gdy przecieka instalacja wodna: zawór odetnie dopływ do uszkodzonej rury. Obiegu centralnego ogrzewania ten zawór nie odcina, więc przy wycieku z c.o. woda będzie dalej uciekać.",
+  },
+  {
+    q: "Jakie informacje podać hydraulikowi, gdy ościeżnica puchnie od dołu?",
+    a: "Której ościeżnicy i której ściany dotyczy wilgoć, od kiedy ją widać, na którym piętrze i w jakim budynku mieszkasz oraz czy sąsiad z dołu cokolwiek zauważył. Wyciek zgłoś pod numerem 511 323 123.",
+  },
+  {
+    q: "Czy puchnąca ościeżnica zawsze oznacza przeciek z rury w podłodze?",
+    a: "Nie zawsze. Wilgoć przy podłodze może mieć kilka źródeł, więc najpierw trzeba ustalić, która instalacja traci wodę, a dopiero potem naprawiać.",
+  },
+  {
+    q: "Od czego zależy, czy po naprawie rury potrzebne jest osuszanie urządzeniami?",
+    a: "Od ilości wody, która zebrała się w podłodze, i od zakresu szkód. Ocenia się to po znalezieniu i naprawie przecieku, bo dopiero wtedy wiadomo, ile wody zostało w posadzce.",
+  },
+];
+
+const articleLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: h1,
+  description,
+  image: `https://i-hydraulik.pl${hero}`,
+  author: { "@type": "Organization", name: "i Hydraulik" },
+  publisher: {
+    "@type": "Organization",
+    name: "i Hydraulik",
+    logo: { "@type": "ImageObject", url: "https://i-hydraulik.pl/favicon.svg" },
+  },
+  mainEntityOfPage: "https://i-hydraulik.pl/poradnik/wyciek-w-podlodze-z-folia-pod-wylewka",
+  datePublished: "2026-11-05T10:58:41+01:00",
+  dateModified: "2026-11-05T10:58:41+01:00",
+};
+
+const faqLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faq.map((item) => ({
+    "@type": "Question",
+    name: item.q,
+    acceptedAnswer: { "@type": "Answer", text: item.a },
+  })),
+};
+---
+
+<PoradnikLayout title={title} description={description}>
+  <script type="application/ld+json" is:inline set:html={JSON.stringify(articleLd)} />
+  <script type="application/ld+json" is:inline set:html={JSON.stringify(faqLd)} />
+
+  <div class="article-wrap">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Ścieżka">
+        <a href="/">Start</a> <span>/</span>
+        <a href="/poradnik">Poradnik</a> <span>/</span>
+        <span>Wyciek w podłodze z folią</span>
+      </nav>
+
+      <article class="article">
+        <span class="article__tag">Awarie</span>
+        <h1>{h1}</h1>
+        <p class="article__lead">
+          Którędy pójdzie woda z uszkodzonej rury w podłodze, zależy od warstwy, której z góry nie widać: od folii pod wylewką. Od niej zależy też, kto pierwszy zauważy awarię.
+        </p>
+
+        <figure class="article__hero">
+          <img src={hero} alt={heroAlt} width="1200" height="675" />
+        </figure>
+
+        <div class="article__content">
+          <h2>Podłoga bez folii: woda schodzi do sąsiada</h2>
+          <p>
+            W starszych blokach, także z wielkiej płyty, pod wylewką często nie ma folii. Woda z uszkodzonej rury przesiąka wtedy przez wylewkę i strop i po jakimś czasie pojawia się na suficie mieszkania niżej. Plama na suficie sąsiada przybliża miejsce awarii. Tylko przybliża, bo w stropie woda potrafi przejść kawałek dalej i wyjść w innym miejscu niż sama nieszczelność. Mimo to jest od czego zacząć szukanie. Taka awaria może się skończyć na naprawie rury i odmalowaniu sufitu u sąsiada.
+          </p>
+
+          <h2>Podłoga z folią: woda zostaje w posadzce</h2>
+          <p>
+            W nowszym budownictwie folię pod wylewką stosuje się częściej. Ogranicza ona przenikanie wody do mieszkania poniżej, więc przy awarii rury woda nie schodzi do sąsiada, tylko zbiera się nad folią, w warstwach podłogi.
+          </p>
+          <p>
+            Przez długi czas nikt tego nie widzi. Sufit u sąsiada zostaje suchy, a domownicy o niczym nie wiedzą. Dopiero gdy ościeżnice zaczynają puchnąć od spodu, a ściany robią się wilgotne, wiadomo, że w podłodze jest woda.
+          </p>
+          <p>
+            Szkody w takiej podłodze mogą być większe niż przy posadzce bez folii, bo cała woda zostaje w jednym miejscu.
+          </p>
+
+          <h2>Szukanie wycieku w podłodze</h2>
+          <p>
+            Gdy objaw już jest, trzeba ustalić, skąd woda się bierze. Nie zawsze udaje się to za pierwszym razem: nie przy każdej awarii od razu wiadomo, w którym miejscu jest nieszczelność i z której instalacji wypływa woda, wodnej, kanalizacyjnej czy centralnego ogrzewania. Jak odróżnić te trzy przypadki, opisałem w poradniku o tym, <a href="/poradnik/wyciek-wody-w-mieszkaniu-skad-leci-woda-i-co-zrobic">skąd leci woda w mieszkaniu lub domu</a>.
+          </p>
+
+          <h2>Osuszanie po naprawie rury</h2>
+          <p>
+            Naprawa rury kończy wypływ, ale nie usuwa wody, która zdążyła wsiąknąć w podłogę. Jej schnięcie trwa od kilku dni do kilku tygodni, a czasem dłużej. Przy płytkach od góry i folii od dołu wilgoć ma niewiele dróg odparowania. Dlatego w części przypadków w posadzce wykonuje się otwory, a specjalistyczne urządzenia usuwają przez nie wodę i osuszają przestrzeń pod posadzką.
+          </p>
+          <p>
+            Urządzenia pracują głośno i podnoszą temperaturę w pomieszczeniach. Przy większych szkodach mieszkanie bywa trudne do używania, a czasem trzeba się z niego czasowo wyprowadzić. Dochodzi do tego koszt wyprowadzki.
+          </p>
+          <p>
+            W większości takich zgłoszeń potrafię wyciek znaleźć i naprawić rurę. Całość trwa jednak dłużej i kosztuje więcej niż przy podłodze bez folii.
+          </p>
+
+          <h2>Inne awarie zależne od budynku i piętra</h2>
+          <p>
+            Pozostałe przypadki z instalacji wodnej, w których o przebiegu awarii decyduje rodzaj budynku albo piętro, zebrałem na stronie o <a href="/poradnik/awarie-hydrauliczne-woda-kanalizacja-co#instalacja-wodna">awariach hydraulicznych</a>.
+          </p>
+        </div>
+
+        <section class="article__faq" aria-label="Najczęstsze pytania">
+          <h2>Najczęściej zadawane pytania</h2>
+          {faq.map((item) => (
+            <details class="faq-item">
+              <summary>{item.q}</summary>
+              <div class="faq-item__a"><p>{item.a}</p></div>
+            </details>
+          ))}
+        </section>
+
+        <div class="article__cta">
+          <div>
+            <strong>Wilgoć przy podłodze? Zadzwoń: 511 323 123</strong>
+            <span>Hydraulik Warszawa i okolice — ustalam, skąd cieknie, i naprawiam.</span>
+          </div>
+          <a class="btn-new btn-new--primary" href="tel:+48511323123">📞 Zadzwoń teraz</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</PoradnikLayout>
