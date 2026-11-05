@@ -68,7 +68,10 @@ jobs:
           server: ${{ secrets.REMOTE_HOST }}
           username: ${{ secrets.REMOTE_USER }}
           password: ${{ secrets.REMOTE_PASSWORD }}
-          server-dir: ./
+          server-dir: /i-hydraulik.pl/public_html/
+          protocol: ftps
+          timeout: 120000
+          log-level: verbose
           local-dir: ${{ env.BUILD_PATH }}/dist/
           exclude: |
             **/.git*
