@@ -2,7 +2,7 @@
   "hydraulikanin": { "miejsce": "Anin", "anchor": "w Aninie", "kafle": ["slabe-cisnienie-wody-zatkany-zawor-antyskazeniowy", "jak-zgrzewac-rury-z-polipropylenu-ppr"] },
   "hydraulikbialoleka": { "miejsce": "Białołęka", "anchor": "na Białołęce", "kafle": [] },
   "hydraulikbielany": { "miejsce": "Bielany", "anchor": "na Bielanach", "kafle": [] },
-  "hydraulikochota": { "miejsce": "Ochota", "anchor": "na Ochocie", "kafle": ["wymiana-baterii-kuchennej-z-wyciagana-wylewka", "woda-ze-zmywarki-wybila-do-zlewu-po-remoncie"] },
+  "hydraulikochota": { "miejsce": "Ochota", "anchor": "na Ochocie", "kafle": ["cieknacy-zawor-katowy-wymiana-bez-ukrecenia-rury-ppr", "woda-ze-zmywarki-wybila-do-zlewu-po-remoncie"] },
   "hydraulikpragapolnoc": { "miejsce": "Praga Północ", "anchor": "na Pradze-Północ", "kafle": ["zapchany-zlew-wymiana-instalacji-odplywowej-praga", "mokra-sciana-sasiada-przeciek-przy-baterii"] },
   "hydraulikmokotow": { "miejsce": "Mokotów", "anchor": "na Mokotowie", "kafle": ["wymiana-baterii-umywalkowej-i-polsyfonu", "podejscie-z-rury-32-mm-dlaczego-odplyw-ciagle-sie-zatyka"] },
   "hydraulikrembertow": { "miejsce": "Rembertów", "anchor": "w Rembertowie", "kafle": ["zapchany-zlew-wymiana-instalacji-odplywowej-praga", "przeniesienie-zlewu-w-kuchni-marki"] },
