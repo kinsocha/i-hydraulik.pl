@@ -69,4 +69,4 @@ Najpierw zamknięcie odcinka, na którym siedzi zawór — w bloku ustalam to z 
 
 Ile lokali obejmuje awaria i co zmienia w niej rodzaj budynku, opisuję w zestawieniu [awarii instalacji wodnej](/poradnik/awarie-hydrauliczne-woda-kanalizacja-co#instalacja-wodna).
 
-Hydraulik Warszawa — tel. **511 323 123**. Kapiące zawory, śrubunki i inne przecieki naprawiam w starszych blokach [na Żoliborzu](/hydraulikzoliborz), w nowych osiedlach [na Białołęce](/hydraulikbialoleka) i w domach jednorodzinnych [w Rembertowie](/hydraulikrembertow), a poza Warszawą dojeżdżam też do Marek i Legionowa. Do awarii przyjeżdżam również wieczorami i w weekendy.
+Hydraulik Warszawa — tel. **511 323 123**. Kapiące zawory, śrubunki i inne przecieki naprawiam w starszych blokach [na Żoliborzu](/hydraulikzoliborz), w nowych osiedlach [na Białołęce](/hydraulikbialoleka) i w kamienicach [na Pradze-Północ](/hydraulikpragapolnoc), a poza Warszawą dojeżdżam też do Marek i Legionowa. Do awarii przyjeżdżam również wieczorami i w weekendy.

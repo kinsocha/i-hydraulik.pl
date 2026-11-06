@@ -45,4 +45,4 @@ Zamontowałem syfon wannowy Alcaplast z automatycznym podnoszeniem korka. Korkie
 
 Na koniec poprawiłem syfon pod umywalką i położyłem nowy silikon przy umywalce, bo stary był zerwany. Całość zajęła około 2 godzin. Klient był zadowolony, że płytki zostały nietknięte.
 
-Zatkana wanna, cieknący syfon i rewizja, do której trudno się dostać? Zadzwoń: **511 323 123**. Same [wymiany syfonów](/wymiana-syfonu) też robię. Do zgłoszeń z [Targówka](/hydrauliktargowek), z [Żoliborza](/hydraulikzoliborz) i z [Białołęki](/hydraulikbialoleka) dojeżdżam tak samo jak do tej łazienki na Bródnie, także wieczorami i w weekendy.
+Zatkana wanna, cieknący syfon i rewizja, do której trudno się dostać? Zadzwoń: **511 323 123**. Same [wymiany syfonów](/wymiana-syfonu) też robię. Do zgłoszeń z [Targówka](/hydrauliktargowek), z [Pragi-Północ](/hydraulikpragapolnoc) i z [Żoliborza](/hydraulikzoliborz) dojeżdżam tak samo jak do tej łazienki na Bródnie, także wieczorami i w weekendy.

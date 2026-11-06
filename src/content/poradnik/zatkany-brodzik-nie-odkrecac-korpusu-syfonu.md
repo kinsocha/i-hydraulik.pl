@@ -41,7 +41,7 @@ Korpus syfonu osunął się przez to lekko w dół i między nim a brodzikiem po
 
 <img src="/img/poradnik/przestrzen-miedzy-brodzikiem-a-korpusem-syfonu.webp" alt="Otwór odpływu w korytku brodzika po wykręceniu elementu z gwintem, wokół korpusu widać przestrzeń między nim a brodzikiem" width="1000" height="750" loading="lazy" decoding="async" />
 
-Woda wlana w zatkany odpływ nie miała gdzie zejść i mogła przejść tą przestrzenią pod brodzik. W bloku, choćby [na Mokotowie](/hydraulikmokotow), taka woda może dojść do sąsiada poniżej, a w domu, choćby [w Rembertowie](/hydraulikrembertow), wsiąknąć w podłogę albo strop.
+Woda wlana w zatkany odpływ nie miała gdzie zejść i mogła przejść tą przestrzenią pod brodzik. W bloku, choćby [na Pradze-Północ](/hydraulikpragapolnoc), taka woda może dojść do sąsiada poniżej, a w domu, choćby [w Rembertowie](/hydraulikrembertow), wsiąknąć w podłogę albo strop.
 
 Uszczelkę zabezpieczyłem dodatkowo silikonem, żeby korpus syfonu nie skręcił jej przy dokręcaniu, i dokręciłem element z gwintem szczelnie.
 

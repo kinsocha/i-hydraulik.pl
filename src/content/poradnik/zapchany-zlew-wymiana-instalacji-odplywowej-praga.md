@@ -13,7 +13,7 @@ heroLead: "Zlew nie odprowadzał wody od tygodnia. Kret nie pomógł. Po demonta
 keywords: "zapchany zlew, udrożnienie odpływu, wymiana instalacji odpływowej, wąż karbowany, rura PVC, hydraulik Praga"
 ---
 
-Klientka zadzwoniła z Pragi — zlew w kuchni odprowadza wodę coraz wolniej, od tygodnia prawie w ogóle. Kret nie pomógł. Przyjechaliśmy.
+Klientka zadzwoniła [z Pragi-Północ](/hydraulikpragapolnoc) — zlew w kuchni odprowadza wodę coraz wolniej, od tygodnia prawie w ogóle. Kret nie pomógł. Przyjechaliśmy.
 
 ## Co znalazłem po demontażu
 

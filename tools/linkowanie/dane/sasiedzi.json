@@ -17,17 +17,17 @@
   "Mokotów": [
     "hydraulikochota",
     "hydraulikursynow",
-    "hydraulikwola"
+    "hydraulikpragapolnoc"
   ],
   "Rembertów": [
     "hydraulikwawer",
     "hydrauliktargowek",
-    "hydraulikmokotow"
+    "hydraulikpragapolnoc"
   ],
   "Targówek": [
+    "hydraulikpragapolnoc",
     "hydraulikzoliborz",
-    "hydraulikbialoleka",
-    "hydraulikrembertow"
+    "hydraulikbialoleka"
   ],
   "Ursynów": [
     "hydraulikmokotow",
@@ -42,22 +42,22 @@
   "Wola": [
     "hydraulikochota",
     "hydraulikzoliborz",
-    "hydraulikbielany"
+    "hydraulikpragapolnoc"
   ],
   "Żoliborz": [
+    "hydraulikpragapolnoc",
     "hydraulikbielany",
-    "hydraulikwola",
-    "hydrauliktargowek"
+    "hydraulikwola"
   ],
   "Ochota": [
     "hydraulikwola",
     "hydraulikmokotow",
-    "hydraulikzoliborz"
+    "hydraulikpragapolnoc"
   ],
   "Bródno": [
     "hydrauliktargowek",
-    "hydraulikzoliborz",
-    "hydraulikbialoleka"
+    "hydraulikpragapolnoc",
+    "hydraulikzoliborz"
   ],
   "Praga Północ": [
     "hydrauliktargowek",
@@ -65,9 +65,9 @@
     "hydraulikwola"
   ],
   "Praga Południe": [
+    "hydraulikpragapolnoc",
     "hydrauliktargowek",
-    "hydraulikrembertow",
-    "hydraulikmokotow"
+    "hydraulikrembertow"
   ],
   "Wesoła": [
     "hydraulikrembertow",
@@ -81,8 +81,8 @@
   ],
   "Marki": [],
   "Saska Kępa": [
+    "hydraulikpragapolnoc",
     "hydraulikmokotow",
-    "hydrauliktargowek",
-    "hydraulikochota"
+    "hydrauliktargowek"
   ]
 }
