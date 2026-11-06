@@ -15,7 +15,8 @@
       "MultiEdit",
       "WebFetch",
       "ClaudeInChromeDomain(localhost:4321)",
-      "ClaudeInChromeDomain(i-hydraulik.pl)"
+      "ClaudeInChromeDomain(i-hydraulik.pl)",
+      "Bash(awk '{print $1}')"
     ],
     "ask": [
       "Bash(git push:*)",
