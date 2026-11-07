@@ -1,0 +1,131 @@
+---
+import PoradnikLayout from "../../layouts/PoradnikLayout.astro";
+
+const title = "Pęknięta rura c.o.: parter czy ostatnie piętro – ile wody?";
+const h1 = "Pęknięta rura centralnego ogrzewania: parter czy ostatnie piętro";
+const description =
+  "Pęknięta rura centralnego ogrzewania na parterze wypuszcza więcej wody niż na ostatnim piętrze. Wyjaśniam, od czego to zależy i co zrobić od razu.";
+
+const faq = [
+  {
+    q: "Czy po zamknięciu zaworów woda z pękniętej rury c.o. przestanie się lać?",
+    a: "Dopływ ustaje, ale woda, która stoi w rurach i grzejnikach nad miejscem pęknięcia, może jeszcze spłynąć. Przy pęknięciu na niższym piętrze wyciek słabnie więc stopniowo, a nie od razu.",
+  },
+  {
+    q: "Kto zamyka pion centralnego ogrzewania w bloku?",
+    a: "Piony odcina się zwykle centralnie, w piwnicy albo w węźle cieplnym, więc awarię trzeba od razu zgłosić administracji lub zarządcy. Zawory przy samym grzejniku może zamknąć lokator.",
+  },
+  {
+    q: "Czy w domu jednorodzinnym też wypłynie więcej wody z parteru niż z poddasza?",
+    a: "Różnica jest mniejsza, bo instalacja jest niższa i nad pęknięciem jest mniej rur oraz grzejników. W domu z piętrem pęknięcie na parterze nadal wypuści więcej wody niż to samo pęknięcie na poddaszu, ale największe znaczenie ma czas do zamknięcia dopływu.",
+  },
+  {
+    q: "Od czego zależy, ile wody wypłynie z pękniętej rury c.o.?",
+    a: "Od ilości wody nad miejscem pęknięcia, od ciśnienia w tym miejscu i od tego, czy do instalacji nadal dopływa nowa woda. Przy stałym dopływie najwięcej zmienia czas, po którym ktoś go zamknie.",
+  },
+  {
+    q: "Co zrobić z kotłem i prądem, gdy pęknie rura c.o.?",
+    a: "Kocioł albo pompę obiegową wyłącz od razu, bo pompa podnosi ciśnienie, z jakim woda wypływa. Prąd wyłącz, jeśli woda dotarła do gniazdek, rozdzielnicy albo sprzętu elektrycznego. Awarię zgłoś pod numerem 511 323 123.",
+  },
+];
+
+const articleLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: h1,
+  description,
+  author: { "@type": "Organization", name: "i Hydraulik" },
+  publisher: {
+    "@type": "Organization",
+    name: "i Hydraulik",
+    logo: { "@type": "ImageObject", url: "https://i-hydraulik.pl/favicon.svg" },
+  },
+  mainEntityOfPage: "https://i-hydraulik.pl/poradnik/peknieta-rura-centralnego-ogrzewania-parter-ostatnie-pietro",
+  datePublished: "2026-11-07T13:26:48+01:00",
+  dateModified: "2026-11-07T13:26:48+01:00",
+};
+
+const faqLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faq.map((item) => ({
+    "@type": "Question",
+    name: item.q,
+    acceptedAnswer: { "@type": "Answer", text: item.a },
+  })),
+};
+---
+
+<PoradnikLayout title={title} description={description}>
+  <script type="application/ld+json" is:inline set:html={JSON.stringify(articleLd)} />
+  <script type="application/ld+json" is:inline set:html={JSON.stringify(faqLd)} />
+
+  <div class="article-wrap">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Ścieżka">
+        <a href="/">Start</a> <span>/</span>
+        <a href="/poradnik">Poradnik</a> <span>/</span>
+        <span>Pęknięta rura c.o.</span>
+      </nav>
+
+      <article class="article">
+        <span class="article__tag">Awarie</span>
+        <h1>{h1}</h1>
+        <p class="article__lead">
+          Rura c.o., która pęka na parterze, wypuszcza zwykle więcej wody niż taka sama rura na ostatnim piętrze. Liczy się to, ile wody stoi nad miejscem pęknięcia i jakie ciśnienie tam panuje.
+        </p>
+
+        <div class="article__content">
+          <h2>Pęknięcie na parterze: woda spływa z góry</h2>
+          <p>
+            Instalacja centralnego ogrzewania jest zamknięta i stale wypełniona wodą: rury, piony i każdy grzejnik są pełne. Gdy rura pęka na parterze, nad miejscem pęknięcia zostaje cały pion i wszystkie grzejniki wyższych pięter. Woda z nich spływa w dół, do uszkodzonego miejsca. Dzieje się tak nawet po zamknięciu zaworów przy pionie w piwnicy, bo zawory odcinają dopływ, a nie wodę, która już stoi nad pęknięciem.
+          </p>
+          <p>
+            Spływa ona tylko wtedy, gdy w jej miejsce może wejść powietrze, na przykład przez odpowietrznik na górze instalacji. Im więcej kondygnacji nad pęknięciem, tym więcej wody może się z nich wylać.
+          </p>
+          <p>
+            Do tego dochodzi ciśnienie. W zamkniętej instalacji rośnie ono ku dołowi: każde 10 m słupa wody to około 1 bara, a kondygnacja ma około 3 m wysokości, czyli około 0,3 bara na piętro. Przez ten sam otwór strumień płynie szybciej tam, gdzie ciśnienie jest większe, więc na parterze woda wypływa mocniej niż wyżej.
+          </p>
+
+          <h2>Pęknięcie na ostatnim piętrze: mało wody nad miejscem pęknięcia</h2>
+          <p>
+            Na ostatnim piętrze nad pęknięciem zostaje tylko krótki odcinek rury, czasem jeden grzejnik z podejściami. Z niższych kondygnacji woda do pęknięcia nie spływa, bo leży poniżej. Ciśnienie jest tu najniższe w całej instalacji, więc strumień jest słabszy.
+          </p>
+
+          <h2>Dopływ nowej wody i czas</h2>
+          <p>
+            Poza wodą zgromadzoną w rurach liczy się dopływ. Jeśli instalację zasila kocioł z automatycznym uzupełnianiem wody albo węzeł cieplny w bloku, wypływającą wodę zastępuje nowa i wyciek trwa, dopóki nikt nie zamknie dopływu. Wtedy o ilości wody decyduje czas: im później zamknięty zawór, tym więcej wody, na którymkolwiek piętrze.
+          </p>
+
+          <h2>Co zrobić, gdy pęknie rura c.o.</h2>
+          <p>
+            Zamknij zawory przy uszkodzonym grzejniku albo na pionie, o ile masz do nich dostęp. W bloku od razu zawiadom administrację, bo pion odcina się centralnie. W domu wyłącz kocioł i zamknij dopływ wody do instalacji. Woda w c.o. bywa gorąca, więc nie zbieraj jej gołymi rękami. Pod miejscem pęknięcia ustaw wiadra i czekaj, aż przestanie spływać woda z wyższych kondygnacji.
+          </p>
+
+          <h2>Inne awarie zależne od budynku i piętra</h2>
+          <p>
+            Jak rodzaj budynku i piętro zmieniają przebieg pozostałych awarii, opisuję na stronie o <a href="/poradnik/awarie-hydrauliczne-woda-kanalizacja-co#centralne-ogrzewanie">awariach centralnego ogrzewania, wody i kanalizacji</a>.
+          </p>
+        </div>
+
+        <section class="article__faq" aria-label="Najczęstsze pytania">
+          <h2>Najczęściej zadawane pytania</h2>
+          {faq.map((item) => (
+            <details class="faq-item">
+              <summary>{item.q}</summary>
+              <div class="faq-item__a"><p>{item.a}</p></div>
+            </details>
+          ))}
+        </section>
+
+        <div class="article__cta">
+          <div>
+            <strong>Pękła rura c.o.? Zadzwoń: 511 323 123</strong>
+            <span>Hydraulik Warszawa i okolice — odcinam uszkodzony odcinek i naprawiam.</span>
+          </div>
+          <a class="btn-new btn-new--primary" href="tel:+48511323123">📞 Zadzwoń teraz</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</PoradnikLayout>
