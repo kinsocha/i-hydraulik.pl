@@ -23,7 +23,7 @@ faq:
     a: "Cenę podaję przed rozpoczęciem pracy, po obejrzeniu kuchni. Zależy od kilku czynników: długości nowej trasy rur, zakresu kucia i liczby podejść. Zadzwoń: 511 323 123 — umówimy się na wycenę i dopasujemy termin do harmonogramu remontu."
 ---
 
-Chcąc zrobić gruntowne przemeblowanie kuchni wraz z przeniesieniem zlewu w nowe miejsce, trzeba przerobić hydraulikę w mieszkaniu. Pod koniec lipca, 27.07.2026, robiłem dokładnie taką przeróbkę w Markach przy ul. Kosynierów.
+Chcąc zrobić gruntowne przemeblowanie kuchni wraz z przeniesieniem zlewu w nowe miejsce, trzeba przerobić hydraulikę w mieszkaniu. Pod koniec lipca, 27.07.2026, robiłem dokładnie taką przeróbkę [w Markach](/hydraulikmarki) przy ul. Kosynierów.
 
 Klient zmienia cały układ kuchni. Zlew i zmywarka mają stanąć pod inną ścianą niż dotychczas, więc stare podejścia trzeba było przerobić do nowej sytuacji. Instalację poprowadziłem od nowa.
 

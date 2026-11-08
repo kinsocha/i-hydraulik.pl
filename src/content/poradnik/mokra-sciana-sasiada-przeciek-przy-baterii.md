@@ -13,7 +13,7 @@ heroLead: "Nie każda wilgoć na ścianie to pęknięta rura. Czasem winna jest 
 keywords: "przeciek przy baterii, mokra ściana, mimośród, uszczelnianie silikonem, wilgoć w łazience"
 ---
 
-Nie każda wilgoć na ścianie oznacza pękniętą rurę. Bardzo często przyczyna jest prostsza, a mimo to przez tygodnie umyka uwadze mieszkańców. Poniżej opisuję realny przypadek z Marek. Dobrze pokazuje, dlaczego zanim ktoś zacznie skuwać płytki, najpierw trzeba trafnie ustalić źródło.
+Nie każda wilgoć na ścianie oznacza pękniętą rurę. Bardzo często przyczyna jest prostsza, a mimo to przez tygodnie umyka uwadze mieszkańców. Poniżej opisuję realny przypadek [z Marek](/hydraulikmarki). Dobrze pokazuje, dlaczego zanim ktoś zacznie skuwać płytki, najpierw trzeba trafnie ustalić źródło.
 
 ## Zgłoszenie: wilgoć tam, gdzie nikt się jej nie spodziewał
 

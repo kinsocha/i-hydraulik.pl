@@ -4,6 +4,7 @@
   "hydraulikbielany": { "miejsce": "Bielany", "anchor": "na Bielanach", "kafle": [] },
   "hydraulikochota": { "miejsce": "Ochota", "anchor": "na Ochocie", "kafle": ["cieknacy-zawor-katowy-wymiana-bez-ukrecenia-rury-ppr", "woda-ze-zmywarki-wybila-do-zlewu-po-remoncie"] },
   "hydraulikpragapolnoc": { "miejsce": "Praga Północ", "anchor": "na Pradze-Północ", "kafle": ["zapchany-zlew-wymiana-instalacji-odplywowej-praga", "mokra-sciana-sasiada-przeciek-przy-baterii"] },
+  "hydraulikmarki": { "miejsce": "Marki", "anchor": "w Markach", "kafle": ["przeniesienie-zlewu-w-kuchni-marki", "mokra-sciana-sasiada-przeciek-przy-baterii"] },
   "hydraulikmokotow": { "miejsce": "Mokotów", "anchor": "na Mokotowie", "kafle": ["wymiana-baterii-umywalkowej-i-polsyfonu", "podejscie-z-rury-32-mm-dlaczego-odplyw-ciagle-sie-zatyka"] },
   "hydraulikrembertow": { "miejsce": "Rembertów", "anchor": "w Rembertowie", "kafle": ["zapchany-zlew-wymiana-instalacji-odplywowej-praga", "przeniesienie-zlewu-w-kuchni-marki"] },
   "hydrauliktargowek": { "miejsce": "Targówek", "anchor": "na Targówku", "kafle": ["kapiacy-zawor-w-piwnicy-bloku-wymiana", "nowy-sedes-zamiast-wymiany-zaworu-bledna-diagnoza"] },
