@@ -7,7 +7,7 @@
   "hydraulikmarki": { "miejsce": "Marki", "anchor": "w Markach", "kafle": ["przeniesienie-zlewu-w-kuchni-marki", "mokra-sciana-sasiada-przeciek-przy-baterii"] },
   "hydraulikmokotow": { "miejsce": "Mokotów", "anchor": "na Mokotowie", "kafle": ["wymiana-baterii-umywalkowej-i-polsyfonu", "podejscie-z-rury-32-mm-dlaczego-odplyw-ciagle-sie-zatyka"] },
   "hydraulikrembertow": { "miejsce": "Rembertów", "anchor": "w Rembertowie", "kafle": ["zapchany-zlew-wymiana-instalacji-odplywowej-praga", "przeniesienie-zlewu-w-kuchni-marki"] },
-  "hydrauliktargowek": { "miejsce": "Targówek", "anchor": "na Targówku", "kafle": ["kapiacy-zawor-w-piwnicy-bloku-wymiana", "nowy-sedes-zamiast-wymiany-zaworu-bledna-diagnoza"] },
+  "hydrauliktargowek": { "miejsce": "Targówek", "anchor": "na Targówku", "kafle": ["podlaczenie-stacji-robota-sprzatajacego", "kapiacy-zawor-w-piwnicy-bloku-wymiana"] },
   "hydraulikursynow": { "miejsce": "Ursynów", "anchor": "na Ursynowie", "kafle": [] },
   "hydraulikwawer": { "miejsce": "Wawer", "anchor": "w Wawrze", "kafle": [] },
   "hydraulikwola": { "miejsce": "Wola", "anchor": "na Woli", "kafle": [] },

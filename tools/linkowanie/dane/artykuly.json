@@ -25,5 +25,6 @@
   "zapchany-zlew-wymiana-instalacji-odplywowej-praga": { "miejsce": "Praga Północ", "potwierdzone": true },
   "zatkana-rura-od-szamba-rewizja-w-piwnicy-wawer": { "miejsce": "Wawer", "potwierdzone": true },
   "zatkany-brodzik-nie-odkrecac-korpusu-syfonu": { "miejsce": "Praga Południe", "potwierdzone": true },
-  "cieknacy-zawor-katowy-wymiana-bez-ukrecenia-rury-ppr": { "miejsce": "Ochota", "potwierdzone": true }
+  "cieknacy-zawor-katowy-wymiana-bez-ukrecenia-rury-ppr": { "miejsce": "Ochota", "potwierdzone": true },
+  "podlaczenie-stacji-robota-sprzatajacego": { "miejsce": "Targówek", "potwierdzone": true }
 }
